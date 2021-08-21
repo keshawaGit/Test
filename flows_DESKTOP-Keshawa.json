@@ -1,19 +1,5 @@
 [
     {
-        "id": "a77bf1d3.a74af",
-        "type": "tab",
-        "label": "Raw Data",
-        "disabled": false,
-        "info": ""
-    },
-    {
-        "id": "daafd2c4.fca54",
-        "type": "tab",
-        "label": "GPS",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "2eded1c.5830e2e",
         "type": "tab",
         "label": "System Info",
@@ -35,13 +21,6 @@
         "info": ""
     },
     {
-        "id": "56bde742.2302f8",
-        "type": "tab",
-        "label": "Settings",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "f433a985.3ae538",
         "type": "tab",
         "label": "File Browser",
@@ -49,17 +28,10 @@
         "info": ""
     },
     {
-        "id": "5c561430.86ca8c",
-        "type": "tab",
-        "label": "Weather flow",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "9cb4bc4d.96552",
         "type": "ui_group",
         "name": "Lead 2",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 3,
         "disp": false,
         "width": "30",
@@ -69,7 +41,7 @@
         "id": "dd70abe0.14cb38",
         "type": "ui_group",
         "name": "Lead 4",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 5,
         "disp": false,
         "width": "30",
@@ -220,19 +192,10 @@
         "hidden": false
     },
     {
-        "id": "56402a64.3af794",
-        "type": "ui_tab",
-        "name": "Raw Data",
-        "icon": "assessment",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "e8ae12f4.50308",
         "type": "ui_group",
         "name": "Serial text",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 1,
         "disp": false,
         "width": "30",
@@ -242,7 +205,7 @@
         "id": "e8d8fb62.de9638",
         "type": "ui_group",
         "name": "Lead 3",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 4,
         "disp": false,
         "width": "30",
@@ -252,7 +215,7 @@
         "id": "711d371e.0a1fe8",
         "type": "ui_group",
         "name": "Lead 1",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 2,
         "disp": false,
         "width": "30",
@@ -262,7 +225,7 @@
         "id": "c261a3ad.65218",
         "type": "ui_group",
         "name": "Lead 5",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 6,
         "disp": false,
         "width": "30",
@@ -272,7 +235,7 @@
         "id": "631df8e7.d27568",
         "type": "ui_group",
         "name": "Lead 6",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 7,
         "disp": false,
         "width": "30",
@@ -282,7 +245,7 @@
         "id": "812ea8e2.d442a8",
         "type": "ui_group",
         "name": "Lead 7",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 8,
         "disp": false,
         "width": "30",
@@ -292,7 +255,7 @@
         "id": "e8f50434.b60c38",
         "type": "ui_group",
         "name": "Lead 8",
-        "tab": "56402a64.3af794",
+        "tab": "",
         "order": 9,
         "disp": false,
         "width": "30",
@@ -318,61 +281,33 @@
         "hidden": false
     },
     {
-        "id": "9b22337f.e01e7",
-        "type": "ui_link",
-        "name": "Visualization",
-        "link": "http://localhost:3000/d/mGaYK63Mz/aqm?orgId=1",
-        "icon": "open_in_browser",
-        "target": "iframe",
-        "order": 4
-    },
-    {
-        "id": "e8ddaa11.2fffd8",
-        "type": "ui_tab",
-        "name": "Settings",
-        "icon": "settings",
-        "order": 7,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "6e1bf5f0.a0ae5c",
         "type": "ui_group",
         "name": "Telemetry Data ",
-        "tab": "e8ddaa11.2fffd8",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "b82da486.9fc8d8",
-        "type": "ui_group",
-        "name": "GPS",
-        "tab": "d65502b1.ee517",
-        "order": 2,
-        "disp": false,
-        "width": 14,
-        "collapse": false
-    },
-    {
         "id": "c35e46a8.b04ce8",
-        "type": "ui_group",
-        "name": "SensorData row 1",
-        "tab": "d65502b1.ee517",
-        "order": 4,
-        "disp": false,
-        "width": "26",
-        "collapse": false
-    },
-    {
-        "id": "4de9506d.e7364",
         "type": "ui_group",
         "name": "SensorData row 2",
         "tab": "d65502b1.ee517",
         "order": 5,
         "disp": false,
-        "width": "26",
+        "width": 22,
+        "collapse": false
+    },
+    {
+        "id": "4de9506d.e7364",
+        "type": "ui_group",
+        "name": "SensorData row 3",
+        "tab": "d65502b1.ee517",
+        "order": 4,
+        "disp": false,
+        "width": "22",
         "collapse": false
     },
     {
@@ -410,44 +345,23 @@
         "check_speech": ""
     },
     {
-        "id": "cd81d08b.eebb3",
-        "type": "ui_group",
-        "z": "daafd2c4.fca54",
-        "name": "GPS Loacation",
-        "tab": "b34078e6.e60df8",
-        "order": 1,
-        "disp": false,
-        "width": "27",
-        "collapse": false
-    },
-    {
-        "id": "b34078e6.e60df8",
-        "type": "ui_tab",
-        "z": "daafd2c4.fca54",
-        "name": "Location Tracker",
-        "icon": "location_on",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "86031276.81481",
         "type": "ui_group",
-        "name": "Location Data:",
+        "name": "Main Node",
         "tab": "d65502b1.ee517",
         "order": 1,
-        "disp": false,
-        "width": 6,
+        "disp": true,
+        "width": "4",
         "collapse": false
     },
     {
         "id": "3957e09f.51e67",
         "type": "ui_group",
-        "name": "Sensor Data",
+        "name": "Sensor Data row 1",
         "tab": "d65502b1.ee517",
-        "order": 3,
+        "order": 6,
         "disp": false,
-        "width": "6",
+        "width": "22",
         "collapse": false
     },
     {
@@ -601,60 +515,6 @@
         "group": "cd81d08b.eebb3",
         "order": 14,
         "width": 6,
-        "height": 1
-    },
-    {
-        "id": "dbfa9241.14d0a",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c35e46a8.b04ce8",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dd3d5753.726658",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c35e46a8.b04ce8",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "92574929.8ec788",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c35e46a8.b04ce8",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e4cf483.3f4ddb8",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c35e46a8.b04ce8",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a5bd4673.a7ae58",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c35e46a8.b04ce8",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "10fdbf77.07b2e1",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "c35e46a8.b04ce8",
-        "order": 10,
-        "width": 1,
         "height": 1
     },
     {
@@ -829,7 +689,7 @@
         "id": "b12941f.1cd05c",
         "type": "ui_group",
         "name": "Detail",
-        "tab": "eb94216d.968598",
+        "tab": "",
         "order": 5,
         "disp": true,
         "width": "10",
@@ -839,7 +699,7 @@
         "id": "8da50f69.44fe38",
         "type": "ui_group",
         "name": "Wind",
-        "tab": "eb94216d.968598",
+        "tab": "",
         "order": 4,
         "disp": true,
         "width": "10",
@@ -849,7 +709,7 @@
         "id": "14584712.7a2929",
         "type": "ui_group",
         "name": "Condition",
-        "tab": "eb94216d.968598",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -859,26 +719,17 @@
         "id": "5e0d6747.b726b",
         "type": "ui_group",
         "name": "Forecast",
-        "tab": "eb94216d.968598",
+        "tab": "",
         "order": 6,
         "disp": true,
         "width": "26",
         "collapse": false
     },
     {
-        "id": "eb94216d.968598",
-        "type": "ui_tab",
-        "name": "Weather",
-        "icon": "wi-wu-nt_partlysunny",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "8dfd123a.747be",
         "type": "ui_group",
         "name": "NAV1",
-        "tab": "e8ddaa11.2fffd8",
+        "tab": "",
         "order": 3,
         "disp": true,
         "width": "4",
@@ -888,7 +739,7 @@
         "id": "16e373f4.645dac",
         "type": "ui_group",
         "name": "NAV2",
-        "tab": "e8ddaa11.2fffd8",
+        "tab": "",
         "order": 4,
         "disp": true,
         "width": 4,
@@ -898,7 +749,7 @@
         "id": "361cf2a6.c1d6fe",
         "type": "ui_group",
         "name": "NAV3",
-        "tab": "e8ddaa11.2fffd8",
+        "tab": "",
         "order": 5,
         "disp": true,
         "width": 4,
@@ -908,7 +759,7 @@
         "id": "1f5ca70a.9612d9",
         "type": "ui_group",
         "name": "NAV4",
-        "tab": "e8ddaa11.2fffd8",
+        "tab": "",
         "order": 6,
         "disp": true,
         "width": 4,
@@ -918,7 +769,7 @@
         "id": "d9fbfecb.148d9",
         "type": "ui_group",
         "name": "OSD",
-        "tab": "e8ddaa11.2fffd8",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": 20,
@@ -1352,21 +1203,132 @@
         "height": 1
     },
     {
-        "id": "6daac8e7.9b06e8",
-        "type": "debug",
-        "z": "a77bf1d3.a74af",
-        "name": "mqtt",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 310,
-        "y": 120,
-        "wires": []
+        "id": "93367266.b4c1f",
+        "type": "ui_group",
+        "name": "sensor Data row 0",
+        "tab": "d65502b1.ee517",
+        "order": 3,
+        "disp": false,
+        "width": "22",
+        "collapse": false
+    },
+    {
+        "id": "55a170ed.4121",
+        "type": "ui_group",
+        "name": "Measuring Cycle",
+        "tab": "d65502b1.ee517",
+        "order": 2,
+        "disp": true,
+        "width": "22",
+        "collapse": false
+    },
+    {
+        "id": "59e71900.be9188",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b18b80ed.875d9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "95fa68fb.970fa8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 15,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1d5a4473.3a22ac",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "d9742ca3.cf14c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 17,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "608f0949.e17868",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a6461c3f.d4844",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 19,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3e085df2.444f32",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "6a8b13e.c6d0fec",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "86031276.81481",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5e8b96cc.f84108",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "55a170ed.4121",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7d901e4b.e89b5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4de9506d.e7364",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "8e42c58.f686538",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4de9506d.e7364",
+        "order": 8,
+        "width": 17,
+        "height": 1
     },
     {
         "id": "854536e9.4e7e58",
@@ -2390,574 +2352,6 @@
         ]
     },
     {
-        "id": "483bf269.46d14c",
-        "type": "ui_text",
-        "z": "a77bf1d3.a74af",
-        "group": "e8ae12f4.50308",
-        "order": 1,
-        "width": 30,
-        "height": 2,
-        "name": "",
-        "label": "MQTT In ---->",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "x": 340,
-        "y": 40,
-        "wires": []
-    },
-    {
-        "id": "c8b5cc79.873c2",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "9cb4bc4d.96552",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "Temperature",
-        "label": "°C",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 630,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "33dbbac6.7ac476",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "9cb4bc4d.96552",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "Temperature (°C)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 830,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9df76a97.f74758",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "e8d8fb62.de9638",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "Atmospheric pressure",
-        "label": "mbar",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "1200",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 640,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "f9965d72.149c8",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "e8d8fb62.de9638",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "Atmospheric pressure (mbar)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1200",
-        "removeOlder": "30",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 900,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fcd8a1fe.0f9fb",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "711d371e.0a1fe8",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "Humidity ",
-        "label": "%",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 620,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "cc0a7875.d8e578",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "711d371e.0a1fe8",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "Humidity (%)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": "30",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 810,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6cc54f87.1afb5",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "dd70abe0.14cb38",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "Altitude",
-        "label": "m",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 620,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "58039d77.64a3e4",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "dd70abe0.14cb38",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "Altitude (m)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": "30",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 770,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5f49f702.c227f8",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "c261a3ad.65218",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "O3",
-        "label": "ppm",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "1000",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 610,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "a1de4b97.b6b5e8",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "631df8e7.d27568",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "CO",
-        "label": "ppm",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "1000",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 610,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "104bc5de.a7c08a",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "812ea8e2.d442a8",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "NO2",
-        "label": "ppm",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "1000",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 610,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "a9178b4b.5530f8",
-        "type": "ui_gauge",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "e8f50434.b60c38",
-        "order": 1,
-        "width": 4,
-        "height": 3,
-        "gtype": "donut",
-        "title": "SO2",
-        "label": "ppm",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "1000",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 610,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "53188ce9.4c3bb4",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "c261a3ad.65218",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "O3 (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": "30",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 800,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a24adaeb.ad7ab8",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "631df8e7.d27568",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "CO (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 800,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "56a942ab.ebcaac",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "812ea8e2.d442a8",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "NO2 (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 810,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4a865462.dcdebc",
-        "type": "ui_chart",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "group": "e8f50434.b60c38",
-        "order": 2,
-        "width": 26,
-        "height": 4,
-        "label": "SO2 (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 810,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "5e070a32.4daaa4",
         "type": "ui_toast",
         "z": "2eded1c.5830e2e",
@@ -3560,40 +2954,6 @@
         "x": 760,
         "y": 560,
         "wires": []
-    },
-    {
-        "id": "6cb7ba1a.b01c04",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "GPS",
-        "tooltip": "GPS data ",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "esp32/output",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "gpsON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "\"green\"",
-        "offvalue": "gpsOFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "\"red\"",
-        "animate": true,
-        "x": 790,
-        "y": 140,
-        "wires": [
-            [
-                "e5bb60ab.16702"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
     },
     {
         "id": "b6c32297.959d9",
@@ -5216,424 +4576,13 @@
         "wires": []
     },
     {
-        "id": "9b2a29cc.3c53a8",
-        "type": "worldmap",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "lat": "6.901609",
-        "lon": "80.008775",
-        "zoom": "",
-        "layer": "Esri Satellite",
-        "cluster": "",
-        "maxage": "",
-        "usermenu": "show",
-        "layers": "show",
-        "panit": "true",
-        "hiderightclick": "false",
-        "coords": "deg",
-        "path": "",
-        "x": 1050,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "1714967f.e691ea",
-        "type": "inject",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "props": [
-            {
-                "p": "payload",
-                "v": "",
-                "vt": "str"
-            },
-            {
-                "p": "topic",
-                "v": "",
-                "vt": "string"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 510,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b24ad2f.198453",
-        "type": "function",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "func": "// create random position\n//var lat = 6.0788 + Math.random() * 0.001;\n//var lon = 80.1919 + Math.random() * 0.001;\nvar dev =msg.payload.Device;\nvar lat0 = parseFloat(msg.payload.gps[0]).toFixed(6);\nvar lon0 = parseFloat(msg.payload.gps[1]).toFixed(6) ;\n\nmsg.payload={\n   // command :{\n    lat:lat0, \n    lon:lon0, \n   // zoom:17,\n    name:\"Drone\", \n    icon:\"plane\",\n    iconColor: '#FF0000',\n    color:\"#0000FF\"\n    \n};\n    \nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 300,
-        "wires": [
-            [
-                "9b2a29cc.3c53a8",
-                "de5c4044.d4e0f",
-                "2d0d75e4.81e96a",
-                "9332c378.4db86",
-                "dc9dee25.b592b"
-            ]
-        ]
-    },
-    {
-        "id": "de3a90c8.8179c",
-        "type": "ui_button",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "group": "cd81d08b.eebb3",
-        "order": 3,
-        "width": 6,
-        "height": 1,
-        "passthru": false,
-        "label": "Move Drone",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "fa-male",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "topicType": "str",
-        "x": 550,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "223f301c.54ea9",
-        "type": "comment",
-        "z": "daafd2c4.fca54",
-        "name": "How to embed Map in Dashboard",
-        "info": "This example shows how to embed the Worldmap \ninto a template node within the `node-red-dashboard`\n\nThe first flow creates a dashboard button that \ngenerates a randon position, with the required \nicon, and passes that to the worldmap. The\nmap is configured to automatically pan to the\nposition of any point that arrives.\n\nThe second flow initialise the dashboard template\nwith the initial map and sets it to a more square shape\nby adjusting the height.",
-        "x": 150,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "de5c4044.d4e0f",
-        "type": "worldmap-tracks",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "depth": "5",
-        "layer": "combined",
-        "x": 830,
-        "y": 200,
-        "wires": [
-            [
-                "9b2a29cc.3c53a8"
-            ]
-        ]
-    },
-    {
-        "id": "17100dd1.70d602",
-        "type": "inject",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "props": [
-            {
-                "p": "payload",
-                "v": "",
-                "vt": "str"
-            },
-            {
-                "p": "topic",
-                "v": "",
-                "vt": "string"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 190,
-        "y": 780,
-        "wires": [
-            [
-                "6adcf732.20d4a8"
-            ]
-        ]
-    },
-    {
-        "id": "d274502d.7dc77",
-        "type": "ui_template",
-        "z": "daafd2c4.fca54",
-        "group": "cd81d08b.eebb3",
-        "name": "",
-        "order": 1,
-        "width": 21,
-        "height": 11,
-        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 560,
-        "y": 780,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "673cc545.4ab7ac",
-        "type": "template",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<iframe src=\"/worldmap\" height=\"530px\" width=\"1000px\" style=\"border: none;\"></iframe>",
-        "x": 390,
-        "y": 780,
-        "wires": [
-            [
-                "d274502d.7dc77"
-            ]
-        ]
-    },
-    {
-        "id": "6ca0c5b4.6373fc",
-        "type": "comment",
-        "z": "daafd2c4.fca54",
-        "name": "Embed the map to the dashboard",
-        "info": "",
-        "x": 190,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "7bac4c65.617504",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "lon",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "9332c378.4db86",
-        "type": "function",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "func": "var lat1 = { payload:parseFloat(msg.payload.lat).toFixed(5) };\nvar lon1 = { payload:parseFloat(msg.payload.lon).toFixed(5) };\nvar name1 = { payload:msg.payload.name};\nreturn [ lat1, lon1, name1 ];",
-        "outputs": 3,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 820,
-        "y": 380,
-        "wires": [
-            [
-                "a7d6dd7c.c9c69",
-                "af95a5b2.6b9af8"
-            ],
-            [
-                "7bac4c65.617504",
-                "beb4ffd6.5e8db"
-            ],
-            [
-                "7eaf6d09.ee5c74",
-                "b7a1be94.009bf"
-            ]
-        ]
-    },
-    {
-        "id": "2d0d75e4.81e96a",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 830,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "6adcf732.20d4a8",
-        "type": "ui_ui_control",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "events": "all",
-        "x": 270,
-        "y": 860,
-        "wires": [
-            [
-                "673cc545.4ab7ac"
-            ]
-        ]
-    },
-    {
-        "id": "a7d6dd7c.c9c69",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "latt",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "7eaf6d09.ee5c74",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "name",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1010,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "af95a5b2.6b9af8",
-        "type": "ui_text",
-        "z": "daafd2c4.fca54",
-        "group": "cd81d08b.eebb3",
-        "order": 5,
-        "width": 6,
-        "height": 1,
-        "name": "Latitude:",
-        "label": "Latitude :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1240,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "beb4ffd6.5e8db",
-        "type": "ui_text",
-        "z": "daafd2c4.fca54",
-        "group": "cd81d08b.eebb3",
-        "order": 6,
-        "width": 6,
-        "height": 1,
-        "name": "long",
-        "label": "Longitude :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1230,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "b7a1be94.009bf",
-        "type": "ui_text",
-        "z": "daafd2c4.fca54",
-        "group": "cd81d08b.eebb3",
-        "order": 4,
-        "width": 6,
-        "height": 1,
-        "name": "dev",
-        "label": "Device :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1230,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "c9d66ebf.6f7f7",
-        "type": "inject",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 120,
-        "y": 520,
-        "wires": [
-            [
-                "d6400610.1ca868"
-            ]
-        ]
-    },
-    {
-        "id": "c8300b35.1b45b8",
-        "type": "worldmap",
-        "z": "246ce6ab.bd4c1a",
-        "name": "",
-        "lat": "6.901609",
-        "lon": "80.008775",
-        "zoom": "",
-        "layer": "Esri Satellite",
-        "cluster": "",
-        "maxage": "",
-        "usermenu": "show",
-        "layers": "show",
-        "panit": "true",
-        "hiderightclick": "false",
-        "coords": "deg",
-        "path": "",
-        "x": 870,
-        "y": 100,
-        "wires": []
-    },
-    {
         "id": "98157d2.748f38",
         "type": "ui_button",
         "z": "246ce6ab.bd4c1a",
         "name": "status",
         "group": "86031276.81481",
         "order": 1,
-        "width": 6,
+        "width": 4,
         "height": 1,
         "passthru": false,
         "label": "{{msg.payload.ui_control.words}}",
@@ -5652,195 +4601,13 @@
         ]
     },
     {
-        "id": "6a4c73fe.8a87cc",
-        "type": "worldmap-tracks",
-        "z": "246ce6ab.bd4c1a",
-        "name": "",
-        "depth": "5",
-        "layer": "combined",
-        "x": 650,
-        "y": 100,
-        "wires": [
-            [
-                "c8300b35.1b45b8"
-            ]
-        ]
-    },
-    {
-        "id": "915e4de5.95521",
-        "type": "inject",
-        "z": "246ce6ab.bd4c1a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload",
-                "v": "",
-                "vt": "str"
-            },
-            {
-                "p": "topic",
-                "v": "",
-                "vt": "string"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 1130,
-        "y": 120,
-        "wires": [
-            [
-                "f9a14476.424fd8"
-            ]
-        ]
-    },
-    {
-        "id": "42301573.027d6c",
-        "type": "ui_template",
-        "z": "246ce6ab.bd4c1a",
-        "group": "b82da486.9fc8d8",
-        "name": "",
-        "order": 1,
-        "width": 14,
-        "height": 8,
-        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1500,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7bcbb151.cf351",
-        "type": "template",
-        "z": "246ce6ab.bd4c1a",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<iframe src=\"/worldmap\" height=\"388px\" width=\"690px\" style=\"border: none;\"></iframe>",
-        "x": 1330,
-        "y": 120,
-        "wires": [
-            [
-                "42301573.027d6c"
-            ]
-        ]
-    },
-    {
         "id": "1bf52845.012bd8",
         "type": "comment",
         "z": "246ce6ab.bd4c1a",
         "name": "Embed the map to the dashboard",
         "info": "",
-        "x": 1130,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "8f3ddfde.77afc",
-        "type": "debug",
-        "z": "246ce6ab.bd4c1a",
-        "name": "lon",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "f9a14476.424fd8",
-        "type": "ui_ui_control",
-        "z": "246ce6ab.bd4c1a",
-        "name": "",
-        "events": "all",
-        "x": 1210,
-        "y": 200,
-        "wires": [
-            [
-                "7bcbb151.cf351"
-            ]
-        ]
-    },
-    {
-        "id": "8c8f6955.21da68",
-        "type": "debug",
-        "z": "246ce6ab.bd4c1a",
-        "name": "latt",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "c232136e.75d7e",
-        "type": "debug",
-        "z": "246ce6ab.bd4c1a",
-        "name": "name",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "4d273a07.e7a764",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "86031276.81481",
-        "order": 7,
-        "width": 6,
-        "height": 1,
-        "name": "Latitude:",
-        "label": "Latitude :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1120,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "9cd39627.f11e08",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "86031276.81481",
-        "order": 8,
-        "width": 6,
-        "height": 1,
-        "name": "long",
-        "label": "Longitude :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1110,
-        "y": 840,
+        "x": 770,
+        "y": 40,
         "wires": []
     },
     {
@@ -5848,15 +4615,15 @@
         "type": "ui_text",
         "z": "246ce6ab.bd4c1a",
         "group": "86031276.81481",
-        "order": 2,
-        "width": 6,
+        "order": 3,
+        "width": 4,
         "height": 1,
         "name": "dev",
         "label": "Device :",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 1110,
-        "y": 320,
+        "x": 1070,
+        "y": 40,
         "wires": []
     },
     {
@@ -5864,15 +4631,15 @@
         "type": "ui_text",
         "z": "246ce6ab.bd4c1a",
         "group": "86031276.81481",
-        "order": 3,
-        "width": 6,
+        "order": 2,
+        "width": 4,
         "height": 1,
         "name": "status",
         "label": "Status :",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 1110,
-        "y": 360,
+        "x": 1070,
+        "y": 80,
         "wires": []
     },
     {
@@ -5881,607 +4648,30 @@
         "z": "246ce6ab.bd4c1a",
         "group": "86031276.81481",
         "order": 5,
-        "width": 6,
+        "width": 4,
         "height": 1,
         "name": "RSSI",
         "label": "RSSI :",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 1110,
-        "y": 440,
+        "x": 1070,
+        "y": 160,
         "wires": []
-    },
-    {
-        "id": "92b63c98.93f74",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 3,
-        "width": 6,
-        "height": 1,
-        "name": "humadity:",
-        "label": "Humidity (%) :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1120,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "41429d1c.d26b84",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 4,
-        "width": 6,
-        "height": 1,
-        "name": "temp",
-        "label": "Temperature :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1110,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "1d46c19e.46cd1e",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 1,
-        "width": 6,
-        "height": 1,
-        "name": "press",
-        "label": "Atmospheric Pressure :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1110,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "f4125550.383d48",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 5,
-        "width": 6,
-        "height": 1,
-        "name": "co",
-        "label": "CO (ppm):",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1110,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "c57f9258.91647",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 7,
-        "width": 6,
-        "height": 1,
-        "name": "O3",
-        "label": "O3 (ppm) :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1110,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "4eb5caa9.0b9f64",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 8,
-        "width": 6,
-        "height": 1,
-        "name": "SO2",
-        "label": "SO2 (ppm) :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1110,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "e0fbf79a.d92c58",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 6,
-        "width": 6,
-        "height": 1,
-        "name": "NO2",
-        "label": "NO2 (ppm):",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1110,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "cc628e56.f997d",
-        "type": "ui_text",
-        "z": "246ce6ab.bd4c1a",
-        "group": "3957e09f.51e67",
-        "order": 2,
-        "width": 6,
-        "height": 1,
-        "name": "altitude",
-        "label": "Altitude (m) :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1120,
-        "y": 880,
-        "wires": []
-    },
-    {
-        "id": "e48fc64e.014958",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "pressure",
-        "group": "c35e46a8.b04ce8",
-        "order": 1,
-        "width": 6,
-        "height": 6,
-        "label": "Atmospheric Pressure (mbar)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1200",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1320,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f59ac7c4.4457c8",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "altitude",
-        "group": "c35e46a8.b04ce8",
-        "order": 2,
-        "width": 6,
-        "height": 6,
-        "label": "Altitude (m)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1320,
-        "y": 880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3b1938c9.916dd8",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "humadity",
-        "group": "c35e46a8.b04ce8",
-        "order": 3,
-        "width": 6,
-        "height": 6,
-        "label": "Humidity (%)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1320,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4c829aad.1a77b4",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "temp",
-        "group": "c35e46a8.b04ce8",
-        "order": 5,
-        "width": 7,
-        "height": 6,
-        "label": "Temperature (°C)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1310,
-        "y": 600,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4e6da09d.1cb02",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "CO",
-        "group": "4de9506d.e7364",
-        "order": 1,
-        "width": 7,
-        "height": 6,
-        "label": "CO (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1310,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e9cf9440.c5ff88",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "NO2",
-        "group": "4de9506d.e7364",
-        "order": 3,
-        "width": 7,
-        "height": 6,
-        "label": "NO2 (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1310,
-        "y": 680,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "30f8b12f.84b37e",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "O3",
-        "group": "4de9506d.e7364",
-        "order": 2,
-        "width": 6,
-        "height": 6,
-        "label": "O3 (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1310,
-        "y": 720,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c2325036.48014",
-        "type": "ui_chart",
-        "z": "246ce6ab.bd4c1a",
-        "name": "SO2",
-        "group": "4de9506d.e7364",
-        "order": 4,
-        "width": 6,
-        "height": 6,
-        "label": "SO2 (ppm)",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1000",
-        "removeOlder": "10",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "x": 1310,
-        "y": 760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b6d1de40.45e8d",
-        "type": "ui_text",
-        "z": "daafd2c4.fca54",
-        "group": "cd81d08b.eebb3",
-        "order": 8,
-        "width": 6,
-        "height": 1,
-        "name": "corr long",
-        "label": "Corr. Longitude :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1240,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "995a8acb.fef6f8",
-        "type": "ui_text",
-        "z": "daafd2c4.fca54",
-        "group": "cd81d08b.eebb3",
-        "order": 7,
-        "width": 6,
-        "height": 1,
-        "name": "corr lat:",
-        "label": "Corr. Latitude :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 1240,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "d6400610.1ca868",
-        "type": "function",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "func": "// create random position\nvar lat = 6.0788 + Math.random() * 0.001;\nvar lon = 80.1919 + Math.random() * 0.001;\nvar pressure = 400 + Math.random() * 3;\nvar altitude = 20 + Math.random() * 0.9;\nvar humadity = 65 + Math.random() * 0.9;\nvar temperature = 35 + Math.random() * 0.9;\nvar CO = 100 + Math.random() * 2;\nvar NO2 = 200 + Math.random() * 2;\nvar O3 = 170 + Math.random() * 2;\nvar SO2 = 90 + Math.random() * 2;\n\nmsg.payload={\n    lat:lat, \n    lon:lon, \n    pressure: pressure,\n    altitude:altitude,\n    humadity:humadity,\n    temperature:temperature,\n    CO:CO,\n    NO2:NO2,\n    O3:O3,\n    SO2:SO2,\n    name:\"Drone\", \n    icon:\"plane\",\n    iconColor: '#FF0000',\n    color:\"#0000FF\"};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "73bed695.7018e8",
-        "type": "function",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "func": "var dev ={payload:msg.payload.Device};\nvar status ={payload:msg.payload.status};\nvar network = {payload:msg.payload.network};\nvar rssi = { payload:parseFloat(msg.payload.rssi).toFixed(0) };\nvar ip = {payload:msg.payload.mqttIP};\nvar press = { payload:parseFloat(msg.payload.pressure).toFixed(2) };\nvar hum = { payload:parseFloat(msg.payload.humidity).toFixed(2) };\nvar temp = { payload:parseFloat(msg.payload.temp) };\nvar Co = { payload:parseFloat(msg.payload.co).toFixed(2) };\nvar No2 = { payload:parseFloat(msg.payload.no2).toFixed(2) };\nvar o3 = { payload:parseFloat(msg.payload.o3).toFixed(2) };\nvar So2 = { payload:parseFloat(msg.payload.so2).toFixed(2) };\nvar lat = { payload:parseFloat(msg.payload.gps[0]).toFixed(6) };\nvar lon = { payload:parseFloat(msg.payload.gps[1]).toFixed(6) };\nvar alt = { payload:parseFloat((msg.payload.pressure) * 0.09).toFixed(2) };\n\nreturn [dev,status,network,rssi,ip,press,hum,temp,Co,No2,o3,So2,lat,lon,alt ];\n\n ",
-        "outputs": 15,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 340,
-        "wires": [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [
-                "9df76a97.f74758",
-                "f9965d72.149c8"
-            ],
-            [
-                "fcd8a1fe.0f9fb",
-                "cc0a7875.d8e578"
-            ],
-            [
-                "c8b5cc79.873c2",
-                "33dbbac6.7ac476"
-            ],
-            [
-                "a1de4b97.b6b5e8",
-                "a24adaeb.ad7ab8"
-            ],
-            [
-                "104bc5de.a7c08a",
-                "56a942ab.ebcaac"
-            ],
-            [
-                "5f49f702.c227f8",
-                "53188ce9.4c3bb4"
-            ],
-            [
-                "a9178b4b.5530f8",
-                "4a865462.dcdebc"
-            ],
-            [],
-            [],
-            [
-                "6cc54f87.1afb5",
-                "58039d77.64a3e4",
-                "15c59248.f1feae"
-            ]
-        ]
     },
     {
         "id": "f296ebeb.1d56c8",
         "type": "ui_text",
         "z": "246ce6ab.bd4c1a",
         "group": "86031276.81481",
-        "order": 6,
-        "width": 6,
+        "order": 13,
+        "width": 4,
         "height": 1,
         "name": "mqtt",
         "label": "MQTT :",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 1110,
-        "y": 480,
+        "x": 1070,
+        "y": 200,
         "wires": []
     },
     {
@@ -6490,329 +4680,14 @@
         "z": "246ce6ab.bd4c1a",
         "group": "86031276.81481",
         "order": 4,
-        "width": 6,
+        "width": 4,
         "height": 1,
         "name": "network",
         "label": "Network :",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 1120,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "58e23b31.544664",
-        "type": "mqtt out",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "topic": "esp32/out",
-        "qos": "1",
-        "retain": "false",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "407a01e4.6b637",
-        "x": 320,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "d9beed59.94155",
-        "type": "inject",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "on",
-        "payloadType": "str",
-        "x": 120,
-        "y": 720,
-        "wires": [
-            [
-                "58e23b31.544664",
-                "f3532686.119a28"
-            ]
-        ]
-    },
-    {
-        "id": "f3532686.119a28",
-        "type": "debug",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 330,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "fe214737.5851e8",
-        "type": "mqtt in",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "topic": "esp32/data",
-        "qos": "0",
-        "datatype": "auto",
-        "broker": "32867152.1a9afe",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "x": 80,
-        "y": 200,
-        "wires": [
-            [
-                "483bf269.46d14c",
-                "6daac8e7.9b06e8",
-                "2f4ee1d0.15882e"
-            ]
-        ]
-    },
-    {
-        "id": "2f4ee1d0.15882e",
-        "type": "json",
-        "z": "a77bf1d3.a74af",
-        "name": "",
-        "property": "payload",
-        "action": "obj",
-        "pretty": false,
-        "x": 110,
-        "y": 340,
-        "wires": [
-            [
-                "6b0da638.130548",
-                "73bed695.7018e8"
-            ]
-        ]
-    },
-    {
-        "id": "6b0da638.130548",
-        "type": "debug",
-        "z": "a77bf1d3.a74af",
-        "name": "jsonToString",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 170,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "15c59248.f1feae",
-        "type": "debug",
-        "z": "a77bf1d3.a74af",
-        "name": "tets",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 650,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "3def5a73.ba8f86",
-        "type": "mqtt in",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "topic": "esp32/data",
-        "qos": "0",
-        "datatype": "auto",
-        "broker": "32867152.1a9afe",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "x": 80,
-        "y": 240,
-        "wires": [
-            [
-                "eabb0698.e7f498",
-                "553a0f60.80535"
-            ]
-        ]
-    },
-    {
-        "id": "553a0f60.80535",
-        "type": "json",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "property": "payload",
-        "action": "obj",
-        "pretty": false,
-        "x": 110,
-        "y": 380,
-        "wires": [
-            [
-                "2a904fe8.a6338",
-                "8c424dc9.a216e",
-                "1b24ad2f.198453"
-            ]
-        ]
-    },
-    {
-        "id": "8c424dc9.a216e",
-        "type": "function",
-        "z": "daafd2c4.fca54",
-        "name": "",
-        "func": "var dev ={payload:msg.payload.Device};\nvar status ={payload:msg.payload.status};\nvar network = {payload:msg.payload.network};\nvar rssi = { payload:parseFloat(msg.payload.rssi).toFixed(0) };\nvar ip = {payload:msg.payload.mqttIP};\nvar press = { payload:parseFloat(msg.payload.pressure).toFixed(2) };\nvar hum = { payload:parseFloat(msg.payload.humidity).toFixed(2) };\nvar temp = { payload:parseFloat(msg.payload.temp) };\nvar Co = { payload:parseFloat(msg.payload.co).toFixed(2) };\nvar No2 = { payload:parseFloat(msg.payload.no2).toFixed(2) };\nvar o3 = { payload:parseFloat(msg.payload.o3).toFixed(2) };\nvar So2 = { payload:parseFloat(msg.payload.so2).toFixed(2) };\nvar lat = { payload:parseFloat(msg.payload.gps[0]).toFixed(6) };\nvar lon = { payload:parseFloat(msg.payload.gps[1]).toFixed(6) };\nvar alt = { payload:parseFloat((msg.payload.pressure) * 0.09).toFixed(2) };\n\nreturn [dev,status,network,rssi,ip,press,hum,temp,Co,No2,o3,So2,lat,lon,alt ];\n\n ",
-        "outputs": 15,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 520,
-        "wires": [
-            [
-                "c55ef961.ab5c98"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [
-                "e731923f.56dc7"
-            ],
-            [
-                "6ff34b5e.7f2f24"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "2a904fe8.a6338",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "jsonToString",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 290,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "eabb0698.e7f498",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "mqtt",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 310,
+        "x": 1080,
         "y": 120,
-        "wires": []
-    },
-    {
-        "id": "e731923f.56dc7",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "lat0",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 510,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "6ff34b5e.7f2f24",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "lon0",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 510,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "c55ef961.ab5c98",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "name0",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 510,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "dc9dee25.b592b",
-        "type": "debug",
-        "z": "daafd2c4.fca54",
-        "name": "xx",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 750,
-        "y": 480,
         "wires": []
     },
     {
@@ -6884,8 +4759,10 @@
             [
                 "95223a.ee65adc8",
                 "294f71f1.7be02e",
-                "f070a06b.afa76",
-                "e169da87.1ce788"
+                "e169da87.1ce788",
+                "1fb6d6f7.9352f9",
+                "fadfa0f4.faea9",
+                "27a8cb39.c243f4"
             ]
         ]
     },
@@ -6894,8 +4771,8 @@
         "type": "function",
         "z": "246ce6ab.bd4c1a",
         "name": "",
-        "func": "var dev ={payload:msg.payload.Device};\nvar status ={payload:msg.payload.status};\nvar network = {payload:msg.payload.network};\nvar rssi = { payload:parseFloat(msg.payload.rssi).toFixed(0) };\nvar ip = {payload:msg.payload.mqttIP};\nvar press = { payload:parseFloat(msg.payload.pressure).toFixed(2) };\nvar hum = { payload:parseFloat(msg.payload.humidity).toFixed(2) };\nvar temp = { payload:parseFloat(msg.payload.temp) };\nvar Co = { payload:parseFloat(msg.payload.co).toFixed(2) };\nvar No2 = { payload:parseFloat(msg.payload.no2).toFixed(2) };\nvar o3 = { payload:parseFloat(msg.payload.o3).toFixed(2) };\nvar So2 = { payload:parseFloat(msg.payload.so2).toFixed(2) };\nvar lat = { payload:parseFloat(msg.payload.gps[0]).toFixed(6) };\nvar lon = { payload:parseFloat(msg.payload.gps[1]).toFixed(6) };\nvar alt = { payload:parseFloat((msg.payload.pressure) * 0.09).toFixed(2) };\n\nreturn [dev,status,network,rssi,ip,press,hum,temp,Co,No2,o3,So2,lat,lon,alt ];\n\n ",
-        "outputs": 15,
+        "func": "var dev ={payload:msg.payload.Node};\nvar status ={payload:msg.payload.status};\nvar network = {payload:msg.payload.network};\nvar rssi = { payload:parseFloat(msg.payload.rssi).toFixed(0) };\nvar ip = {payload:msg.payload.mqttIP};\n\nvar dev1 ={payload:msg.payload.device1};\nvar dev1_Bvoltage = { payload:parseFloat(msg.payload.d1_Bvol) };\nvar dev1_Lvoltage = { payload:parseFloat(msg.payload.d1_Lvol)};\nvar dev1_current = { payload:parseFloat(msg.payload.d1_cur) };\nvar  dev1_power= { payload:parseFloat(msg.payload.d1_pow) };\n\nvar dev2 ={payload:msg.payload.device2};\nvar dev2_Bvoltage = { payload:parseFloat(msg.payload.d2_Bvol) };\nvar dev2_Lvoltage = { payload:parseFloat(msg.payload.d2_Lvol)};\nvar dev2_current = { payload:parseFloat(msg.payload.d2_cur) };\nvar  dev2_power= { payload:parseFloat(msg.payload.d2_pow) };\n\nvar dev3 ={payload:msg.payload.device3};\nvar dev3_Bvoltage = { payload:parseFloat(msg.payload.d3_Bvol) };\nvar dev3_Lvoltage = { payload:parseFloat(msg.payload.d3_Lvol)};\nvar dev3_current = { payload:parseFloat(msg.payload.d3_cur) };\nvar  dev3_power= { payload:parseFloat(msg.payload.d3_pow) };\n\nreturn [dev,status,network,rssi,ip,\ndev1,dev1_Bvoltage,dev1_Lvoltage,dev1_current,dev1_power,\ndev2,dev2_Bvoltage,dev2_Lvoltage,dev2_current,dev2_power,\ndev3,dev3_Bvoltage,dev3_Lvoltage,dev3_current,dev3_power];\n\n ",
+        "outputs": 20,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6920,44 +4797,49 @@
                 "f296ebeb.1d56c8"
             ],
             [
-                "1d46c19e.46cd1e",
-                "e48fc64e.014958"
+                "957a0786.fc47b8"
             ],
             [
-                "92b63c98.93f74",
-                "3b1938c9.916dd8"
+                "cf28c556.c99ac8"
             ],
             [
-                "41429d1c.d26b84",
-                "4c829aad.1a77b4"
+                "408d8e62.7d937"
             ],
             [
-                "f4125550.383d48",
-                "4e6da09d.1cb02"
+                "da2c2e45.5b34b"
             ],
             [
-                "e0fbf79a.d92c58",
-                "e9cf9440.c5ff88"
+                "ba788c48.a5aec"
             ],
             [
-                "c57f9258.91647",
-                "30f8b12f.84b37e"
+                "fd933238.d6f23"
             ],
             [
-                "4eb5caa9.0b9f64",
-                "c2325036.48014"
+                "288e2976.5b0a16"
             ],
             [
-                "be11c3b5.ebb0f",
-                "4d273a07.e7a764"
+                "d4590802.b49a88"
             ],
             [
-                "7bb10d10.d9fb44",
-                "9cd39627.f11e08"
+                "2abb01ad.ae01fe"
             ],
             [
-                "cc628e56.f997d",
-                "f59ac7c4.4457c8"
+                "9166c4df.77fd48"
+            ],
+            [
+                "c5dac2fc.48d9c"
+            ],
+            [
+                "f6648f45.bae18"
+            ],
+            [
+                "2db2ea3c.ebc9d6"
+            ],
+            [
+                "bb8faec0.f7bd"
+            ],
+            [
+                "1aa5911a.16980f"
             ]
         ]
     },
@@ -6979,66 +4861,12 @@
         "wires": []
     },
     {
-        "id": "be11c3b5.ebb0f",
-        "type": "debug",
-        "z": "246ce6ab.bd4c1a",
-        "name": "lat0",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 590,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "7bb10d10.d9fb44",
-        "type": "debug",
-        "z": "246ce6ab.bd4c1a",
-        "name": "lon0",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 590,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "f070a06b.afa76",
-        "type": "function",
-        "z": "246ce6ab.bd4c1a",
-        "name": "",
-        "func": "// create random position\n//var lat = 6.0788 + Math.random() * 0.001;\n//var lon = 80.1919 + Math.random() * 0.001;\nvar dev =msg.payload.Device;\nvar lat0 = parseFloat(msg.payload.gps[0]).toFixed(6);\nvar lon0 = parseFloat(msg.payload.gps[1]).toFixed(6) ;\n\nmsg.payload={\n    command :{\n    lat:lat0, \n    lon:lon0, \n    zoom:17,\n    name:\"Drone\", \n    icon:\"plane\",\n    iconColor: '#FF0000',\n    color:\"#0000FF\"}};\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 480,
-        "y": 200,
-        "wires": [
-            [
-                "c8300b35.1b45b8",
-                "6a4c73fe.8a87cc"
-            ]
-        ]
-    },
-    {
         "id": "e169da87.1ce788",
         "type": "trigger",
         "z": "246ce6ab.bd4c1a",
         "name": "trigger",
-        "op1": "AQM Connected",
-        "op2": "AQM Disconnected",
+        "op1": "node1 Connected",
+        "op2": "node1 Disconnected",
         "op1type": "str",
         "op2type": "str",
         "duration": "7",
@@ -7084,7 +4912,7 @@
         "type": "function",
         "z": "246ce6ab.bd4c1a",
         "name": "",
-        "func": "\nif(msg.payload == \"AQM Connected\") {msg.payload={\n    ui_control:{\n        \"words\":\"AQM CONNECTED\",\n        \"icon\":\"signal_wifi_3_bar\",\n        \"color\":\"white\",\n        \"bgcolor\":\"green\"\n    }};}\nif(msg.payload == \"AQM Disconnected\") {msg.payload={\n    ui_control:{\n        \"words\":\"AQM DISCONNECTED\",\n        \"icon\":\"signal_wifi_0_bar\",\n        \"color\":\"white\",\n        \"bgcolor\":\"red\"\n    }};}\nreturn msg;",
+        "func": "\nif(msg.payload == \"node1 Connected\") {msg.payload={\n    ui_control:{\n        \"words\":\"NODE1 CONNECTED\",\n        \"icon\":\"signal_wifi_3_bar\",\n        \"color\":\"white\",\n        \"bgcolor\":\"green\"\n    }};}\nif(msg.payload == \"node1 Disconnected\") {msg.payload={\n    ui_control:{\n        \"words\":\"NODE1 DISCONNECTED\",\n        \"icon\":\"signal_wifi_0_bar\",\n        \"color\":\"white\",\n        \"bgcolor\":\"red\"\n    }};}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7121,7 +4949,7 @@
         "type": "function",
         "z": "246ce6ab.bd4c1a",
         "name": "",
-        "func": "msg.payload={\n \nDevice : \"\",\n status : \"\",\n network : \"\",\n rssi : \"\",\n mqttIP : \"\",\n pressure : \"\",\n humidity : \"\",\n temp : \"\",\n co : \"\",\n no2 : \"\",\n o3 : \"\",\n so2 : \"\",\n gps :\"\"\n};\nreturn msg;\n\n",
+        "func": "msg.payload={\n \nNode : \"Transmitter\",\n status : \"Active\",\n network : \"WIFI\",\n rssi : \"-79dB\",\n mqttIP : \"192.168.8.1\",\n device1 : \"Raspberry\",\n d1_Bvol :5.1 ,\n d1_Lvol : 5.0,\n d1_cur : 900,\n d1_pow : 4500,\n\n device2 : \"MCU\",\n d2_Bvol :5.1 ,\n d2_Lvol : 5.0,\n d2_cur : 83,\n d2_pow : 550,\n \n device3 : \"nRF24l01-Tx\",\n d3_Bvol :3.3 ,\n d3_Lvol : 3.3,\n d3_cur : 12,\n d3_pow : 39,\n};\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7131,499 +4959,12 @@
         "y": 560,
         "wires": [
             [
-                "294f71f1.7be02e"
+                "294f71f1.7be02e",
+                "1fb6d6f7.9352f9",
+                "fadfa0f4.faea9",
+                "27a8cb39.c243f4"
             ]
         ]
-    },
-    {
-        "id": "e429e7d2.8f5ad8",
-        "type": "ui_text",
-        "z": "56bde742.2302f8",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Sensor Data :",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "x": 820,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "e253eeb0.8b0ca",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "Temperature",
-        "tooltip": "temperature and Humidity",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "tempON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "\"green\"",
-        "offvalue": "tempOFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "\"red\"",
-        "animate": true,
-        "x": 810,
-        "y": 200,
-        "wires": [
-            [
-                "e5bb60ab.16702"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
-    },
-    {
-        "id": "5b6d9116.c5a39",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "Pressure & Alt.",
-        "tooltip": "Atmospheric Pressure and Altitude",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "presON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "\"green\"",
-        "offvalue": "presOFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "\"red\"",
-        "animate": true,
-        "x": 820,
-        "y": 300,
-        "wires": [
-            [
-                "e5bb60ab.16702"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
-    },
-    {
-        "id": "a19b6231.a8e6d",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "Carbon Monoxide(CO)",
-        "tooltip": "Carbon Monoxide(CO) in ppm",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "coON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "\"green\"",
-        "offvalue": "coOFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "\"red\"",
-        "animate": true,
-        "x": 840,
-        "y": 360,
-        "wires": [
-            [
-                "e5bb60ab.16702"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
-    },
-    {
-        "id": "469fc5e0.5ab48c",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "Ozone(O3)",
-        "tooltip": "Ozone(O3) in ppm",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "o3ON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "\"green\"",
-        "offvalue": "o3OFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "\"red\"",
-        "animate": true,
-        "x": 810,
-        "y": 420,
-        "wires": [
-            [
-                "e5bb60ab.16702",
-                "8311233b.389c9"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
-    },
-    {
-        "id": "2133fe83.edc9b2",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "Nitrogen Dioxide(NO2)",
-        "tooltip": "Nitrogen Dioxide(NO2) in ppm",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "no2ON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "\"green\"",
-        "offvalue": "no2OFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "\"red\"",
-        "animate": true,
-        "x": 840,
-        "y": 480,
-        "wires": [
-            [
-                "e5bb60ab.16702"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
-    },
-    {
-        "id": "eb80c318.6e167",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "Suphur Dioxide(SO2)",
-        "tooltip": "Suphur Dioxide(SO2) in ppm",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "so2ON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "\"green\"",
-        "offvalue": "so2OFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "\"red\"",
-        "animate": true,
-        "x": 840,
-        "y": 540,
-        "wires": [
-            [
-                "e5bb60ab.16702"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
-    },
-    {
-        "id": "fbd8ab2e.bdfa58",
-        "type": "ui_button",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 10,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "ALL ON",
-        "tooltip": "",
-        "color": "green",
-        "bgcolor": "#2A2A2A",
-        "icon": "power_settings_new",
-        "payload": "all_on",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 460,
-        "y": 100,
-        "wires": [
-            [
-                "79cb4ddf.34f174",
-                "86eddc89.66636"
-            ]
-        ]
-    },
-    {
-        "id": "e5bb60ab.16702",
-        "type": "mqtt out",
-        "z": "56bde742.2302f8",
-        "name": "esp32/output",
-        "topic": "esp32/output",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "32867152.1a9afe",
-        "x": 1290,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "aa082565.65cce8",
-        "type": "ui_switch",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "label": "Humidity",
-        "tooltip": "Humidity",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "humON",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "humOFF",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "",
-        "animate": true,
-        "x": 800,
-        "y": 260,
-        "wires": [
-            [
-                "e5bb60ab.16702"
-            ]
-        ],
-        "icon": "node-red/white-globe.svg"
-    },
-    {
-        "id": "8311233b.389c9",
-        "type": "debug",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1240,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "b9b567e0.e1fbd8",
-        "type": "mqtt in",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "topic": "esp32/TEL_status",
-        "qos": "0",
-        "datatype": "json",
-        "broker": "32867152.1a9afe",
-        "nl": false,
-        "rap": false,
-        "x": 90,
-        "y": 280,
-        "wires": [
-            [
-                "5cffb613.fbfc78",
-                "4c7ce353.20033c"
-            ]
-        ]
-    },
-    {
-        "id": "5cffb613.fbfc78",
-        "type": "debug",
-        "z": "56bde742.2302f8",
-        "name": "raw_mqtt",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 140,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "4c7ce353.20033c",
-        "type": "json",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "property": "payload",
-        "action": "obj",
-        "pretty": false,
-        "x": 270,
-        "y": 280,
-        "wires": [
-            [
-                "dae0bb94.ecec48",
-                "79cb4ddf.34f174"
-            ]
-        ]
-    },
-    {
-        "id": "dae0bb94.ecec48",
-        "type": "debug",
-        "z": "56bde742.2302f8",
-        "name": "TEL_status",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 310,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "79cb4ddf.34f174",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "Parse state json",
-        "func": "// Restore status after a re-deploy/reboot and\n// update switch status\nvar pres_S = {payload: (msg.payload.pressure_status ? \"presON\" : \"presOFF\")};\nvar hum_S = {payload: (msg.payload.humidity_status ? \"humON\" : \"humOFF\")};\nvar temp_S= {payload: (msg.payload.temp_status ? \"tempON\" : \"tempOFF\")};\nvar co_S = {payload: (msg.payload.co_status ? \"coON\" : \"coOFF\")};\nvar no2_S = {payload: (msg.payload.no2_status ? \"no2ON\" : \"no2OFF\")};\nvar o3_S = {payload: (msg.payload.o3_status ? \"o3ON\" : \"o3OFF\")};\nvar so2_S = {payload: (msg.payload.so2_status ? \"so2ON\" : \"so2OFF\")};\nvar gps_S = {payload: (msg.payload.gps_status ? \"gpsON\" : \"gpsOFF\")};\n\nif(msg.payload == \"all_on\" ){\n     pres_S = {payload:  \"presON\"};\n     hum_S =  {payload:\"humON\"};\n     temp_S= {payload:\"tempON\"};\n     co_S = {payload:\"coON\"};\n     no2_S = {payload:\"no2ON\"};\n     o3_S = {payload:\"o3ON\"};\n     so2_S = {payload:\"so2ON\"};\n     gps_S = {payload:\"gpsON\"}; \n        \n}else if(msg.payload == \"all_off\"){\n     pres_S =  {payload:\"presOFF\"};\n     hum_S =  {payload:\"humOFF\"};\n     temp_S= {payload:\"tempOFF\"};\n     co_S = {payload:\"coOFF\"};\n     no2_S = {payload:\"no2OFF\"};\n     o3_S = {payload:\"o3OFF\"};\n     so2_S = {payload:\"so2OFF\"};\n     gps_S = {payload:\"gpsOFF\"};\n}\n\n\nreturn [pres_S, hum_S, temp_S,co_S,no2_S,o3_S,so2_S,gps_S];\n\n",
-        "outputs": 8,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 480,
-        "y": 280,
-        "wires": [
-            [
-                "5b6d9116.c5a39"
-            ],
-            [
-                "aa082565.65cce8"
-            ],
-            [
-                "e253eeb0.8b0ca"
-            ],
-            [
-                "a19b6231.a8e6d"
-            ],
-            [
-                "2133fe83.edc9b2"
-            ],
-            [
-                "469fc5e0.5ab48c"
-            ],
-            [
-                "eb80c318.6e167"
-            ],
-            [
-                "6cb7ba1a.b01c04"
-            ]
-        ]
-    },
-    {
-        "id": "6bbb7e3.cd79c8",
-        "type": "ui_button",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "group": "6e1bf5f0.a0ae5c",
-        "order": 11,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "ALL OFF",
-        "tooltip": "",
-        "color": "red",
-        "bgcolor": "#2A2A2A",
-        "icon": "power_settings_new",
-        "payload": "all_off",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 460,
-        "y": 480,
-        "wires": [
-            [
-                "79cb4ddf.34f174",
-                "cdbb24cf.16bc28"
-            ]
-        ]
-    },
-    {
-        "id": "86eddc89.66636",
-        "type": "debug",
-        "z": "56bde742.2302f8",
-        "name": "all on",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 570,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "cdbb24cf.16bc28",
-        "type": "debug",
-        "z": "56bde742.2302f8",
-        "name": "all off",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 570,
-        "y": 540,
-        "wires": []
     },
     {
         "id": "53f04c9a.877194",
@@ -7973,1554 +5314,6 @@
         ]
     },
     {
-        "id": "eb760bbb.8e5ec",
-        "type": "inject",
-        "z": "5c561430.86ca8c",
-        "name": "Refresh Timer",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "180",
-        "crontab": "",
-        "once": false,
-        "onceDelay": "",
-        "topic": "Refresh Timer",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 180,
-        "y": 140,
-        "wires": [
-            [
-                "e54c1170.c13488",
-                "f6657c5c.2621a8"
-            ]
-        ]
-    },
-    {
-        "id": "74cb77c.92dd108",
-        "type": "ui_button",
-        "z": "5c561430.86ca8c",
-        "name": "Weather Refresh",
-        "group": "14584712.7a2929",
-        "order": 2,
-        "width": 4,
-        "height": 1,
-        "passthru": false,
-        "label": "Weather Refresh",
-        "tooltip": "weather refresh",
-        "color": "",
-        "bgcolor": "",
-        "icon": "refresh",
-        "payload": "true",
-        "payloadType": "bool",
-        "topic": "",
-        "topicType": "str",
-        "x": 150,
-        "y": 220,
-        "wires": [
-            [
-                "e54c1170.c13488",
-                "f6657c5c.2621a8"
-            ]
-        ]
-    },
-    {
-        "id": "4d90e53a.37962c",
-        "type": "ui_text",
-        "z": "5c561430.86ca8c",
-        "group": "b12941f.1cd05c",
-        "order": 9,
-        "width": 10,
-        "height": 1,
-        "name": "Condition Txt",
-        "label": "Condition :",
-        "format": "{{msg.payload.detail}}",
-        "layout": "row-left",
-        "x": 1150,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "89a4bed9.5b467",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "Prepare Dashboard Data",
-        "func": "var windDirection = {};\nvar windDirectionIcon = {};\nvar windSpeed = {};\nvar windSpeedIcon = {};\nvar sunRise = {};\nvar sunSet = {};\nvar conditionIcon = {};\nvar date = new Date ();\n\n/* function for converting meteorogical degree to text */\n\nvar degToCard = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"NNE\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"NE\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"ENE\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"East\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"ESE\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"SE\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"SSE\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"South\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"SSW\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"SW\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"WSW\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"West\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"WNW\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"NW\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"NNW\";\n  }else{\nreturn \"North\"; \n  }\n}\n\n/* function for converting meteorogical degree to weather icons */\n\nvar degToCardIcon = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"wi-from-nne\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"wi-from-ne\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"wi-from-ene\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"wi-from-e\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"wi-from-ese\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"wi-from-se\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"wi-from-sse\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"wi-from-s\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"wi-from-ssw\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"wi-from-sw\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"wi-from-wsw\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"wi-from-w\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"wi-from-wnw\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"wi-from-nw\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"wi-from-nnw\";\n  }else{\nreturn \"wi-from-n\"; \n  }\n}\n\n/* Function for converting wind speed into Beaufort scale icon */\n\nvar speedToCardIcon = function(speed){\nif (speed>0.5 && speed<=1.5){\nreturn \"wi-wind-beaufort-1\";\n  }else if (speed>1.5 && speed<=3.3){\nreturn \"wi-wind-beaufort-2\";\n  }else if (speed>3.3 && speed<=5.5){\nreturn \"wi-wind-beaufort-3\";\n  }else if (speed>5.5 && speed<=7.9){\nreturn \"wi-wind-beaufort-4\";\n  }else if (speed>7.9 && speed<=10.7){\nreturn \"wi-wind-beaufort-5\";\n  }else if (speed>10.7 && speed<=13.8){\nreturn \"wi-wind-beaufort-6\";\n  }else if (speed>13.8 && speed<=17.1){\nreturn \"wi-wind-beaufort-7\";\n  }else if (speed>17.1 && speed<=20.7){\nreturn \"wi-wind-beaufort-8\";\n  }else if (speed>20.7 && speed<=24.4){\nreturn \"wi-wind-beaufort-9\";\n  }else if (speed>24.4 && speed<=28.4){\nreturn \"wi-wind-beaufort-10\";\n  }else if (speed>28.4 && speed<=32.6){\nreturn \"wi-wind-beaufort-11\";\n  }else if (speed>32.6){\nreturn \"wi-wind-beaufort-12\";\n  }else{\nreturn \"wi-wind-beaufort-0\"; \n  }\n}\n\n/* Function for Time Conversions */\n\nfunction timeConverter(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n    else {min = min;}\n  var sec = a.getSeconds();\n  if (sec < 10) {sec = \"0\" + sec;}\n    else {sec = sec;}\n    \n  var time = hour + ':' + min + ':' + sec ;\n  return time;\n}\n\n/* Convert OpenWeeather Map Icon to https://erikflowers.github.io/weather-icons/ */\n\nconst owIconMap = new Map();\n\nowIconMap.set('01d', 'wi-day-sunny'); // clear sky\nowIconMap.set('02d', 'wi-day-cloudy'); // few clouds\nowIconMap.set('03d', 'wi-cloud'); // scattered clouds\nowIconMap.set('04d', 'wi-cloudy'); // broken clouds\nowIconMap.set('09d', 'wi-day-showers'); // shower rain\nowIconMap.set('10d', 'wi-day-rain'); // rain\nowIconMap.set('11d', 'wi-thunderstorm'); // thunderstorm\nowIconMap.set('13d', 'wi-snow'); // snow\nowIconMap.set('50d', 'wi-fog'); // mist\nowIconMap.set('01n', 'wi-night-clear'); // clear sky\nowIconMap.set('02n', 'wi-night-alt-cloudy'); // few clouds\nowIconMap.set('03n', 'wi-cloud'); // scattered clouds\nowIconMap.set('04n', 'wi-cloudy'); // broken clouds\nowIconMap.set('09n', 'wi-night-alt-showers'); // shower rain\nowIconMap.set('10n', 'wi-night-alt-rain'); // rain\nowIconMap.set('11n', 'wi-thunderstorm'); // thunderstorm\nowIconMap.set('13n', 'wi-snow'); // snow\nowIconMap.set('50n', 'wi-fog'); // mist\n\nconditionIcon.topic = \"ConditionIcon\";\nconditionIcon.payload = owIconMap.get(msg.payload.icon);\n\nwindDirection.topic = \"WindDirection\";\nwindDirection.payload = degToCard(msg.payload.winddirection);\n\nwindDirectionIcon.topic = \"WindDirectionIcon\";\nwindDirectionIcon.payload = degToCardIcon(msg.payload.winddirection);\n//var Str_Direction = parseInt(msg.payload.winddirection);\n\nwindSpeed.topic = \"WindSpeed\";\nwindSpeed.payload = msg.payload.windspeed +  \" m/s\"; /* \" + windDirection.payload; */\n\nwindSpeedIcon.topic = \"WindSpeedIcon\";\nwindSpeedIcon.payload = speedToCardIcon(msg.payload.windspeed);\n\nsunRise.topic = \"SunRise\";\nsunRise.payload = timeConverter(msg.payload.sunrise);\n\nsunSet.topic = \"SunRet\";\nsunSet.payload = timeConverter(msg.payload.sunset);\n\nowIconMap.clear(); //freeing resource\n\nreturn [conditionIcon, windSpeedIcon, windSpeed, windDirection, windDirectionIcon, sunRise, sunSet];",
-        "outputs": 7,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 730,
-        "y": 240,
-        "wires": [
-            [
-                "d0990bb3.6ee1f8",
-                "e5cfc523.804698"
-            ],
-            [
-                "6bfd9bef.141194"
-            ],
-            [
-                "49e2e33e.486c14",
-                "c150667f.005548"
-            ],
-            [],
-            [],
-            [
-                "393c1d0b.05766a"
-            ],
-            [
-                "d2011150.f678f"
-            ]
-        ]
-    },
-    {
-        "id": "49e2e33e.486c14",
-        "type": "ui_text",
-        "z": "5c561430.86ca8c",
-        "group": "8da50f69.44fe38",
-        "order": 2,
-        "width": 4,
-        "height": 1,
-        "name": "WindSpeed",
-        "label": "Wind speed",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "x": 1150,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "393c1d0b.05766a",
-        "type": "ui_text",
-        "z": "5c561430.86ca8c",
-        "group": "14584712.7a2929",
-        "order": 8,
-        "width": 2,
-        "height": 1,
-        "name": "Sunrise",
-        "label": "sun rise",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "x": 1140,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "d2011150.f678f",
-        "type": "ui_text",
-        "z": "5c561430.86ca8c",
-        "group": "14584712.7a2929",
-        "order": 12,
-        "width": 2,
-        "height": 1,
-        "name": "Sunset",
-        "label": "sun set",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "x": 1140,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "a767f2cc.5f3478",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "14584712.7a2929",
-        "name": "Sunrise Icon",
-        "order": 7,
-        "width": 1,
-        "height": 1,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: left;align-items: center;\">\n<i class=\"fa-2x wi wi-sunrise\"></i>\n</div> ",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1150,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7dfa615d.50546",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "14584712.7a2929",
-        "name": "Sunset Icon",
-        "order": 11,
-        "width": 1,
-        "height": 1,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: left;align-items: center;\">\n<i class=\"fa-2x wi wi-sunset\"></i>\n</div> ",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1150,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e54c1170.c13488",
-        "type": "openweathermap",
-        "z": "5c561430.86ca8c",
-        "name": "Current Weather",
-        "wtype": "current",
-        "lon": "80.1847351",
-        "lat": "6.0795023",
-        "city": "",
-        "country": "",
-        "language": "en",
-        "x": 410,
-        "y": 140,
-        "wires": [
-            [
-                "89a4bed9.5b467",
-                "4d90e53a.37962c",
-                "5cd0cb4.09ac834",
-                "43bc5e2b.6024a",
-                "dcd953b8.01b91"
-            ]
-        ]
-    },
-    {
-        "id": "6bfd9bef.141194",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "8da50f69.44fe38",
-        "name": "WindSpeed Icon",
-        "order": 3,
-        "width": 4,
-        "height": 1,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: left;align-items: top;\">\n<i class=\"fa-3x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1160,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "480a6cbf.880804",
-        "type": "debug",
-        "z": "5c561430.86ca8c",
-        "name": "Forecast debug",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "x": 1030,
-        "y": 940,
-        "wires": []
-    },
-    {
-        "id": "5af8efb7.126a98",
-        "type": "comment",
-        "z": "5c561430.86ca8c",
-        "name": "Open Weather API für aktuelles Wetter und Forecast",
-        "info": "",
-        "x": 520,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "d0990bb3.6ee1f8",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "b12941f.1cd05c",
-        "name": "Condition Icon",
-        "order": 3,
-        "width": 6,
-        "height": 3,
-        "format": "<link rel=\"stylesheet\" href=\"F:/Project works & Backup/INSEED PROJECTS/Air Quality Monitoring/Software sources/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1160,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f6657c5c.2621a8",
-        "type": "openweathermap",
-        "z": "5c561430.86ca8c",
-        "name": "5 Day Forecast",
-        "wtype": "forecast",
-        "lon": "80.1847351",
-        "lat": "6.0795023",
-        "city": "",
-        "country": "",
-        "language": "en",
-        "x": 390,
-        "y": 600,
-        "wires": [
-            [
-                "25b2dc06.cd7bdc",
-                "e58a247.3094b58",
-                "c5b71946.ca4de",
-                "480a6cbf.880804",
-                "fd283f2c.a224c",
-                "29dfa9e9.c18956",
-                "2fb9d1de.355ede",
-                "e578eac8.4ab5f8",
-                "1308b9cf.3834d6",
-                "d0ae2547.dc3688",
-                "e8a5b2b5.55457",
-                "3f12c3b3.8b12bc"
-            ]
-        ]
-    },
-    {
-        "id": "25b2dc06.cd7bdc",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "Prepare Forecast Icon",
-        "func": "var wfcIcon1 = {};\nvar wfcIcon2 = {}; \nvar wfcIcon3 = {};\nvar wfcIcon4 = {};\nvar wfcIcon5 = {};\nvar wfcIcon6 = {};\nvar wfcIcon7 = {};\nvar wfcIcon8 = {};\n\n\nvar date = new Date ();\n\n/* Function for Time Conversions */\n\nfunction timeConverter(UNIX_timestamp){\n  var a = new Date(UNIX_timestamp * 1000);\n  var hour = a.getHours();\n  var min = a.getMinutes();\n  if (min < 10) {min = \"0\" + min;}\n    else {min = min;}\n  var sec = a.getSeconds();\n  if (sec < 10) {sec = \"0\" + sec;}\n    else {sec = sec;}\n    \n  var time = hour + ':' + min; /* + ':' + sec ;*/\n  return time;\n}\n\n/* Convert OpenWeeather Map Icon to https://erikflowers.github.io/weather-icons/ */\n\nconst owIconMap = new Map();\n\nowIconMap.set('01d', 'wi-day-sunny'); // clear sky\nowIconMap.set('02d', 'wi-day-cloudy'); // few clouds\nowIconMap.set('03d', 'wi-cloud'); // scattered clouds\nowIconMap.set('04d', 'wi-cloudy'); // broken clouds\nowIconMap.set('09d', 'wi-day-showers'); // shower rain\nowIconMap.set('10d', 'wi-day-rain'); // rain\nowIconMap.set('11d', 'wi-thunderstorm'); // thunderstorm\nowIconMap.set('13d', 'wi-snow'); // snow\nowIconMap.set('50d', 'wi-fog'); // mist\nowIconMap.set('01n', 'wi-night-clear'); // clear sky\nowIconMap.set('02n', 'wi-night-alt-cloudy'); // few clouds\nowIconMap.set('03n', 'wi-cloud'); // scattered clouds\nowIconMap.set('04n', 'wi-cloudy'); // broken clouds\nowIconMap.set('09n', 'wi-night-alt-showers'); // shower rain\nowIconMap.set('10n', 'wi-night-alt-rain'); // rain\nowIconMap.set('11n', 'wi-thunderstorm'); // thunderstorm\nowIconMap.set('13n', 'wi-snow'); // snow\nowIconMap.set('50n', 'wi-fog'); // mist\n\nwfcIcon1.topic = msg.payload[0].dt_txt;\nwfcIcon1.payload = owIconMap.get(msg.payload[0].weather[0].icon);\n\nwfcIcon2.topic = msg.payload[1].dt_txt;\nwfcIcon2.payload = owIconMap.get(msg.payload[1].weather[0].icon);\n\nwfcIcon3.topic = msg.payload[2].dt_txt;\nwfcIcon3.payload = owIconMap.get(msg.payload[2].weather[0].icon);\n\nwfcIcon4.topic = msg.payload[3].dt_txt;\nwfcIcon4.payload = owIconMap.get(msg.payload[3].weather[0].icon);\n\nwfcIcon5.topic = msg.payload[4].dt_txt;\nwfcIcon5.payload = owIconMap.get(msg.payload[4].weather[0].icon);\n\nwfcIcon6.topic = msg.payload[5].dt_txt;\nwfcIcon6.payload = owIconMap.get(msg.payload[5].weather[0].icon);\n\nwfcIcon7.topic = msg.payload[6].dt_txt;\nwfcIcon7.payload = owIconMap.get(msg.payload[6].weather[0].icon);\n\nwfcIcon8.topic = msg.payload[7].dt_txt;\nwfcIcon8.payload = owIconMap.get(msg.payload[7].weather[0].icon);\n\n\nowIconMap.clear(); //freeing resource\n\nreturn [wfcIcon1, wfcIcon2, wfcIcon3, wfcIcon4, wfcIcon5, wfcIcon6, wfcIcon7, wfcIcon8];",
-        "outputs": 8,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 730,
-        "y": 660,
-        "wires": [
-            [
-                "39139188.be2256",
-                "ff5f6ba2.e091d8"
-            ],
-            [
-                "c24820ec.48ca8"
-            ],
-            [
-                "764a58c0.442438"
-            ],
-            [
-                "6eab6954.c57d38"
-            ],
-            [
-                "c756059d.18796"
-            ],
-            [
-                "53046826.3645"
-            ],
-            [
-                "229014e6.b0e14c"
-            ],
-            [
-                "fd1a001d.2fc35"
-            ]
-        ]
-    },
-    {
-        "id": "39139188.be2256",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 1",
-        "order": 1,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 600,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c24820ec.48ca8",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 2",
-        "order": 2,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "764a58c0.442438",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 3",
-        "order": 3,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 680,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6eab6954.c57d38",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 4",
-        "order": 4,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 720,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c756059d.18796",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 5",
-        "order": 5,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "53046826.3645",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 6",
-        "order": 6,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 800,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "229014e6.b0e14c",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 7",
-        "order": 7,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 840,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fd1a001d.2fc35",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "WFc Icon 8",
-        "order": 8,
-        "width": 3,
-        "height": 2,
-        "format": "<link rel=\"stylesheet\" href=\"/weather-icons/mycss/weather-icons.min.css\">\n<div style=\"display: flex;height: 100%;justify-content: center;align-items: center;\">\n<i class=\"fa-4x wi {{msg.payload}}\"></i>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1020,
-        "y": 880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e58a247.3094b58",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "Prepare Forecast Data",
-        "func": "var fcdata = {};\n\nfcdata.payload = {\n  forecast: {\n    dt00: {\n      dt_txt: msg.payload[0].dt_txt,\n      temp_min: msg.payload[0].main.temp_min,\n      temp_max: msg.payload[0].main.temp_max,\n      temp: msg.payload[0].main.temp,\n      desc: msg.payload[0].weather[0].description\n    },\n    dt01: {\n      dt_txt: msg.payload[1].dt_txt,\n      temp_min: msg.payload[1].main.temp_min,\n      temp_max: msg.payload[1].main.temp_max,\n      temp: msg.payload[1].main.temp,\n      desc: msg.payload[1].weather[0].description\n    },\n    dt02: {\n      dt_txt: msg.payload[2].dt_txt,\n      temp_min: msg.payload[2].main.temp_min,\n      temp_max: msg.payload[2].main.temp_max,\n      temp: msg.payload[2].main.temp,\n      desc: msg.payload[2].weather[0].description\n    },\n    dt03: {\n      dt_txt: msg.payload[3].dt_txt,\n      temp_min: msg.payload[3].main.temp_min,\n      temp_max: msg.payload[3].main.temp_max,\n      temp: msg.payload[3].main.temp,\n      desc: msg.payload[3].weather[0].description\n    },\n    dt04: {\n      dt_txt: msg.payload[4].dt_txt,\n      temp_min: msg.payload[4].main.temp_min,\n      temp_max: msg.payload[4].main.temp_max,\n      temp: msg.payload[4].main.temp,\n      desc: msg.payload[4].weather[0].description\n    },\n    dt05: {\n      dt_txt: msg.payload[5].dt_txt,\n      temp_min: msg.payload[5].main.temp_min,\n      temp_max: msg.payload[5].main.temp_max,\n      temp: msg.payload[5].main.temp,\n      desc: msg.payload[5].weather[0].description\n    },\n    dt06: {\n      dt_txt: msg.payload[6].dt_txt,\n      temp_min: msg.payload[6].main.temp_min,\n      temp_max: msg.payload[6].main.temp_max,\n      temp: msg.payload[6].main.temp,\n      desc: msg.payload[6].weather[0].description\n    },\n    dt07: {\n      dt_txt: msg.payload[7].dt_txt,\n      temp_min: msg.payload[7].main.temp_min,\n      temp_max: msg.payload[7].main.temp_max,\n      temp: msg.payload[7].main.temp,\n      desc: msg.payload[7].weather[0].description\n    }\n  }\n}\n\n\n\nreturn fcdata;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 730,
-        "y": 940,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "770400c.08ade8",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "Forecast",
-        "order": 12,
-        "width": 24,
-        "height": 1,
-        "format": "<div layout=\"row\" layout-align=\"space-around start\" ng-repeat=\"data in msg.payload.row\">\n  <span flex style=\"color: white\">{{data.cell01}}</span>\n  <span flex style=\"color: white\">{{data.cell02}}</span>\n  <span flex style=\"color: white\">{{data.cell03}}</span>\n  <span flex style=\"color: white\">{{data.cell04}}</span>\n  <span flex style=\"color: white\">{{data.cell05}}</span>\n  <span flex style=\"color: white\">{{data.cell06}}</span>\n  <span flex style=\"color: white\">{{data.cell07}}</span>\n  <span flex style=\"color: white\">{{data.cell08}}</span>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1010,
-        "y": 1060,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c5b71946.ca4de",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "Prepare forecast for UI widget",
-        "func": "var fcdata = {};\n\n// prepare forecast data for CSS based ui widget\n\nfcdata.payload = {\n  row: {\n  \tdata01: {\n  \t\tcell01: msg.payload[0].dt_txt.substring(11, 16),\n  \t\tcell02: msg.payload[1].dt_txt.substring(11, 16),\n  \t\tcell03: msg.payload[2].dt_txt.substring(11, 16),\n  \t\tcell04: msg.payload[3].dt_txt.substring(11, 16),\n  \t\tcell05: msg.payload[4].dt_txt.substring(11, 16),\n  \t\tcell06: msg.payload[5].dt_txt.substring(11, 16),\n  \t\tcell07: msg.payload[6].dt_txt.substring(11, 16),\n  \t\tcell08: msg.payload[7].dt_txt.substring(11, 16)\n  \t},\n  \tdata02: {\n  \t\tcell01: msg.payload[0].main.temp+\" °C\",\n  \t\tcell02: msg.payload[1].main.temp+\" °C\",\n  \t\tcell03: msg.payload[2].main.temp+\" °C\",\n  \t\tcell04: msg.payload[3].main.temp+\" °C\",\n  \t\tcell05: msg.payload[4].main.temp+\" °C\",\n  \t\tcell06: msg.payload[5].main.temp+\" °C\",\n  \t\tcell07: msg.payload[6].main.temp+\" °C\",\n  \t\tcell08: msg.payload[7].main.temp+\" °C\"\n  \t}\n  }\n}\n\nreturn fcdata;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 770,
-        "y": 1080,
-        "wires": [
-            [
-                "770400c.08ade8"
-            ]
-        ]
-    },
-    {
-        "id": "5cd0cb4.09ac834",
-        "type": "debug",
-        "z": "5c561430.86ca8c",
-        "name": "Current Weather",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 500,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "43bc5e2b.6024a",
-        "type": "ui_text",
-        "z": "5c561430.86ca8c",
-        "group": "b12941f.1cd05c",
-        "order": 1,
-        "width": 10,
-        "height": 1,
-        "name": "description",
-        "label": "",
-        "format": "{{msg.payload.description}}",
-        "layout": "row-center",
-        "x": 1150,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "e5cfc523.804698",
-        "type": "debug",
-        "z": "5c561430.86ca8c",
-        "name": "wind",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1370,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "ff5f6ba2.e091d8",
-        "type": "debug",
-        "z": "5c561430.86ca8c",
-        "name": "forecast 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1170,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "dcd953b8.01b91",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "Prepare Dashboard Data",
-        "func": "\nvar degToCard = function(deg){\nif (deg>11.25 && deg<=33.75){\nreturn \"NNE\";\n  }else if (deg>33.75 && deg<56.25){\nreturn \"NE\";\n  }else if (deg>56.25 && deg<78.75){\nreturn \"ENE\";\n  }else if (deg>78.75 && deg<101.25){\nreturn \"East\";\n  }else if (deg>101.25 && deg<123.75){\nreturn \"ESE\";\n  }else if (deg>123.75 && deg<146.25){\nreturn \"SE\";\n  }else if (deg>146.25 && deg<168.75){\nreturn \"SSE\";\n  }else if (deg>168.75 && deg<191.25){\nreturn \"South\";\n  }else if (deg>191.25 && deg<213.75){\nreturn \"SSW\";\n  }else if (deg>213.75 && deg<236.25){\nreturn \"SW\";\n  }else if (deg>236.25 && deg<258.75){\nreturn \"WSW\";\n  }else if (deg>258.75 && deg<281.25){\nreturn \"West\";\n  }else if (deg>281.25 && deg<303.75){\nreturn \"WNW\";\n  }else if (deg>303.75 && deg<326.25){\nreturn \"NW\";\n  }else if (deg>326.25 && deg<348.75){\nreturn \"NNW\";\n  }else{\nreturn \"North\"; \n  }\n}\nmsg.payload={\n \n    Str_Direction : degToCard(msg.payload.winddirection),\n    Wind_Direction : msg.payload.winddirection\n\n};\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 730,
-        "y": 440,
-        "wires": [
-            [
-                "48bf629a.d1fb4c",
-                "674e95bf.9d290c"
-            ]
-        ]
-    },
-    {
-        "id": "48bf629a.d1fb4c",
-        "type": "debug",
-        "z": "5c561430.86ca8c",
-        "name": "11",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 770,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "2cc0112a.76bc8e",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table1",
-        "order": 14,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "28f588cc.95b8d8",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table 2",
-        "order": 15,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "fd283f2c.a224c",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[0].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[0].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[0].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[0].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[0].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[0].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[0].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[0].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[0].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 270,
-        "y": 740,
-        "wires": [
-            [
-                "2cc0112a.76bc8e"
-            ]
-        ]
-    },
-    {
-        "id": "29dfa9e9.c18956",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[1].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[1].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[1].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[1].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[1].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[1].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[1].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[1].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[1].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 800,
-        "wires": [
-            [
-                "28f588cc.95b8d8"
-            ]
-        ]
-    },
-    {
-        "id": "6fd251f4.03ca1",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table 3",
-        "order": 16,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "aed96cdd.4045b",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table 4",
-        "order": 17,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "2fb9d1de.355ede",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[2].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[2].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[2].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[2].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[2].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[2].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[2].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[2].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[2].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 270,
-        "y": 860,
-        "wires": [
-            [
-                "6fd251f4.03ca1"
-            ]
-        ]
-    },
-    {
-        "id": "e578eac8.4ab5f8",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[3].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[3].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[3].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[3].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[3].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[3].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[3].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[3].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[3].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 920,
-        "wires": [
-            [
-                "aed96cdd.4045b"
-            ]
-        ]
-    },
-    {
-        "id": "945d8a66.179448",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table 5",
-        "order": 18,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 980,
-        "wires": []
-    },
-    {
-        "id": "6070d770.5b8af8",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table 6",
-        "order": 19,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "1308b9cf.3834d6",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[4].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[4].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[4].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[4].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[4].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[4].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[4].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[4].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[4].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 270,
-        "y": 980,
-        "wires": [
-            [
-                "945d8a66.179448"
-            ]
-        ]
-    },
-    {
-        "id": "d0ae2547.dc3688",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[5].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[5].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[5].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[5].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[5].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[5].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[5].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[5].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[5].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 1040,
-        "wires": [
-            [
-                "6070d770.5b8af8"
-            ]
-        ]
-    },
-    {
-        "id": "bce90efe.e2fe1",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table 7",
-        "order": 20,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "ed210c6.1b48cf",
-        "type": "ui_table",
-        "z": "5c561430.86ca8c",
-        "group": "5e0d6747.b726b",
-        "name": "table 8",
-        "order": 21,
-        "width": 3,
-        "height": 6,
-        "columns": [
-            {
-                "field": "des",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            },
-            {
-                "field": "val",
-                "title": "",
-                "width": "",
-                "align": "left",
-                "formatter": "plaintext",
-                "formatterParams": {
-                    "target": "_blank"
-                }
-            }
-        ],
-        "outputs": 0,
-        "cts": false,
-        "x": 430,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "e8a5b2b5.55457",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[6].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[6].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[6].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[6].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[6].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[6].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[6].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[6].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[6].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 270,
-        "y": 1100,
-        "wires": [
-            [
-                "bce90efe.e2fe1"
-            ]
-        ]
-    },
-    {
-        "id": "3f12c3b3.8b12bc",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "\n\nvar data =[\n\n        {\n            \"des\": \"App.Temp\",\n            \"val\": msg.payload[7].main.feels_like,\n        },\n        {\n            \"des\": \"Temp_min\",\n            \"val\": msg.payload[7].main.temp_min+\" °C\",\n        },\n        {\n            \"des\": \"Temp_max\",\n            \"val\": msg.payload[7].main.temp_max+\" °C\",\n        },\n        {\n            \"des\": \"At. Pressure\",\n            \"val\": msg.payload[7].main.pressure+\" mbar\",\n        },\n        {\n            \"des\": \"Humidity\",\n            \"val\": msg.payload[7].main.humidity+\" %\",\n        },\n        {\n            \"des\": \"Weather\",\n            \"val\": msg.payload[7].weather[0].description,\n        },\n        {\n            \"des\": \"Wind speed\",\n            \"val\": msg.payload[7].wind.speed+\" m/s\",\n        },\n        {\n            \"des\": \"Wind Direction\",\n            \"val\": msg.payload[7].wind.deg+\" °\",\n        },\n        {\n            \"des\": \"gust\",\n            \"val\": msg.payload[7].wind.gust,\n        }\n        \n        \n        \n]\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 1160,
-        "wires": [
-            [
-                "ed210c6.1b48cf"
-            ]
-        ]
-    },
-    {
-        "id": "674e95bf.9d290c",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "msg.value=msg.payload.Wind_Direction;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1200,
-        "y": 480,
-        "wires": [
-            [
-                "76636aa4.2a53b4"
-            ]
-        ]
-    },
-    {
-        "id": "76636aa4.2a53b4",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "8da50f69.44fe38",
-        "name": "Cog",
-        "order": 7,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar cog;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\")cog.setValueAnimated(msg.value);\n          \n        });\n    })(scope);\n\n    \n\n    cog = new steelseries.Compass('cog', {\n            gaugeType: steelseries.GaugeType.TYPE4,\n            \n            size: 190,\n           \n            //titleString: \"Charge\",\n            //unitString: \"AMPS\",\n           // threshold: 11.9,\n           // minValue: 0,\n           // maxValue:  10,\n           // thresholdRising: false,\n            //lcdVisible: true,\n           \n        });\n//cog.steelseries.BackgroundColor.(steelseries.BackgroundColor.WHITE); \n   cog.setFrameDesign(steelseries.FrameDesign.BRASS);\n   cog.setValueAnimated(0);                   \n   \n   //cog.setPointerType(steelseries.PointerType.TYPE9);\n    \n\n\n</script>\n\n<canvas id=\"cog\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1330,
-        "y": 480,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c150667f.005548",
-        "type": "function",
-        "z": "5c561430.86ca8c",
-        "name": "",
-        "func": "msg.value=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1200,
-        "y": 520,
-        "wires": [
-            [
-                "155fa2e7.2c639d"
-            ]
-        ]
-    },
-    {
-        "id": "155fa2e7.2c639d",
-        "type": "ui_template",
-        "z": "5c561430.86ca8c",
-        "group": "8da50f69.44fe38",
-        "name": "speed",
-        "order": 6,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar speed;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\")speed.setValueAnimated(msg.value);\n          \n        });\n    })(scope);\n\n    \n\n    speed = new steelseries.Radial('speed', {\n            gaugeType: steelseries.GaugeType.TYPE2,\n            size: 190,\n           \n            titleString: \"SPEED\",\n            unitString: \"m/s\",\n            //threshold: 11.9,\n            minValue: 0,\n            maxValue:  20,\n            //thresholdRising: false,\n            //lcdVisible: true,\n           \n        });\n      \n    speed.setValueAnimated(0);                   \n    speed.setFrameDesign(steelseries.FrameDesign.BRASS);\n    speed.setPointerType(steelseries.PointerType.TYPE9);\n    \n\n\n</script>\n\n<canvas id=\"speed\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1330,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "46fae1e4.65f7f",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "8dfd123a.747be",
-        "name": "Cog",
-        "order": 2,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar cog;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\")cog.setValueAnimated(msg.value);\n          \n        });\n    })(scope);\n\n    \n\n    cog = new steelseries.Compass('cog', {\n            gaugeType: steelseries.GaugeType.TYPE4,\n            \n            size: 190,\n           \n            //titleString: \"Charge\",\n            //unitString: \"AMPS\",\n           // threshold: 11.9,\n           // minValue: 0,\n           // maxValue:  10,\n           // thresholdRising: false,\n            //lcdVisible: true,\n           \n        });\n//cog.steelseries.BackgroundColor.(steelseries.BackgroundColor.WHITE); \n   cog.setFrameDesign(steelseries.FrameDesign.BRASS);\n   cog.setValueAnimated(0);                   \n   \n   //cog.setPointerType(steelseries.PointerType.TYPE9);\n    \n\n\n</script>\n\n<canvas id=\"cog\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1230,
-        "y": 740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b8e9c397.2416d",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "func": "msg.value=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1080,
-        "y": 740,
-        "wires": [
-            [
-                "46fae1e4.65f7f"
-            ]
-        ]
-    },
-    {
-        "id": "b7460759.95bd48",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "361cf2a6.c1d6fe",
-        "name": "house",
-        "order": 1,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar house;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\")house.setValueAnimated(msg.value);\n          \n        });\n    })(scope);\n\n    \n\n    house = new steelseries.Radial('house', {\n            gaugeType: steelseries.GaugeType.TYPE2,\n            size: 190,\n           \n            titleString: \"HOUSE\",\n            unitString: \"VOLTS\",\n            threshold: 11.9,\n            minValue: 0,\n            maxValue:  15,\n            thresholdRising: false,\n            //lcdVisible: true,\n           \n        });\n      \n    house.setValueAnimated(0);                   \n    house.setFrameDesign(steelseries.FrameDesign.BRASS);\n    house.setPointerType(steelseries.PointerType.TYPE9);\n    \n\n\n</script>\n\n<canvas id=\"house\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1231.000072479248,
-        "y": 872.000020980835,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "96ef2b05.a9eea8",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "func": "msg.value=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 972.0000858306885,
-        "y": 872.000020980835,
-        "wires": [
-            [
-                "9cf4a5b9.372038"
-            ]
-        ]
-    },
-    {
-        "id": "c4f37b21.d0dc18",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "func": "msg.value=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1060,
-        "y": 1000,
-        "wires": [
-            [
-                "78c649dc.55ba08"
-            ]
-        ]
-    },
-    {
-        "id": "8c60423c.8d197",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "16e373f4.645dac",
-        "name": "Compass",
-        "order": 1,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar compass;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\")compass.setValueAnimated(msg.value);\n          \n        });\n    })(scope);\n\n    \n\n    compass = new steelseries.Compass('compass', {\n            gaugeType: steelseries.GaugeType.TYPE4,\n            \n            size: 190,\n            \n            rotateFace:  true,\n            //\n            //titleString: \"Charge\",\n            //unitString: \"AMPS\",\n           // threshold: 11.9,\n           // minValue: 0,\n           // maxValue:  10,\n           // thresholdRising: false,\n            //lcdVisible: true,\n           \n        });\n//cog.steelseries.BackgroundColor.(steelseries.BackgroundColor.WHITE); \n   compass.setFrameDesign(steelseries.FrameDesign.BRASS);\n   compass.setValueAnimated(0);                   \n   \n   //cog.setPointerType(steelseries.PointerType.TYPE9);\n    \n\n\n</script>\n\n<canvas id=\"compass\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1240.000316619873,
-        "y": 790.0000534057617,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b44f469e.d38318",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "8dfd123a.747be",
-        "name": "speed",
-        "order": 1,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar speed;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\")speed.setValueAnimated(msg.value);\n          \n        });\n    })(scope);\n\n    \n\n    speed = new steelseries.Radial('speed', {\n            gaugeType: steelseries.GaugeType.TYPE2,\n            size: 190,\n           \n            titleString: \"SPEED\",\n            unitString: \"KNOTS\",\n            //threshold: 11.9,\n            minValue: 0,\n            maxValue:  10,\n            //thresholdRising: false,\n            //lcdVisible: true,\n           \n        });\n      \n    speed.setValueAnimated(0);                   \n    speed.setFrameDesign(steelseries.FrameDesign.BRASS);\n    speed.setPointerType(steelseries.PointerType.TYPE9);\n    \n\n\n</script>\n\n<canvas id=\"speed\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1231.000072479248,
-        "y": 700.0000057220459,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e95d43a2.fb593",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "func": "msg.value=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1090.0000648498535,
-        "y": 700.0000066757202,
-        "wires": [
-            [
-                "b44f469e.d38318"
-            ]
-        ]
-    },
-    {
-        "id": "41d5d23a.4e1d8c",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "16e373f4.645dac",
-        "name": "Horizon",
-        "order": 2,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar horizon;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n            if (typeof(msg.value) != \"undefined\")horizon.setValueAnimated(msg.value);\n           //if (typeof(msg.hor) != \"undefined\")horizon.setHorAnimated(msg.hor);\n           //if (typeof(msg.value) != \"undefined\")horizon.setValueAnimated(value);\n                                                                        // (msg.value);\n           //if (typeof(msg.roll) != \"undefined\")horizon.setRollAnimated(roll);\n          \n          \n        });\n    })(scope);\n\n    \n\n    horizon = new steelseries.Level('horizon', {\n            gaugeType: steelseries.GaugeType.TYPE4,\n            size: 190,\n           //textOrientationFixed: true,\n           //decimalsVisible:true,\n           //pointerColor:  ORANGE.\n           //foregroundType:\n           //backgroundVisible:false,\n           //foregroundVisible:false,\n           \n        });\n    horizon.setFrameDesign(steelseries.FrameDesign.BRASS);  \n    horizon.setValueAnimated(0);                   \n    \n    //level.setPointerType(steelseries.PointerType.TYPE9);\n    \n\n\n</script>\n\n<canvas id=\"horizon\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1236.0002365112305,
-        "y": 832.000057220459,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c5116edb.6e44b",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "1f5ca70a.9612d9",
-        "name": "wind",
-        "order": 1,
-        "width": 4,
-        "height": 4,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar wind;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\")wind.setValueAnimated(msg.value);\n           if (typeof(msg.ave) != 'undefined')wind.setValueAnimatedAverage(msg.ave);\n        });\n    })(scope);\n\n    \n\n    wind = new steelseries.WindDirection('wind', {\n            gaugeType: steelseries.GaugeType.TYPE4,\n            size: 190,\n           lcdVisible: true,\n           titleString: \"Wind Direction\",\n           degreeScaleHalf: true,\n           pointSymbolsVisible: false,\n           lcdTitleStrings: ['DIRECTION', 'Speed'],\n           windspeed: true,\n        });\n      \n                      \n    wind.setFrameDesign(steelseries.FrameDesign.BRASS);\n    wind.setPointerTypeAverage(steelseries.PointerType.TYPE17);\n    wind.setPointerType(steelseries.PointerType.TYPE1);\n\n\n</script>\n\n<canvas id=\"wind\" width=\"190\" height=\"190\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1231.0003967285156,
-        "y": 950.0000820159912,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "50302daa.997604",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "heel",
-        "func": "msg.value=msg.payload;\n\nreturn msg;",
-        "outputs": "1",
-        "noerr": 0,
-        "x": 1066.0000858306885,
-        "y": 832.000020980835,
-        "wires": [
-            [
-                "41d5d23a.4e1d8c"
-            ]
-        ]
-    },
-    {
-        "id": "78c649dc.55ba08",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "1f5ca70a.9612d9",
-        "name": "Tempwater",
-        "order": 2,
-        "width": 3,
-        "height": 6,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar tempwater;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\") tempwater.setValueAnimated(msg.value);\n           //if (typeof(msg.threshold) != \"undefined\") radial4.setThreshold(msg.threshold);\n          // if (typeof(msg.odo) != \"undefined\")radial4.setOdoValue(msg.odo);  \n           //if (typeof(msg.userLed) != \"undefined\") radial4.setUserLedOnOff(msg.userLed);  \n          // if (typeof(msg.trend) != \"undefined\")\n            {\n               // if (msg.trend==1)     radial4.setTrend(steelseries.TrendState.UP);\n                //if (msg.trend==0)     radial4.setTrend(steelseries.TrendState.STEADY);\n               // if (msg.trend==-1)    radial4.setTrend(steelseries.TrendState.DOWN);\n               // if (msg.trend==-2)    radial4.setTrend(steelseries.TrendState.OFF);\n            }\n        });\n    })(scope);\n\n    var sections = [steelseries.Section(0, 25, 'rgba(0, 0, 220, 0.3)'),\n                        steelseries.Section(25, 50, 'rgba(0, 220, 0, 0.3)'),\n                        steelseries.Section(50, 75, 'rgba(220, 220, 0, 0.3)') ],\n\n            // Define one area\n    areas = [steelseries.Section(75, 100, 'rgba(220, 0, 0, 0.3)')],\n\n    tempwater = new steelseries.Linear('tempwater', {\n            gaugeType: steelseries.GaugeType.TYPE2,\n            width: 140,\n            height: 300,\n            //size: 292,\n            section: sections,\n            area: areas,\n            titleString: \"Water\",\n            unitString: \"Degrees F\",\n            threshold: 80,\n            lcdVisible: true,\n           \n            //thresholdRising: false,\n           // userLedVisible: true,\n           // useOdometer: true,\n          //  lcdVisible: true,\n           // trendVisible: true\n        });\n                        \n    tempwater.setFrameDesign(steelseries.FrameDesign.BRASS);\n    tempwater.setValueAnimated(0);\n    tempwater.setPointerType(steelseries.PointerType.TYPE9);\n   // radial4.setThreshold(50);\n    //radial4.blinkUserLed(0);\n   // radial4.setOdoValue(0);\n\n\n</script>\n\n<canvas id=\"tempwater\" width=\"140\" height=\"300\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1248.000316619873,
-        "y": 991.0001049041748,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c1f36fd2.484c1",
-        "type": "ui_template",
-        "z": "56bde742.2302f8",
-        "group": "361cf2a6.c1d6fe",
-        "name": "Tempin",
-        "order": 2,
-        "width": 3,
-        "height": 6,
-        "format": "<script src=\"/myjs/tween-min.js\"></script>\n<script src=\"/myjs/steelseries-min.js\"></script>\n<script>\nvar tempout;\n    (function(scope){ \n        scope.$watch('msg', function(msg) {\n           if (typeof(msg.value) != \"undefined\") tempout.setValueAnimated(msg.value);\n           //if (typeof(msg.threshold) != \"undefined\") radial4.setThreshold(msg.threshold);\n          // if (typeof(msg.odo) != \"undefined\")radial4.setOdoValue(msg.odo);  \n           //if (typeof(msg.userLed) != \"undefined\") radial4.setUserLedOnOff(msg.userLed);  \n          // if (typeof(msg.trend) != \"undefined\")\n            {\n               // if (msg.trend==1)     radial4.setTrend(steelseries.TrendState.UP);\n                //if (msg.trend==0)     radial4.setTrend(steelseries.TrendState.STEADY);\n               // if (msg.trend==-1)    radial4.setTrend(steelseries.TrendState.DOWN);\n               // if (msg.trend==-2)    radial4.setTrend(steelseries.TrendState.OFF);\n            }\n        });\n    })(scope);\n\n    var sections = [steelseries.Section(0, 25, 'rgba(0, 0, 220, 0.3)'),\n                        steelseries.Section(25, 50, 'rgba(0, 220, 0, 0.3)'),\n                        steelseries.Section(50, 75, 'rgba(220, 220, 0, 0.3)') ],\n\n            // Define one area\n    areas = [steelseries.Section(75, 100, 'rgba(220, 0, 0, 0.3)')],\n\n    tempout = new steelseries.Linear('tempout', {\n            gaugeType: steelseries.GaugeType.TYPE2,\n            width: 140,\n            height: 300,\n            //size: 292,\n            section: sections,\n            area: areas,\n            titleString: \"Inside\",\n            unitString: \"Degrees F\",\n            threshold: 80,\n            lcdVisible: true,\n           \n            //thresholdRising: false,\n           // userLedVisible: true,\n           // useOdometer: true,\n          //  lcdVisible: true,\n           // trendVisible: true\n        });\n                        \n    tempout.setFrameDesign(steelseries.FrameDesign.BRASS);\n    tempout.setValueAnimated(0);\n    tempout.setPointerType(steelseries.PointerType.TYPE9);\n   // radial4.setThreshold(50);\n    //radial4.blinkUserLed(0);\n   // radial4.setOdoValue(0);\n\n\n</script>\n\n<canvas id=\"tempout\" width=\"140\" height=\"300\"></canvas>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 1240.0002326965332,
-        "y": 914.0000629425049,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "df5cc7ef.2f5eb8",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "func": "msg.value=msg.payload; \nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1033.0001411437988,
-        "y": 914.0000591278076,
-        "wires": [
-            [
-                "c1f36fd2.484c1"
-            ]
-        ]
-    },
-    {
-        "id": "daa0a11b.551b1",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "func": "msg.value=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1080,
-        "y": 780,
-        "wires": [
-            [
-                "8c60423c.8d197"
-            ]
-        ]
-    },
-    {
-        "id": "bc17b5eb.061618",
-        "type": "function",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "func": "msg.value=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1060.0000858306885,
-        "y": 958.000020980835,
-        "wires": [
-            [
-                "c5116edb.6e44b"
-            ]
-        ]
-    },
-    {
-        "id": "9cf4a5b9.372038",
-        "type": "delay",
-        "z": "56bde742.2302f8",
-        "name": "del",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1095.0000858306885,
-        "y": 872.000020980835,
-        "wires": [
-            [
-                "b7460759.95bd48"
-            ]
-        ]
-    },
-    {
-        "id": "980543c1.9421b",
-        "type": "ui_webcam",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "group": "d9fbfecb.148d9",
-        "order": 1,
-        "width": 20,
-        "height": 10,
-        "countdown": false,
-        "autoStart": false,
-        "hideCaptureButton": true,
-        "showImage": "2",
-        "mirror": true,
-        "format": "jpeg",
-        "x": 440,
-        "y": 800,
-        "wires": [
-            [
-                "428cca01.fd1b04"
-            ]
-        ]
-    },
-    {
-        "id": "428cca01.fd1b04",
-        "type": "debug",
-        "z": "56bde742.2302f8",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 630,
-        "y": 800,
-        "wires": []
-    },
-    {
         "id": "949f090a.835d08",
         "type": "inject",
         "z": "2d4154ab.c87cdc",
@@ -9663,6 +5456,1153 @@
                 "b356bc43.93a4",
                 "d45877c9.cc06d8"
             ]
+        ]
+    },
+    {
+        "id": "957a0786.fc47b8",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "3957e09f.51e67",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Device 1:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1080,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "cf28c556.c99ac8",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "3957e09f.51e67",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Bus Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1100,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "408d8e62.7d937",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "3957e09f.51e67",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Load Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1110,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "da2c2e45.5b34b",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "3957e09f.51e67",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Current (mA):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1100,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ba788c48.a5aec",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "3957e09f.51e67",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Power (mW):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1090,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "fd933238.d6f23",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "c35e46a8.b04ce8",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Device 2:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1080,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "288e2976.5b0a16",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "c35e46a8.b04ce8",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Bus Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1100,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "d4590802.b49a88",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "c35e46a8.b04ce8",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Load Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1110,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2abb01ad.ae01fe",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "c35e46a8.b04ce8",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Current (mA):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1100,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "9166c4df.77fd48",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "c35e46a8.b04ce8",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Power (mW):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1090,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "c5dac2fc.48d9c",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "4de9506d.e7364",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Device 3:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1080,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "f6648f45.bae18",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "4de9506d.e7364",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Bus Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1100,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "2db2ea3c.ebc9d6",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "4de9506d.e7364",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Load Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1110,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "bb8faec0.f7bd",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "4de9506d.e7364",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Current (mA):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1100,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "1aa5911a.16980f",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "4de9506d.e7364",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Power (mW):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1090,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "535c54db.d688fc",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "86031276.81481",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "name": "dev",
+        "label": "Device :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "cd520c56.0cd93",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "86031276.81481",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "name": "status",
+        "label": "Status :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "54ba1f96.13563",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "86031276.81481",
+        "order": 12,
+        "width": 4,
+        "height": 1,
+        "name": "RSSI",
+        "label": "RSSI :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "21bc938.e51056c",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "86031276.81481",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "name": "mqtt",
+        "label": "MQTT :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "7e8aa650.d82c98",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "86031276.81481",
+        "order": 11,
+        "width": 4,
+        "height": 1,
+        "name": "network",
+        "label": "Network :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 980,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "4cc64461.61645c",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "93367266.b4c1f",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Device 0:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 980,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "3957bc16.fd3664",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "93367266.b4c1f",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Bus Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1000,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "c8ad0b7a.b0e688",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "93367266.b4c1f",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Load Voltage (V):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1010,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "9b4688d5.dd4858",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "93367266.b4c1f",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Current (mA):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1000,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "3e19aadc.a5e796",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "93367266.b4c1f",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Power (mW):",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "632b698d.8506d8",
+        "type": "ui_chart",
+        "z": "246ce6ab.bd4c1a",
+        "name": "Device 0",
+        "group": "93367266.b4c1f",
+        "order": 2,
+        "width": 17,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0 ",
+        "ymax": "",
+        "removeOlder": "0.1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 820,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b60d2168.62af3",
+        "type": "ui_button",
+        "z": "246ce6ab.bd4c1a",
+        "name": "status",
+        "group": "86031276.81481",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "{{msg.payload.ui_control.words}}",
+        "tooltip": "",
+        "color": "{{msg.payload.ui_control.color}}",
+        "bgcolor": "{{msg.payload.ui_control.bgcolor}}",
+        "icon": "{{msg.payload.ui_control.icon}}",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 490,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e149105.a6845",
+        "type": "debug",
+        "z": "246ce6ab.bd4c1a",
+        "name": "mqtt",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "3fcb91.4c00047",
+        "type": "mqtt in",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "topic": "esp32/Rx",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "32867152.1a9afe",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 180,
+        "y": 1180,
+        "wires": [
+            [
+                "7e149105.a6845",
+                "28b981f8.a3dfbe"
+            ]
+        ]
+    },
+    {
+        "id": "d3606f5a.c2b54",
+        "type": "debug",
+        "z": "246ce6ab.bd4c1a",
+        "name": "jsonToString",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "28b981f8.a3dfbe",
+        "type": "json",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 370,
+        "y": 1280,
+        "wires": [
+            [
+                "d3606f5a.c2b54",
+                "8e737e7.746218",
+                "61fe4570.517e5c",
+                "f5c4837c.11929"
+            ]
+        ]
+    },
+    {
+        "id": "8e737e7.746218",
+        "type": "function",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "func": "var dev ={payload:msg.payload.Node};\nvar status ={payload:msg.payload.status};\nvar network = {payload:msg.payload.network};\nvar rssi = { payload:parseFloat(msg.payload.rssi).toFixed(0) };\nvar ip = {payload:msg.payload.mqttIP};\n\nvar dev0 ={payload:msg.payload.device0};\nvar dev0_Bvoltage = { payload:parseFloat(msg.payload.d0_Bvol) };\nvar dev0_Lvoltage = { payload:parseFloat(msg.payload.d0_Lvol)};\nvar dev0_current = { payload:parseFloat(msg.payload.d0_cur) };\nvar  dev0_power= { payload:parseFloat(msg.payload.d0_pow) };\n\n\nreturn [dev,status,network,rssi,ip,\ndev0,dev0_Bvoltage,dev0_Lvoltage,dev0_current,dev0_power];\n\n ",
+        "outputs": 10,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1480,
+        "wires": [
+            [
+                "dec0a7fd.5d42d8",
+                "535c54db.d688fc"
+            ],
+            [
+                "cd520c56.0cd93"
+            ],
+            [
+                "7e8aa650.d82c98"
+            ],
+            [
+                "54ba1f96.13563"
+            ],
+            [
+                "21bc938.e51056c"
+            ],
+            [
+                "4cc64461.61645c"
+            ],
+            [
+                "3957bc16.fd3664"
+            ],
+            [
+                "c8ad0b7a.b0e688"
+            ],
+            [
+                "9b4688d5.dd4858"
+            ],
+            [
+                "3e19aadc.a5e796"
+            ]
+        ]
+    },
+    {
+        "id": "dec0a7fd.5d42d8",
+        "type": "debug",
+        "z": "246ce6ab.bd4c1a",
+        "name": "name0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "61fe4570.517e5c",
+        "type": "trigger",
+        "z": "246ce6ab.bd4c1a",
+        "name": "trigger",
+        "op1": "Node2 Connected",
+        "op2": "Node2 Disconnected",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "7",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 2,
+        "x": 310,
+        "y": 1460,
+        "wires": [
+            [
+                "1e724f43.7b7251",
+                "eba84b28.5d5538"
+            ],
+            [
+                "eba84b28.5d5538",
+                "803c9136.d64ab"
+            ]
+        ]
+    },
+    {
+        "id": "1e724f43.7b7251",
+        "type": "debug",
+        "z": "246ce6ab.bd4c1a",
+        "name": "trigger",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "eba84b28.5d5538",
+        "type": "function",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "func": "\nif(msg.payload == \"Node2 Connected\") {msg.payload={\n    ui_control:{\n        \"words\":\"NODE2 CONNECTED\",\n        \"icon\":\"signal_wifi_3_bar\",\n        \"color\":\"white\",\n        \"bgcolor\":\"green\"\n    }};}\nif(msg.payload == \"Node2 Disconnected\") {msg.payload={\n    ui_control:{\n        \"words\":\"NODE2 DISCONNECTED\",\n        \"icon\":\"signal_wifi_0_bar\",\n        \"color\":\"white\",\n        \"bgcolor\":\"red\"\n    }};}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1560,
+        "wires": [
+            [
+                "b60d2168.62af3",
+                "f0bf940a.db15c8"
+            ]
+        ]
+    },
+    {
+        "id": "f0bf940a.db15c8",
+        "type": "debug",
+        "z": "246ce6ab.bd4c1a",
+        "name": "BtnFunction",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "803c9136.d64ab",
+        "type": "function",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "func": "msg.payload={\n \nNode : \"Receiver\",\n status : \"Active\",\n network : \"WIFI\",\n rssi : \"-79dB\",\n mqttIP : \"192.168.8.5\",\n device0 : \"nRF24l01-Rx\",\n d0_Bvol :3.2 ,\n d0_Lvol : 3.1,\n d0_cur : 16,\n d0_pow : 49,\n\n};\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1480,
+        "wires": [
+            [
+                "8e737e7.746218",
+                "f5c4837c.11929"
+            ]
+        ]
+    },
+    {
+        "id": "e20b5912.d77898",
+        "type": "inject",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 420,
+        "wires": [
+            [
+                "e169da87.1ce788"
+            ]
+        ]
+    },
+    {
+        "id": "f5c4837c.11929",
+        "type": "function",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar msg4 = {};\n\nmsg1.payload = msg.payload.d0_Bvol;\nmsg1.topic = 'Bus Voltage (V)';\n\nmsg2.payload = msg.payload.d0_Lvol;\nmsg2.topic = 'Load Voltage (V)';\n\nmsg3.payload = msg.payload.d0_cur;\nmsg3.topic = 'Current (mA)';\n\nmsg4.payload = msg.payload.d0_pow;\nmsg4.topic = 'Power (mW)';\n\n\nreturn [msg1,msg2,msg3,msg4];\n\n ",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1620,
+        "wires": [
+            [
+                "632b698d.8506d8"
+            ],
+            [
+                "632b698d.8506d8"
+            ],
+            [
+                "632b698d.8506d8"
+            ],
+            [
+                "632b698d.8506d8"
+            ]
+        ]
+    },
+    {
+        "id": "9dfa50fe.394db",
+        "type": "inject",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1420,
+        "wires": [
+            [
+                "61fe4570.517e5c"
+            ]
+        ]
+    },
+    {
+        "id": "535dbb2f.d82fc4",
+        "type": "ui_text",
+        "z": "246ce6ab.bd4c1a",
+        "group": "86031276.81481",
+        "order": 22,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 660,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "37d65af.d81e0a6",
+        "type": "ui_button",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "group": "55a170ed.4121",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Start",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c75210f.43a3fe",
+        "type": "ui_button",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "group": "55a170ed.4121",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Stop",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "404ef4ff.4d10ac",
+        "type": "ui_text_input",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "label": "Optional Text",
+        "tooltip": "",
+        "group": "55a170ed.4121",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 690,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87b1fb9.ff86b08",
+        "type": "ui_dropdown",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "55a170ed.4121",
+        "order": 3,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Algorithm 01",
+                "value": "Al1",
+                "type": "str"
+            },
+            {
+                "label": "Algorithm 02",
+                "value": "Al2",
+                "type": "str"
+            },
+            {
+                "label": "Algorithm 03",
+                "value": "Al3",
+                "type": "str"
+            },
+            {
+                "label": "Algorithm 04",
+                "value": "Al4",
+                "type": "str"
+            },
+            {
+                "label": "Algorithm 05",
+                "value": "Al5",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 680,
+        "y": 1920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1fb6d6f7.9352f9",
+        "type": "function",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar msg4 = {};\n\nmsg1.payload = msg.payload.d1_Bvol;\nmsg1.topic = 'Bus Voltage (V)';\n\nmsg2.payload = msg.payload.d1_Lvol;\nmsg2.topic = 'Load Voltage (V)';\n\nmsg3.payload = msg.payload.d1_cur;\nmsg3.topic = 'Current (mA)';\n\nmsg4.payload = msg.payload.d1_pow;\nmsg4.topic = 'Power (mW)';\n\n\nreturn [msg1,msg2,msg3,msg4];\n\n ",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 760,
+        "wires": [
+            [
+                "9f13d368.e52ec"
+            ],
+            [
+                "9f13d368.e52ec"
+            ],
+            [
+                "9f13d368.e52ec"
+            ],
+            [
+                "9f13d368.e52ec"
+            ]
+        ]
+    },
+    {
+        "id": "9f13d368.e52ec",
+        "type": "ui_chart",
+        "z": "246ce6ab.bd4c1a",
+        "name": "Device 1",
+        "group": "3957e09f.51e67",
+        "order": 2,
+        "width": 17,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0 ",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 720,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fadfa0f4.faea9",
+        "type": "function",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar msg4 = {};\n\nmsg1.payload = msg.payload.d2_Bvol;\nmsg1.topic = 'Bus Voltage (V)';\n\nmsg2.payload = msg.payload.d2_Lvol;\nmsg2.topic = 'Load Voltage (V)';\n\nmsg3.payload = msg.payload.d2_cur;\nmsg3.topic = 'Current (mA)';\n\nmsg4.payload = msg.payload.d2_pow;\nmsg4.topic = 'Power (mW)';\n\n\nreturn [msg1,msg2,msg3,msg4];\n\n ",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 860,
+        "wires": [
+            [
+                "7e4ba037.91774"
+            ],
+            [
+                "7e4ba037.91774"
+            ],
+            [
+                "7e4ba037.91774"
+            ],
+            [
+                "7e4ba037.91774"
+            ]
+        ]
+    },
+    {
+        "id": "7e4ba037.91774",
+        "type": "ui_chart",
+        "z": "246ce6ab.bd4c1a",
+        "name": "Device 2",
+        "group": "c35e46a8.b04ce8",
+        "order": 2,
+        "width": 17,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0 ",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 720,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27a8cb39.c243f4",
+        "type": "function",
+        "z": "246ce6ab.bd4c1a",
+        "name": "",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar msg4 = {};\n\nmsg1.payload = msg.payload.d3_Bvol;\nmsg1.topic = 'Bus Voltage (V)';\n\nmsg2.payload = msg.payload.d3_Lvol;\nmsg2.topic = 'Load Voltage (V)';\n\nmsg3.payload = msg.payload.d3_cur;\nmsg3.topic = 'Current (mA)';\n\nmsg4.payload = msg.payload.d3_pow;\nmsg4.topic = 'Power (mW)';\n\n\nreturn [msg1,msg2,msg3,msg4];\n\n ",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 960,
+        "wires": [
+            [
+                "dea621b6.24bc6"
+            ],
+            [
+                "dea621b6.24bc6"
+            ],
+            [
+                "dea621b6.24bc6"
+            ],
+            [
+                "dea621b6.24bc6"
+            ]
+        ]
+    },
+    {
+        "id": "dea621b6.24bc6",
+        "type": "ui_chart",
+        "z": "246ce6ab.bd4c1a",
+        "name": "Device 3",
+        "group": "4de9506d.e7364",
+        "order": 2,
+        "width": 17,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0 ",
+        "ymax": "",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 720,
+        "y": 1040,
+        "wires": [
+            []
         ]
     }
 ]
