@@ -1,0 +1,45 @@
+>>> %Run ecc_zkp.py
+Execution Time : 1.22513 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.22921 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.26427 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.22429 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.28045 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.21187 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.23182 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.29415 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.20969 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.28793 seconds
+True
+True
+>>> %Run ecc_zkp.py
+Execution Time : 1.33244 seconds
+True
+True
+>>> 
