@@ -12,7 +12,8 @@
         "node-red-dashboard": "2.29.0",
         "node-red-node-openweathermap": "0.4.0",
         "node-red-node-ui-table": "0.3.10",
-        "node-red-node-ui-webcam": "0.3.0"
+        "node-red-node-ui-webcam": "0.3.0",
+        "node-red-node-smooth": "0.1.2"
     },
     "node-red": {
         "settings": {
