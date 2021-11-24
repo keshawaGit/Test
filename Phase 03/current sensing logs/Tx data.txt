@@ -1,0 +1,129 @@
+>>>>>>>>>>>>>Session 01>>>>>>>>>>>>>>>
+17:14:12.238 -> 
+17:14:12.238 -> Node : 6  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:14:12.238 ->   Time to transmit: 648 us
+
+17:14:04.482 -> 
+17:14:04.482 -> Node : 4  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:14:04.482 ->   Time to transmit: 684 us
+
+17:14:10.574 -> 
+17:14:10.574 -> Node : 5  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:14:10.621 ->   Time to transmit: 688 us
+
+>>>>>>>>>>>>>Session 02>>>>>>>>>>>>>>>
+17:19:10.516 -> 
+17:19:10.516 -> Node : 6  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:19:10.557 ->   Time to transmit: 656 us
+
+
+>>>>>>>>>>>>>Session 03>>>>>>>>>>>>>>>
+17:21:41.608 -> 
+17:21:41.608 -> Node : 6  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:21:41.608 ->   Time to transmit: 656 us
+
+17:21:37.481 -> 
+17:21:37.481 -> Node : 4  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:21:37.528 ->   Time to transmit: 688 us
+
+17:21:42.886 -> 
+17:21:42.886 -> Node : 5  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:21:42.886 ->   Time to transmit: 688 us
+
+17:21:37.222 -> 
+17:21:37.222 -> Node : 1  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:21:37.222 ->   Time to transmit: 648 us
+
+17:21:46.111 -> 
+17:21:46.111 -> Node : 2  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:21:46.111 ->   Time to transmit: 644 us
+
+>>>>>>>>>>>>>Session 04>>>>>>>>>>>>>>>
+Node 6
+17:24:00.252 -> 
+17:24:00.252 -> Node : 4  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:24:00.252 ->   Time to transmit: 684 us
+
+17:24:00.899 -> 
+17:24:00.899 -> Node : 2  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:24:00.899 ->   Time to transmit: 644 us
+
+>>>>>>>>>>>>>Session 05>>>>>>>>>>>>>>>
+17:26:31.881 -> 
+17:26:31.881 -> Node : 4  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:26:31.881 ->   Time to transmit: 680 us
+
+17:26:33.021 -> 
+17:26:33.021 -> Node : 5  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:26:33.021 ->   Time to transmit: 684 us
+
+17:26:31.467 -> 
+17:26:31.467 -> Node : 1  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:26:31.467 ->   Time to transmit: 652 us
+
+
+>>>>>>>>>>>>>Session 06>>>>>>>>>>>>>>>
+17:30:17.331 -> 
+17:30:17.331 -> Node : 5  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:30:17.331 ->   Time to transmit: 684 us
+
+17:30:12.305 -> 
+17:30:12.305 -> Node : 2  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:30:12.305 ->   Time to transmit: 644 us
+
+>>>>>>>>>>>>>Session 07>>>>>>>>>>>>>>>
+17:32:38.278 -> 
+17:32:38.278 -> Node : 6  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:32:38.278 ->   Time to transmit: 656 us
+
+17:32:34.155 -> 
+17:32:34.155 -> Node : 4  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:32:34.155 ->   Time to transmit: 680 us
+
+17:32:35.172 -> 
+17:32:35.172 -> Node : 5  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:32:35.172 ->   Time to transmit: 680 us
+
+17:32:34.799 -> 
+17:32:34.799 -> Node : 2  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:32:34.799 ->   Time to transmit: 644 us
+
+
+>>>>>>>>>>>>>Session 08>>>>>>>>>>>>>>>
+17:34:20.594 -> 
+17:34:20.594 -> Node : 6  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:34:20.642 ->   Time to transmit: 656 us
+
+17:34:13.602 -> 
+17:34:13.602 -> Node : 5  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:34:13.602 ->   Time to transmit: 688 us
+
+17:34:21.181 -> 
+17:34:21.181 -> Node : 2  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:34:21.181 ->   Time to transmit: 652 us
+
+>>>>>>>>>>>>>Session 09>>>>>>>>>>>>>>>
+17:35:48.907 -> 
+17:35:48.907 -> Node : 6  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:35:48.907 ->   Time to transmit: 660 us
+
+17:35:51.137 -> 
+17:35:51.137 -> Node : 4  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:35:51.137 ->   Time to transmit: 684 us
+
+17:37:54.597 -> 
+17:37:54.597 -> Node : 1  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:37:54.597 ->   Time to transmit: 648 us
+
+17:38:01.247 -> 
+17:38:01.247 -> Node : 2  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:38:01.247 ->   Time to transmit: 648 us
+>>>>>>>>>>>>>Session 010>>>>>>>>>>>>>>>
+
+17:37:54.982 -> 
+17:37:54.982 -> Node : 4  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:37:54.982 ->   Time to transmit: 684 us
+
+17:37:55.966 -> 
+17:37:55.966 -> Node : 5  key ID : 0  KEY : a78a123d60baec0c5dd41b33
+17:37:55.966 ->   Time to transmit: 680 us

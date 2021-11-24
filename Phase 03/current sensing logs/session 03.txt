@@ -1,0 +1,1590 @@
+17:21:34.667 -> ets Jun  8 2016 00:22:57
+17:21:34.667 -> 
+17:21:34.667 -> rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+17:21:34.667 -> flash read err, 1000
+17:21:34.667 -> ets_main.c 371 
+17:21:35.000 -> ets Jun  8 2016 00:22:57
+17:21:35.000 -> 
+17:21:35.000 -> rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+17:21:35.000 -> configsip: 0, SPIWP:0xee
+17:21:35.000 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+17:21:35.000 -> mode:DIO, clock div:1
+17:21:35.000 -> load:0x3fff0018,len:4
+17:21:35.000 -> load:0x3fff001c,len:1216
+17:21:35.000 -> ho 0 tail 12 room 4
+17:21:35.000 -> load:0x40078000,len:10944
+17:21:35.000 -> load:0x40080400,len:6388
+17:21:35.035 -> entry 0x400806b4
+17:21:35.128 -> E (129) psram: PSRAM ID read error: 0xffffffff
+17:21:36.152 -> Rx Node
+17:21:36.152 -> Spectrum Not recovered ===>61
+17:21:36.236 -> Spectrum Not recovered ===>62
+17:21:36.377 -> Spectrum Not recovered ===>63
+17:21:36.471 -> Spectrum Not recovered ===>64
+17:21:36.572 -> Spectrum Not recovered ===>65
+17:21:36.751 -> Spectrum Not recovered ===>67
+17:21:36.871 -> Spectrum Not recovered ===>68
+17:21:36.954 -> Spectrum Not recovered ===>69
+17:21:37.069 -> Spectrum Not recovered ===>70
+17:21:37.153 -> Spectrum Not recovered ===>71
+17:21:37.278 -> Spectrum Not recovered ===>72
+17:21:37.362 -> Spectrum Not recovered ===>73
+17:21:37.446 -> Spectrum Not recovered ===>74
+17:21:37.571 -> Spectrum Not recovered ===>75
+17:21:37.656 -> Spectrum Not recovered ===>76
+17:21:37.855 -> Spectrum Not recovered ===>78
+17:21:37.939 -> Spectrum Not recovered ===>79
+17:21:38.069 -> Spectrum Not recovered ===>80
+17:21:38.162 -> Spectrum Not recovered ===>81
+17:21:38.256 -> Spectrum Not recovered ===>82
+17:21:38.345 -> Spectrum Not recovered ===>83
+17:21:38.438 -> Spectrum Not recovered ===>84
+17:21:38.579 -> Spectrum Not recovered ===>85
+17:21:38.668 -> Spectrum Not recovered ===>86
+17:21:38.762 -> Spectrum Not recovered ===>87
+17:21:38.855 -> Spectrum Not recovered ===>88
+17:21:38.938 -> Spectrum Not recovered ===>89
+17:21:39.078 -> Spectrum Not recovered ===>90
+17:21:39.172 -> Spectrum Not recovered ===>91
+17:21:39.271 -> Spectrum Not recovered ===>92
+17:21:39.365 -> Spectrum Not recovered ===>93
+17:21:39.459 -> Spectrum Not recovered ===>94
+17:21:39.541 -> Spectrum Not recovered ===>95
+17:21:39.776 -> Spectrum Not recovered ===>97
+17:21:39.875 -> Spectrum Not recovered ===>98
+17:21:39.969 -> Spectrum Not recovered ===>99
+17:21:40.063 -> Spectrum Not recovered ===>100
+17:21:40.145 -> Spectrum Not recovered ===>101
+17:21:40.268 -> Spectrum Not recovered ===>102
+17:21:40.346 -> Spectrum Not recovered ===>103
+17:21:40.474 -> Spectrum Not recovered ===>104
+17:21:40.558 -> Spectrum Not recovered ===>105
+17:21:40.641 -> Spectrum Not recovered ===>106
+17:21:40.766 -> Spectrum Not recovered ===>107
+17:21:40.850 -> Spectrum Not recovered ===>108
+17:21:40.976 -> Spectrum Not recovered ===>109
+17:21:41.059 -> Spectrum Not recovered ===>110
+17:21:41.142 -> Spectrum Not recovered ===>111
+17:21:41.268 -> Spectrum Not recovered ===>112
+17:21:41.352 -> Spectrum Not recovered ===>113
+17:21:41.478 -> Spectrum Not recovered ===>114
+17:21:41.561 -> Spectrum Not recovered ===>115
+17:21:41.737 -> Spectrum Not recovered ===>117
+17:21:41.878 -> Spectrum Not recovered ===>118
+17:21:41.974 -> Spectrum Not recovered ===>119
+17:21:42.068 -> Spectrum Not recovered ===>120
+17:21:42.162 -> Spectrum Not recovered ===>121
+17:21:42.241 -> Spectrum Not recovered ===>122
+17:21:42.382 -> Spectrum Not recovered ===>123
+17:21:42.476 -> Spectrum Not recovered ===>124
+17:21:42.573 -> Spectrum Not recovered ===>125
+17:21:42.666 -> End of the spectrum scanning - First Time
+17:21:42.666 -> Recoverd Spectrum ==>[66] [77] [96] [116] [0] [0] [0] [0] [0] [0] 
+17:21:42.713 -> NON Recoverd Spectrum ==>[61] [62] [63] [64] [65] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [117] [118] [119] [120] [121] [122] [123] [124] [125] [0] [0] [0] [0] 
+17:21:43.030 -> Count of Non scanned BW :61
+17:21:43.030 -> Return Index :59
+17:21:43.030 -> Random BW scanning :124
+17:21:43.030 -> Spectrum Not recovered ===>124
+17:21:43.030 -> Scan ==>0
+17:21:43.030 -> Count of Non scanned BW :61
+17:21:43.030 -> Return Index :0
+17:21:43.030 -> Random BW scanning :61
+17:21:43.030 -> Spectrum Not recovered ===>61
+17:21:43.030 -> Scan ==>0
+17:21:43.077 -> Count of Non scanned BW :61
+17:21:43.077 -> Return Index :29
+17:21:43.077 -> Random BW scanning :92
+17:21:43.077 -> Spectrum Not recovered ===>92
+17:21:43.077 -> Scan ==>0
+17:21:43.077 -> Count of Non scanned BW :61
+17:21:43.077 -> Return Index :51
+17:21:43.077 -> Random BW scanning :115
+17:21:43.077 -> Spectrum Not recovered ===>115
+17:21:43.077 -> Scan ==>0
+17:21:43.077 -> Count of Non scanned BW :61
+17:21:43.077 -> Return Index :17
+17:21:43.077 -> Random BW scanning :80
+17:21:43.077 -> Spectrum Not recovered ===>80
+17:21:43.077 -> Scan ==>0
+17:21:43.077 -> Count of Non scanned BW :61
+17:21:43.077 -> Return Index :58
+17:21:43.077 -> Random BW scanning :123
+17:21:43.077 -> Spectrum Not recovered ===>123
+17:21:43.077 -> Scan ==>0
+17:21:43.077 -> Count of Non scanned BW :61
+17:21:43.077 -> Return Index :15
+17:21:43.077 -> Random BW scanning :78
+17:21:43.077 -> Spectrum Not recovered ===>78
+17:21:43.128 -> Scan ==>0
+17:21:43.128 -> Count of Non scanned BW :61
+17:21:43.128 -> Return Index :46
+17:21:43.128 -> Random BW scanning :110
+17:21:43.128 -> Spectrum Not recovered ===>110
+17:21:43.128 -> Scan ==>0
+17:21:43.128 -> Count of Non scanned BW :61
+17:21:43.128 -> Return Index :37
+17:21:43.128 -> Random BW scanning :101
+17:21:43.128 -> Spectrum Not recovered ===>101
+17:21:43.128 -> Scan ==>0
+17:21:43.128 -> Count of Non scanned BW :61
+17:21:43.128 -> Return Index :25
+17:21:43.128 -> Random BW scanning :88
+17:21:43.128 -> Spectrum Not recovered ===>88
+17:21:43.128 -> Scan ==>0
+17:21:43.128 -> Count of Non scanned BW :61
+17:21:43.128 -> Return Index :53
+17:21:43.128 -> Random BW scanning :118
+17:21:43.128 -> Spectrum Not recovered ===>118
+17:21:43.128 -> Scan ==>0
+17:21:43.128 -> Count of Non scanned BW :61
+17:21:43.128 -> Return Index :13
+17:21:43.128 -> Random BW scanning :75
+17:21:43.128 -> Spectrum Not recovered ===>75
+17:21:43.175 -> Scan ==>0
+17:21:43.175 -> Count of Non scanned BW :61
+17:21:43.175 -> Return Index :53
+17:21:43.175 -> Random BW scanning :118
+17:21:43.175 -> Spectrum Not recovered ===>118
+17:21:43.175 -> Scan ==>0
+17:21:43.175 -> Count of Non scanned BW :61
+17:21:43.175 -> Return Index :47
+17:21:43.175 -> Random BW scanning :111
+17:21:43.175 -> Spectrum Not recovered ===>111
+17:21:43.175 -> Scan ==>0
+17:21:43.175 -> Count of Non scanned BW :61
+17:21:43.175 -> Return Index :29
+17:21:43.175 -> Random BW scanning :92
+17:21:43.175 -> Spectrum Not recovered ===>92
+17:21:43.175 -> Scan ==>0
+17:21:43.175 -> Count of Non scanned BW :61
+17:21:43.175 -> Return Index :51
+17:21:43.175 -> Random BW scanning :115
+17:21:43.175 -> Spectrum Not recovered ===>115
+17:21:43.175 -> Scan ==>0
+17:21:43.175 -> Count of Non scanned BW :61
+17:21:43.175 -> Return Index :53
+17:21:43.175 -> Random BW scanning :118
+17:21:43.222 -> Spectrum Not recovered ===>118
+17:21:43.222 -> Scan ==>0
+17:21:43.222 -> Count of Non scanned BW :61
+17:21:43.222 -> Return Index :1
+17:21:43.222 -> Random BW scanning :62
+17:21:43.222 -> Spectrum Not recovered ===>62
+17:21:43.222 -> Scan ==>0
+17:21:43.222 -> Count of Non scanned BW :61
+17:21:43.222 -> Return Index :43
+17:21:43.222 -> Random BW scanning :107
+17:21:43.222 -> Spectrum Not recovered ===>107
+17:21:43.222 -> Scan ==>0
+17:21:43.222 -> Count of Non scanned BW :61
+17:21:43.222 -> Return Index :11
+17:21:43.222 -> Random BW scanning :73
+17:21:43.222 -> Spectrum Not recovered ===>73
+17:21:43.222 -> Scan ==>0
+17:21:43.222 -> Count of Non scanned BW :61
+17:21:43.222 -> Return Index :41
+17:21:43.222 -> Random BW scanning :105
+17:21:43.222 -> Spectrum Not recovered ===>105
+17:21:43.222 -> Scan ==>0
+17:21:43.222 -> Count of Non scanned BW :61
+17:21:43.222 -> Return Index :21
+17:21:43.269 -> Random BW scanning :84
+17:21:43.269 -> Spectrum Not recovered ===>84
+17:21:43.269 -> Scan ==>0
+17:21:43.269 -> Count of Non scanned BW :61
+17:21:43.269 -> Return Index :20
+17:21:43.269 -> Random BW scanning :83
+17:21:43.269 -> Spectrum Not recovered ===>83
+17:21:43.269 -> Scan ==>0
+17:21:43.269 -> Count of Non scanned BW :61
+17:21:43.269 -> Return Index :47
+17:21:43.269 -> Random BW scanning :111
+17:21:43.269 -> Spectrum Not recovered ===>111
+17:21:43.269 -> Scan ==>0
+17:21:43.269 -> Count of Non scanned BW :61
+17:21:43.269 -> Return Index :45
+17:21:43.269 -> Random BW scanning :109
+17:21:43.269 -> Spectrum Not recovered ===>109
+17:21:43.269 -> Scan ==>0
+17:21:43.269 -> Count of Non scanned BW :61
+17:21:43.269 -> Return Index :52
+17:21:43.269 -> Random BW scanning :117
+17:21:43.269 -> Spectrum Not recovered ===>117
+17:21:43.269 -> Scan ==>0
+17:21:43.269 -> Count of Non scanned BW :61
+17:21:43.316 -> Return Index :7
+17:21:43.316 -> Random BW scanning :69
+17:21:43.316 -> Spectrum Not recovered ===>69
+17:21:43.316 -> Scan ==>0
+17:21:43.316 -> Count of Non scanned BW :61
+17:21:43.316 -> Return Index :5
+17:21:43.316 -> Random BW scanning :67
+17:21:43.316 -> Spectrum Not recovered ===>67
+17:21:43.316 -> Scan ==>0
+17:21:43.316 -> Count of Non scanned BW :61
+17:21:43.316 -> Return Index :57
+17:21:43.316 -> Random BW scanning :122
+17:21:43.316 -> Spectrum Not recovered ===>122
+17:21:43.316 -> Scan ==>0
+17:21:43.316 -> Count of Non scanned BW :61
+17:21:43.316 -> Return Index :57
+17:21:43.316 -> Random BW scanning :122
+17:21:43.316 -> Spectrum Not recovered ===>122
+17:21:43.316 -> Scan ==>0
+17:21:43.316 -> Count of Non scanned BW :61
+17:21:43.316 -> Return Index :25
+17:21:43.316 -> Random BW scanning :88
+17:21:43.316 -> Spectrum Not recovered ===>88
+17:21:43.362 -> Scan ==>0
+17:21:43.362 -> Count of Non scanned BW :61
+17:21:43.362 -> Return Index :30
+17:21:43.362 -> Random BW scanning :93
+17:21:43.362 -> Spectrum Not recovered ===>93
+17:21:43.362 -> Scan ==>0
+17:21:43.362 -> Count of Non scanned BW :61
+17:21:43.362 -> Return Index :8
+17:21:43.362 -> Random BW scanning :70
+17:21:43.362 -> Spectrum Not recovered ===>70
+17:21:43.362 -> Scan ==>0
+17:21:43.362 -> Count of Non scanned BW :61
+17:21:43.362 -> Return Index :39
+17:21:43.362 -> Random BW scanning :103
+17:21:43.362 -> Spectrum Not recovered ===>103
+17:21:43.362 -> Scan ==>0
+17:21:43.362 -> Count of Non scanned BW :61
+17:21:43.362 -> Return Index :12
+17:21:43.362 -> Random BW scanning :74
+17:21:43.362 -> Spectrum Not recovered ===>74
+17:21:43.362 -> Scan ==>0
+17:21:43.362 -> Count of Non scanned BW :61
+17:21:43.362 -> Return Index :19
+17:21:43.362 -> Random BW scanning :82
+17:21:43.410 -> Spectrum Not recovered ===>82
+17:21:43.410 -> Scan ==>0
+17:21:43.410 -> Count of Non scanned BW :61
+17:21:43.410 -> Return Index :9
+17:21:43.410 -> Random BW scanning :71
+17:21:43.410 -> Spectrum Not recovered ===>71
+17:21:43.410 -> Scan ==>0
+17:21:43.410 -> Count of Non scanned BW :61
+17:21:43.410 -> Return Index :50
+17:21:43.410 -> Random BW scanning :114
+17:21:43.410 -> Spectrum Not recovered ===>114
+17:21:43.410 -> Scan ==>0
+17:21:43.410 -> Count of Non scanned BW :61
+17:21:43.410 -> Return Index :38
+17:21:43.410 -> Random BW scanning :102
+17:21:43.410 -> Spectrum Not recovered ===>102
+17:21:43.410 -> Scan ==>0
+17:21:43.410 -> Count of Non scanned BW :61
+17:21:43.410 -> Return Index :56
+17:21:43.410 -> Random BW scanning :121
+17:21:43.410 -> Spectrum Not recovered ===>121
+17:21:43.410 -> Scan ==>0
+17:21:43.410 -> Count of Non scanned BW :61
+17:21:43.410 -> Return Index :49
+17:21:43.445 -> Random BW scanning :113
+17:21:43.445 -> Spectrum Not recovered ===>113
+17:21:43.445 -> Scan ==>0
+17:21:43.445 -> Count of Non scanned BW :61
+17:21:43.445 -> Return Index :15
+17:21:43.445 -> Random BW scanning :78
+17:21:43.445 -> Spectrum Not recovered ===>78
+17:21:43.445 -> Scan ==>0
+17:21:43.445 -> Count of Non scanned BW :61
+17:21:43.445 -> Return Index :31
+17:21:43.445 -> Random BW scanning :94
+17:21:43.445 -> Spectrum Not recovered ===>94
+17:21:43.445 -> Scan ==>0
+17:21:43.445 -> Count of Non scanned BW :61
+17:21:43.445 -> Return Index :20
+17:21:43.445 -> Random BW scanning :83
+17:21:43.445 -> Spectrum Not recovered ===>83
+17:21:43.445 -> Scan ==>0
+17:21:43.491 -> Count of Non scanned BW :61
+17:21:43.491 -> Return Index :12
+17:21:43.491 -> Random BW scanning :74
+17:21:43.491 -> Spectrum Not recovered ===>74
+17:21:43.491 -> Scan ==>0
+17:21:43.491 -> Count of Non scanned BW :61
+17:21:43.491 -> Return Index :12
+17:21:43.491 -> Random BW scanning :74
+17:21:43.491 -> Spectrum Not recovered ===>74
+17:21:43.491 -> Scan ==>0
+17:21:43.491 -> Count of Non scanned BW :61
+17:21:43.491 -> Return Index :55
+17:21:43.491 -> Random BW scanning :120
+17:21:43.491 -> Spectrum Not recovered ===>120
+17:21:43.491 -> Scan ==>0
+17:21:43.491 -> Count of Non scanned BW :61
+17:21:43.491 -> Return Index :47
+17:21:43.491 -> Random BW scanning :111
+17:21:43.491 -> Spectrum Not recovered ===>111
+17:21:43.491 -> Scan ==>0
+17:21:43.491 -> Count of Non scanned BW :61
+17:21:43.491 -> Return Index :39
+17:21:43.491 -> Random BW scanning :103
+17:21:43.538 -> Spectrum Not recovered ===>103
+17:21:43.538 -> Scan ==>0
+17:21:43.538 -> Count of Non scanned BW :61
+17:21:43.538 -> Return Index :22
+17:21:43.538 -> Random BW scanning :85
+17:21:43.538 -> Spectrum Not recovered ===>85
+17:21:43.538 -> Scan ==>0
+17:21:43.538 -> Count of Non scanned BW :61
+17:21:43.538 -> Return Index :53
+17:21:43.538 -> Random BW scanning :118
+17:21:43.538 -> Spectrum Not recovered ===>118
+17:21:43.538 -> Scan ==>0
+17:21:43.538 -> Count of Non scanned BW :61
+17:21:43.538 -> Return Index :15
+17:21:43.538 -> Random BW scanning :78
+17:21:43.538 -> Spectrum Not recovered ===>78
+17:21:43.538 -> Scan ==>0
+17:21:43.538 -> Count of Non scanned BW :61
+17:21:43.538 -> Return Index :33
+17:21:43.538 -> Random BW scanning :97
+17:21:43.538 -> Spectrum Not recovered ===>97
+17:21:43.538 -> Scan ==>0
+17:21:43.538 -> Count of Non scanned BW :61
+17:21:43.538 -> Return Index :47
+17:21:43.585 -> Random BW scanning :111
+17:21:43.585 -> Spectrum Not recovered ===>111
+17:21:43.585 -> Scan ==>0
+17:21:43.585 -> Count of Non scanned BW :61
+17:21:43.585 -> Return Index :52
+17:21:43.585 -> Random BW scanning :117
+17:21:43.585 -> Spectrum Not recovered ===>117
+17:21:43.585 -> Scan ==>0
+17:21:43.585 -> Count of Non scanned BW :61
+17:21:43.585 -> Return Index :27
+17:21:43.585 -> Random BW scanning :90
+17:21:43.585 -> Spectrum Not recovered ===>90
+17:21:43.585 -> Scan ==>0
+17:21:43.585 -> Count of Non scanned BW :61
+17:21:43.585 -> Return Index :25
+17:21:43.585 -> Random BW scanning :88
+17:21:43.585 -> Spectrum Not recovered ===>88
+17:21:43.585 -> Scan ==>0
+17:21:43.585 -> Count of Non scanned BW :61
+17:21:43.585 -> Return Index :26
+17:21:43.585 -> Random BW scanning :89
+17:21:43.585 -> Spectrum Not recovered ===>89
+17:21:43.585 -> Scan ==>0
+17:21:43.585 -> Count of Non scanned BW :61
+17:21:43.632 -> Return Index :52
+17:21:43.632 -> Random BW scanning :117
+17:21:43.632 -> Spectrum Not recovered ===>117
+17:21:43.632 -> Scan ==>0
+17:21:43.632 -> Count of Non scanned BW :61
+17:21:43.632 -> Return Index :43
+17:21:43.632 -> Random BW scanning :107
+17:21:43.632 -> Spectrum Not recovered ===>107
+17:21:43.632 -> Scan ==>0
+17:21:43.632 -> Count of Non scanned BW :61
+17:21:43.632 -> Return Index :0
+17:21:43.632 -> Random BW scanning :61
+17:21:43.632 -> Spectrum Not recovered ===>61
+17:21:43.632 -> Scan ==>0
+17:21:43.632 -> Count of Non scanned BW :61
+17:21:43.632 -> Return Index :5
+17:21:43.632 -> Random BW scanning :67
+17:21:43.632 -> Spectrum Not recovered ===>67
+17:21:43.632 -> Scan ==>0
+17:21:43.632 -> Count of Non scanned BW :61
+17:21:43.632 -> Return Index :49
+17:21:43.632 -> Random BW scanning :113
+17:21:43.632 -> Spectrum Not recovered ===>113
+17:21:43.679 -> Scan ==>0
+17:21:43.679 -> Count of Non scanned BW :61
+17:21:43.679 -> Return Index :47
+17:21:43.679 -> Random BW scanning :111
+17:21:43.679 -> Spectrum Not recovered ===>111
+17:21:43.679 -> Scan ==>0
+17:21:43.679 -> Count of Non scanned BW :61
+17:21:43.679 -> Return Index :36
+17:21:43.679 -> Random BW scanning :100
+17:21:43.679 -> Spectrum Not recovered ===>100
+17:21:43.679 -> Scan ==>0
+17:21:43.679 -> Count of Non scanned BW :61
+17:21:43.679 -> Return Index :23
+17:21:43.679 -> Random BW scanning :86
+17:21:43.679 -> Spectrum Not recovered ===>86
+17:21:43.679 -> Scan ==>0
+17:21:43.679 -> Count of Non scanned BW :61
+17:21:43.679 -> Return Index :25
+17:21:43.679 -> Random BW scanning :88
+17:21:43.679 -> Spectrum Not recovered ===>88
+17:21:43.679 -> Scan ==>0
+17:21:43.679 -> Count of Non scanned BW :61
+17:21:43.679 -> Return Index :37
+17:21:43.679 -> Random BW scanning :101
+17:21:43.728 -> Spectrum Not recovered ===>101
+17:21:43.728 -> Scan ==>0
+17:21:43.728 -> Count of Non scanned BW :61
+17:21:43.728 -> Return Index :46
+17:21:43.728 -> Random BW scanning :110
+17:21:43.728 -> Spectrum Not recovered ===>110
+17:21:43.728 -> Scan ==>0
+17:21:43.728 -> Count of Non scanned BW :61
+17:21:43.728 -> Return Index :34
+17:21:43.728 -> Random BW scanning :98
+17:21:43.728 -> Spectrum Not recovered ===>98
+17:21:43.728 -> Scan ==>0
+17:21:43.728 -> Count of Non scanned BW :61
+17:21:43.728 -> Return Index :51
+17:21:43.728 -> Random BW scanning :115
+17:21:43.728 -> Spectrum Not recovered ===>115
+17:21:43.728 -> Scan ==>0
+17:21:43.728 -> Count of Non scanned BW :61
+17:21:43.728 -> Return Index :34
+17:21:43.728 -> Random BW scanning :98
+17:21:43.728 -> Spectrum Not recovered ===>98
+17:21:43.728 -> Scan ==>0
+17:21:43.728 -> Count of Non scanned BW :61
+17:21:43.728 -> Return Index :13
+17:21:43.728 -> Random BW scanning :75
+17:21:43.776 -> Spectrum Not recovered ===>75
+17:21:43.776 -> Scan ==>0
+17:21:43.776 -> Count of Non scanned BW :61
+17:21:43.776 -> Return Index :45
+17:21:43.776 -> Random BW scanning :109
+17:21:43.776 -> Spectrum Not recovered ===>109
+17:21:43.776 -> Scan ==>0
+17:21:43.776 -> Count of Non scanned BW :61
+17:21:43.776 -> Return Index :52
+17:21:43.776 -> Random BW scanning :117
+17:21:43.776 -> Spectrum Not recovered ===>117
+17:21:43.776 -> Scan ==>0
+17:21:43.776 -> Count of Non scanned BW :61
+17:21:43.776 -> Return Index :28
+17:21:43.776 -> Random BW scanning :91
+17:21:43.776 -> Spectrum Not recovered ===>91
+17:21:43.776 -> Scan ==>0
+17:21:43.776 -> Count of Non scanned BW :61
+17:21:43.776 -> Return Index :24
+17:21:43.776 -> Random BW scanning :87
+17:21:43.776 -> Spectrum Not recovered ===>87
+17:21:43.776 -> Scan ==>0
+17:21:43.776 -> Count of Non scanned BW :61
+17:21:43.776 -> Return Index :6
+17:21:43.812 -> Random BW scanning :68
+17:21:43.812 -> Spectrum Not recovered ===>68
+17:21:43.812 -> Scan ==>0
+17:21:43.812 -> Count of Non scanned BW :61
+17:21:43.812 -> Return Index :16
+17:21:43.812 -> Random BW scanning :79
+17:21:43.812 -> Spectrum Not recovered ===>79
+17:21:43.812 -> Scan ==>0
+17:21:43.812 -> Count of Non scanned BW :61
+17:21:43.812 -> Return Index :45
+17:21:43.812 -> Random BW scanning :109
+17:21:43.812 -> Spectrum Not recovered ===>109
+17:21:43.812 -> Scan ==>0
+17:21:43.812 -> Count of Non scanned BW :61
+17:21:43.812 -> Return Index :23
+17:21:43.812 -> Random BW scanning :86
+17:21:43.812 -> Spectrum Not recovered ===>86
+17:21:43.812 -> Scan ==>0
+17:21:43.812 -> Count of Non scanned BW :61
+17:21:43.853 -> Return Index :58
+17:21:43.853 -> Random BW scanning :123
+17:21:43.853 -> Spectrum Not recovered ===>123
+17:21:43.853 -> Scan ==>0
+17:21:43.853 -> Count of Non scanned BW :61
+17:21:43.853 -> Return Index :11
+17:21:43.853 -> Random BW scanning :73
+17:21:43.853 -> Spectrum Not recovered ===>73
+17:21:43.853 -> Scan ==>0
+17:21:43.853 -> Count of Non scanned BW :61
+17:21:43.853 -> Return Index :5
+17:21:43.853 -> Random BW scanning :67
+17:21:43.853 -> Spectrum Not recovered ===>67
+17:21:43.853 -> Scan ==>0
+17:21:43.853 -> Count of Non scanned BW :61
+17:21:43.853 -> Return Index :17
+17:21:43.853 -> Random BW scanning :80
+17:21:43.853 -> Spectrum Not recovered ===>80
+17:21:43.853 -> Scan ==>0
+17:21:43.853 -> Count of Non scanned BW :61
+17:21:43.896 -> Return Index :2
+17:21:43.896 -> Random BW scanning :63
+17:21:43.896 -> Spectrum Not recovered ===>63
+17:21:43.896 -> Scan ==>0
+17:21:43.896 -> Count of Non scanned BW :61
+17:21:43.896 -> Return Index :52
+17:21:43.896 -> Random BW scanning :117
+17:21:43.896 -> Spectrum Not recovered ===>117
+17:21:43.896 -> Scan ==>0
+17:21:43.896 -> Count of Non scanned BW :61
+17:21:43.896 -> Return Index :45
+17:21:43.896 -> Random BW scanning :109
+17:21:43.896 -> Spectrum Not recovered ===>109
+17:21:43.896 -> Scan ==>0
+17:21:43.896 -> Count of Non scanned BW :61
+17:21:43.896 -> Return Index :36
+17:21:43.896 -> Random BW scanning :100
+17:21:43.896 -> Spectrum Not recovered ===>100
+17:21:43.896 -> Scan ==>0
+17:21:43.896 -> Count of Non scanned BW :61
+17:21:43.896 -> Return Index :32
+17:21:43.896 -> Random BW scanning :95
+17:21:43.937 -> Spectrum Not recovered ===>95
+17:21:43.937 -> Scan ==>0
+17:21:43.937 -> Count of Non scanned BW :61
+17:21:43.937 -> Return Index :21
+17:21:43.937 -> Random BW scanning :84
+17:21:43.937 -> Spectrum Not recovered ===>84
+17:21:43.937 -> Scan ==>0
+17:21:43.937 -> Count of Non scanned BW :61
+17:21:43.937 -> Return Index :25
+17:21:43.937 -> Random BW scanning :88
+17:21:43.937 -> Spectrum Not recovered ===>88
+17:21:43.937 -> Scan ==>0
+17:21:43.937 -> Count of Non scanned BW :61
+17:21:43.937 -> Return Index :5
+17:21:43.937 -> Random BW scanning :67
+17:21:43.937 -> Spectrum Not recovered ===>67
+17:21:43.937 -> Scan ==>0
+17:21:43.937 -> Count of Non scanned BW :61
+17:21:43.937 -> Return Index :17
+17:21:43.937 -> Random BW scanning :80
+17:21:43.937 -> Spectrum Not recovered ===>80
+17:21:43.978 -> Scan ==>0
+17:21:43.978 -> Count of Non scanned BW :61
+17:21:43.978 -> Return Index :59
+17:21:43.978 -> Random BW scanning :124
+17:21:43.978 -> Spectrum Not recovered ===>124
+17:21:43.978 -> Scan ==>0
+17:21:43.978 -> Count of Non scanned BW :61
+17:21:43.978 -> Return Index :39
+17:21:43.978 -> Random BW scanning :103
+17:21:43.978 -> Spectrum Not recovered ===>103
+17:21:43.978 -> Scan ==>0
+17:21:43.978 -> Count of Non scanned BW :61
+17:21:43.978 -> Return Index :1
+17:21:43.978 -> Random BW scanning :62
+17:21:43.978 -> Spectrum Not recovered ===>62
+17:21:43.978 -> Scan ==>0
+17:21:43.978 -> Count of Non scanned BW :61
+17:21:43.978 -> Return Index :55
+17:21:43.978 -> Random BW scanning :120
+17:21:43.978 -> Spectrum Not recovered ===>120
+17:21:44.020 -> Scan ==>0
+17:21:44.020 -> Count of Non scanned BW :61
+17:21:44.020 -> Return Index :47
+17:21:44.020 -> Random BW scanning :111
+17:21:44.020 -> Spectrum Not recovered ===>111
+17:21:44.020 -> Scan ==>0
+17:21:44.020 -> Count of Non scanned BW :61
+17:21:44.020 -> Return Index :36
+17:21:44.020 -> Random BW scanning :100
+17:21:44.020 -> Spectrum Not recovered ===>100
+17:21:44.020 -> Scan ==>0
+17:21:44.020 -> Count of Non scanned BW :61
+17:21:44.020 -> Return Index :42
+17:21:44.020 -> Random BW scanning :106
+17:21:44.020 -> Spectrum Not recovered ===>106
+17:21:44.020 -> Scan ==>0
+17:21:44.020 -> Count of Non scanned BW :61
+17:21:44.020 -> Return Index :10
+17:21:44.020 -> Random BW scanning :72
+17:21:44.020 -> Spectrum Not recovered ===>72
+17:21:44.020 -> Scan ==>0
+17:21:44.020 -> Count of Non scanned BW :61
+17:21:44.061 -> Return Index :21
+17:21:44.061 -> Random BW scanning :84
+17:21:44.061 -> Spectrum Not recovered ===>84
+17:21:44.061 -> Scan ==>0
+17:21:44.061 -> Count of Non scanned BW :61
+17:21:44.061 -> Return Index :21
+17:21:44.061 -> Random BW scanning :84
+17:21:44.061 -> Spectrum Not recovered ===>84
+17:21:44.061 -> Scan ==>0
+17:21:44.061 -> Count of Non scanned BW :61
+17:21:44.061 -> Return Index :6
+17:21:44.061 -> Random BW scanning :68
+17:21:44.061 -> Spectrum Not recovered ===>68
+17:21:44.061 -> Scan ==>0
+17:21:44.061 -> Count of Non scanned BW :61
+17:21:44.061 -> Return Index :34
+17:21:44.061 -> Random BW scanning :98
+17:21:44.061 -> Spectrum Not recovered ===>98
+17:21:44.061 -> Scan ==>0
+17:21:44.061 -> Count of Non scanned BW :61
+17:21:44.061 -> Return Index :28
+17:21:44.103 -> Random BW scanning :91
+17:21:44.103 -> Spectrum Not recovered ===>91
+17:21:44.103 -> Scan ==>0
+17:21:44.103 -> Count of Non scanned BW :61
+17:21:44.103 -> Return Index :55
+17:21:44.103 -> Random BW scanning :120
+17:21:44.103 -> Spectrum Not recovered ===>120
+17:21:44.103 -> Scan ==>0
+17:21:44.103 -> Count of Non scanned BW :61
+17:21:44.103 -> Return Index :58
+17:21:44.103 -> Random BW scanning :123
+17:21:44.103 -> Spectrum Not recovered ===>123
+17:21:44.103 -> Scan ==>0
+17:21:44.103 -> Count of Non scanned BW :61
+17:21:44.103 -> Return Index :59
+17:21:44.103 -> Random BW scanning :124
+17:21:44.103 -> Spectrum Not recovered ===>124
+17:21:44.103 -> Scan ==>0
+17:21:44.103 -> Count of Non scanned BW :61
+17:21:44.103 -> Return Index :3
+17:21:44.103 -> Random BW scanning :64
+17:21:44.144 -> Spectrum Not recovered ===>64
+17:21:44.144 -> Scan ==>0
+17:21:44.144 -> Count of Non scanned BW :61
+17:21:44.144 -> Return Index :50
+17:21:44.144 -> Random BW scanning :114
+17:21:44.144 -> Spectrum Not recovered ===>114
+17:21:44.144 -> Scan ==>0
+17:21:44.144 -> Count of Non scanned BW :61
+17:21:44.144 -> Return Index :20
+17:21:44.144 -> Random BW scanning :83
+17:21:44.144 -> Spectrum Not recovered ===>83
+17:21:44.144 -> Scan ==>0
+17:21:44.144 -> Count of Non scanned BW :61
+17:21:44.144 -> Return Index :3
+17:21:44.144 -> Random BW scanning :64
+17:21:44.144 -> Spectrum Not recovered ===>64
+17:21:44.144 -> Scan ==>0
+17:21:44.144 -> Count of Non scanned BW :61
+17:21:44.144 -> Return Index :6
+17:21:44.144 -> Random BW scanning :68
+17:21:44.185 -> Spectrum Not recovered ===>68
+17:21:44.185 -> Scan ==>0
+17:21:44.185 -> Count of Non scanned BW :61
+17:21:44.185 -> Return Index :0
+17:21:44.185 -> Random BW scanning :61
+17:21:44.185 -> Spectrum Not recovered ===>61
+17:21:44.185 -> Scan ==>0
+17:21:44.185 -> Count of Non scanned BW :61
+17:21:44.185 -> Return Index :49
+17:21:44.185 -> Random BW scanning :113
+17:21:44.185 -> Spectrum Not recovered ===>113
+17:21:44.185 -> Scan ==>0
+17:21:44.185 -> Count of Non scanned BW :61
+17:21:44.185 -> Return Index :3
+17:21:44.185 -> Random BW scanning :64
+17:21:44.185 -> Spectrum Not recovered ===>64
+17:21:44.185 -> Scan ==>0
+17:21:44.185 -> Count of Non scanned BW :61
+17:21:44.185 -> Return Index :26
+17:21:44.185 -> Random BW scanning :89
+17:21:44.185 -> Spectrum Not recovered ===>89
+17:21:44.227 -> Scan ==>0
+17:21:44.227 -> Count of Non scanned BW :61
+17:21:44.227 -> Return Index :52
+17:21:44.227 -> Random BW scanning :117
+17:21:44.227 -> Spectrum Not recovered ===>117
+17:21:44.227 -> Scan ==>0
+17:21:44.227 -> Count of Non scanned BW :61
+17:21:44.227 -> Return Index :7
+17:21:44.227 -> Random BW scanning :69
+17:21:44.227 -> Spectrum Not recovered ===>69
+17:21:44.227 -> Scan ==>0
+17:21:44.227 -> Count of Non scanned BW :61
+17:21:44.227 -> Return Index :17
+17:21:44.227 -> Random BW scanning :80
+17:21:44.227 -> Spectrum Not recovered ===>80
+17:21:44.227 -> Scan ==>0
+17:21:44.227 -> Count of Non scanned BW :61
+17:21:44.227 -> Return Index :18
+17:21:44.227 -> Random BW scanning :81
+17:21:44.227 -> Spectrum Not recovered ===>81
+17:21:44.227 -> Scan ==>0
+17:21:44.227 -> Count of Non scanned BW :61
+17:21:44.267 -> Return Index :32
+17:21:44.267 -> Random BW scanning :95
+17:21:44.267 -> Spectrum Not recovered ===>95
+17:21:44.267 -> Scan ==>0
+17:21:44.267 -> Count of Non scanned BW :61
+17:21:44.267 -> Return Index :8
+17:21:44.267 -> Random BW scanning :70
+17:21:44.267 -> Spectrum Not recovered ===>70
+17:21:44.267 -> Scan ==>0
+17:21:44.267 -> Count of Non scanned BW :61
+17:21:44.267 -> Return Index :10
+17:21:44.267 -> Random BW scanning :72
+17:21:44.267 -> Spectrum Not recovered ===>72
+17:21:44.267 -> Scan ==>0
+17:21:44.267 -> Count of Non scanned BW :61
+17:21:44.267 -> Return Index :52
+17:21:44.267 -> Random BW scanning :117
+17:21:44.267 -> Spectrum Not recovered ===>117
+17:21:44.267 -> Scan ==>0
+17:21:44.267 -> Count of Non scanned BW :61
+17:21:44.309 -> Return Index :45
+17:21:44.309 -> Random BW scanning :109
+17:21:44.309 -> Spectrum Not recovered ===>109
+17:21:44.309 -> Scan ==>0
+17:21:44.309 -> Count of Non scanned BW :61
+17:21:44.309 -> Return Index :45
+17:21:44.309 -> Random BW scanning :109
+17:21:44.309 -> Spectrum Not recovered ===>109
+17:21:44.309 -> Scan ==>0
+17:21:44.309 -> Count of Non scanned BW :61
+17:21:44.309 -> Return Index :14
+17:21:44.309 -> Random BW scanning :76
+17:21:44.309 -> Spectrum Not recovered ===>76
+17:21:44.309 -> Scan ==>0
+17:21:44.309 -> Count of Non scanned BW :61
+17:21:44.309 -> Return Index :49
+17:21:44.309 -> Random BW scanning :113
+17:21:44.309 -> Spectrum Not recovered ===>113
+17:21:44.309 -> Scan ==>0
+17:21:44.309 -> Count of Non scanned BW :61
+17:21:44.309 -> Return Index :37
+17:21:44.350 -> Random BW scanning :101
+17:21:44.350 -> Spectrum Not recovered ===>101
+17:21:44.350 -> Scan ==>0
+17:21:44.350 -> Count of Non scanned BW :61
+17:21:44.350 -> Return Index :25
+17:21:44.350 -> Random BW scanning :88
+17:21:44.350 -> Spectrum Not recovered ===>88
+17:21:44.350 -> Scan ==>0
+17:21:44.350 -> Count of Non scanned BW :61
+17:21:44.350 -> Return Index :56
+17:21:44.350 -> Random BW scanning :121
+17:21:44.350 -> Spectrum Not recovered ===>121
+17:21:44.350 -> Scan ==>0
+17:21:44.350 -> Count of Non scanned BW :61
+17:21:44.350 -> Return Index :57
+17:21:44.350 -> Random BW scanning :122
+17:21:44.350 -> Spectrum Not recovered ===>122
+17:21:44.350 -> Scan ==>0
+17:21:44.350 -> Count of Non scanned BW :61
+17:21:44.350 -> Return Index :42
+17:21:44.350 -> Random BW scanning :106
+17:21:44.391 -> Spectrum Not recovered ===>106
+17:21:44.391 -> Scan ==>0
+17:21:44.391 -> Count of Non scanned BW :61
+17:21:44.391 -> Return Index :44
+17:21:44.391 -> Random BW scanning :108
+17:21:44.391 -> Spectrum Not recovered ===>108
+17:21:44.391 -> Scan ==>0
+17:21:44.391 -> Count of Non scanned BW :61
+17:21:44.391 -> Return Index :12
+17:21:44.391 -> Random BW scanning :74
+17:21:44.391 -> Spectrum Not recovered ===>74
+17:21:44.391 -> Scan ==>0
+17:21:44.391 -> Count of Non scanned BW :61
+17:21:44.391 -> Return Index :22
+17:21:44.391 -> Random BW scanning :85
+17:21:44.391 -> Spectrum Not recovered ===>85
+17:21:44.391 -> Scan ==>0
+17:21:44.391 -> Count of Non scanned BW :61
+17:21:44.391 -> Return Index :55
+17:21:44.391 -> Random BW scanning :120
+17:21:44.391 -> Spectrum Not recovered ===>120
+17:21:44.432 -> Scan ==>0
+17:21:44.432 -> Count of Non scanned BW :61
+17:21:44.432 -> Return Index :18
+17:21:44.432 -> Random BW scanning :81
+17:21:44.432 -> Spectrum Not recovered ===>81
+17:21:44.432 -> Scan ==>0
+17:21:44.432 -> Count of Non scanned BW :61
+17:21:44.432 -> Return Index :7
+17:21:44.432 -> Random BW scanning :69
+17:21:44.432 -> Spectrum Not recovered ===>69
+17:21:44.432 -> Scan ==>0
+17:21:44.432 -> Count of Non scanned BW :61
+17:21:44.432 -> Return Index :29
+17:21:44.432 -> Random BW scanning :92
+17:21:44.432 -> Spectrum Not recovered ===>92
+17:21:44.432 -> Scan ==>0
+17:21:44.432 -> Count of Non scanned BW :61
+17:21:44.432 -> Return Index :26
+17:21:44.432 -> Random BW scanning :89
+17:21:44.432 -> Spectrum Not recovered ===>89
+17:21:44.432 -> Scan ==>0
+17:21:44.473 -> Count of Non scanned BW :61
+17:21:44.473 -> Return Index :20
+17:21:44.473 -> Random BW scanning :83
+17:21:44.473 -> Spectrum Not recovered ===>83
+17:21:44.473 -> Scan ==>0
+17:21:44.473 -> Count of Non scanned BW :61
+17:21:44.473 -> Return Index :59
+17:21:44.473 -> Random BW scanning :124
+17:21:44.473 -> Spectrum Not recovered ===>124
+17:21:44.473 -> Scan ==>0
+17:21:44.473 -> Count of Non scanned BW :61
+17:21:44.473 -> Return Index :8
+17:21:44.473 -> Random BW scanning :70
+17:21:44.473 -> Spectrum Not recovered ===>70
+17:21:44.473 -> Scan ==>0
+17:21:44.473 -> Count of Non scanned BW :61
+17:21:44.473 -> Return Index :0
+17:21:44.473 -> Random BW scanning :61
+17:21:44.473 -> Spectrum Not recovered ===>61
+17:21:44.473 -> Scan ==>0
+17:21:44.473 -> Count of Non scanned BW :61
+17:21:44.514 -> Return Index :17
+17:21:44.514 -> Random BW scanning :80
+17:21:44.514 -> Spectrum Not recovered ===>80
+17:21:44.514 -> Scan ==>0
+17:21:44.514 -> Count of Non scanned BW :61
+17:21:44.514 -> Return Index :57
+17:21:44.514 -> Random BW scanning :122
+17:21:44.514 -> Spectrum Not recovered ===>122
+17:21:44.514 -> Scan ==>0
+17:21:44.514 -> Count of Non scanned BW :61
+17:21:44.514 -> Return Index :5
+17:21:44.514 -> Random BW scanning :67
+17:21:44.514 -> Spectrum Not recovered ===>67
+17:21:44.514 -> Scan ==>0
+17:21:44.514 -> Count of Non scanned BW :61
+17:21:44.514 -> Return Index :14
+17:21:44.514 -> Random BW scanning :76
+17:21:44.514 -> Spectrum Not recovered ===>76
+17:21:44.514 -> Scan ==>0
+17:21:44.514 -> Count of Non scanned BW :61
+17:21:44.514 -> Return Index :4
+17:21:44.557 -> Random BW scanning :65
+17:21:44.557 -> Spectrum Not recovered ===>65
+17:21:44.557 -> Scan ==>0
+17:21:44.557 -> Count of Non scanned BW :61
+17:21:44.557 -> Return Index :53
+17:21:44.557 -> Random BW scanning :118
+17:21:44.557 -> Spectrum Not recovered ===>118
+17:21:44.557 -> Scan ==>0
+17:21:44.557 -> Count of Non scanned BW :61
+17:21:44.557 -> Return Index :48
+17:21:44.557 -> Random BW scanning :112
+17:21:44.557 -> Spectrum Not recovered ===>112
+17:21:44.557 -> Scan ==>0
+17:21:44.557 -> Count of Non scanned BW :61
+17:21:44.557 -> Return Index :32
+17:21:44.557 -> Random BW scanning :95
+17:21:44.557 -> Spectrum Not recovered ===>95
+17:21:44.557 -> Scan ==>0
+17:21:44.557 -> Count of Non scanned BW :61
+17:21:44.557 -> Return Index :53
+17:21:44.557 -> Random BW scanning :118
+17:21:44.598 -> Spectrum Not recovered ===>118
+17:21:44.598 -> Scan ==>0
+17:21:44.598 -> Count of Non scanned BW :61
+17:21:44.598 -> Return Index :15
+17:21:44.598 -> Random BW scanning :78
+17:21:44.598 -> Spectrum Not recovered ===>78
+17:21:44.598 -> Scan ==>0
+17:21:44.598 -> Count of Non scanned BW :61
+17:21:44.598 -> Return Index :3
+17:21:44.598 -> Random BW scanning :64
+17:21:44.598 -> Spectrum Not recovered ===>64
+17:21:44.598 -> Scan ==>0
+17:21:44.598 -> Count of Non scanned BW :61
+17:21:44.598 -> Return Index :5
+17:21:44.598 -> Random BW scanning :67
+17:21:44.598 -> Spectrum Not recovered ===>67
+17:21:44.598 -> Scan ==>0
+17:21:44.598 -> Count of Non scanned BW :61
+17:21:44.598 -> Return Index :45
+17:21:44.598 -> Random BW scanning :109
+17:21:44.598 -> Spectrum Not recovered ===>109
+17:21:44.640 -> Scan ==>0
+17:21:44.640 -> Count of Non scanned BW :61
+17:21:44.640 -> Return Index :47
+17:21:44.640 -> Random BW scanning :111
+17:21:44.640 -> Spectrum Not recovered ===>111
+17:21:44.640 -> Scan ==>0
+17:21:44.640 -> Count of Non scanned BW :61
+17:21:44.640 -> Return Index :15
+17:21:44.640 -> Random BW scanning :78
+17:21:44.640 -> Spectrum Not recovered ===>78
+17:21:44.640 -> Scan ==>0
+17:21:44.640 -> Count of Non scanned BW :61
+17:21:44.640 -> Return Index :0
+17:21:44.640 -> Random BW scanning :61
+17:21:44.640 -> Spectrum Not recovered ===>61
+17:21:44.640 -> Scan ==>0
+17:21:44.640 -> Count of Non scanned BW :61
+17:21:44.640 -> Return Index :38
+17:21:44.640 -> Random BW scanning :102
+17:21:44.640 -> Spectrum Not recovered ===>102
+17:21:44.640 -> Scan ==>0
+17:21:44.682 -> Count of Non scanned BW :61
+17:21:44.682 -> Return Index :43
+17:21:44.682 -> Random BW scanning :107
+17:21:44.682 -> Spectrum Not recovered ===>107
+17:21:44.682 -> Scan ==>0
+17:21:44.682 -> Count of Non scanned BW :61
+17:21:44.682 -> Return Index :48
+17:21:44.682 -> Random BW scanning :112
+17:21:44.682 -> Spectrum Not recovered ===>112
+17:21:44.682 -> Scan ==>0
+17:21:44.682 -> Count of Non scanned BW :61
+17:21:44.682 -> Return Index :9
+17:21:44.682 -> Random BW scanning :71
+17:21:44.682 -> Spectrum Not recovered ===>71
+17:21:44.682 -> Scan ==>0
+17:21:44.682 -> Count of Non scanned BW :61
+17:21:44.682 -> Return Index :59
+17:21:44.682 -> Random BW scanning :124
+17:21:44.682 -> Spectrum Not recovered ===>124
+17:21:44.682 -> Scan ==>0
+17:21:44.682 -> Count of Non scanned BW :61
+17:21:44.723 -> Return Index :59
+17:21:44.723 -> Random BW scanning :124
+17:21:44.723 -> Spectrum Not recovered ===>124
+17:21:44.723 -> Scan ==>0
+17:21:44.723 -> Count of Non scanned BW :61
+17:21:44.723 -> Return Index :23
+17:21:44.723 -> Random BW scanning :86
+17:21:44.723 -> Spectrum Not recovered ===>86
+17:21:44.723 -> Scan ==>0
+17:21:44.723 -> Count of Non scanned BW :61
+17:21:44.723 -> Return Index :15
+17:21:44.723 -> Random BW scanning :78
+17:21:44.723 -> Spectrum Not recovered ===>78
+17:21:44.723 -> Scan ==>0
+17:21:44.723 -> Count of Non scanned BW :61
+17:21:44.723 -> Return Index :39
+17:21:44.723 -> Random BW scanning :103
+17:21:44.723 -> Spectrum Not recovered ===>103
+17:21:44.723 -> Scan ==>0
+17:21:44.723 -> Count of Non scanned BW :61
+17:21:44.723 -> Return Index :17
+17:21:44.764 -> Random BW scanning :80
+17:21:44.764 -> Spectrum Not recovered ===>80
+17:21:44.764 -> Scan ==>0
+17:21:44.764 -> Count of Non scanned BW :61
+17:21:44.764 -> Return Index :3
+17:21:44.764 -> Random BW scanning :64
+17:21:44.764 -> Spectrum Not recovered ===>64
+17:21:44.764 -> Scan ==>0
+17:21:44.764 -> Count of Non scanned BW :61
+17:21:44.764 -> Return Index :41
+17:21:44.764 -> Random BW scanning :105
+17:21:44.764 -> Spectrum Not recovered ===>105
+17:21:44.764 -> Scan ==>0
+17:21:44.764 -> Count of Non scanned BW :61
+17:21:44.764 -> Return Index :39
+17:21:44.764 -> Random BW scanning :103
+17:21:44.764 -> Spectrum Not recovered ===>103
+17:21:44.764 -> Scan ==>0
+17:21:44.764 -> Count of Non scanned BW :61
+17:21:44.764 -> Return Index :3
+17:21:44.764 -> Random BW scanning :64
+17:21:44.805 -> Spectrum Not recovered ===>64
+17:21:44.805 -> Scan ==>0
+17:21:44.805 -> Count of Non scanned BW :61
+17:21:44.805 -> Return Index :30
+17:21:44.805 -> Random BW scanning :93
+17:21:44.805 -> Spectrum Not recovered ===>93
+17:21:44.805 -> Scan ==>0
+17:21:44.805 -> Count of Non scanned BW :61
+17:21:44.805 -> Return Index :44
+17:21:44.805 -> Random BW scanning :108
+17:21:44.805 -> Spectrum Not recovered ===>108
+17:21:44.805 -> Scan ==>0
+17:21:44.805 -> Count of Non scanned BW :61
+17:21:44.805 -> Return Index :3
+17:21:44.805 -> Random BW scanning :64
+17:21:44.805 -> Spectrum Not recovered ===>64
+17:21:44.805 -> Scan ==>0
+17:21:44.805 -> Count of Non scanned BW :61
+17:21:44.805 -> Return Index :16
+17:21:44.805 -> Random BW scanning :79
+17:21:44.805 -> Spectrum Not recovered ===>79
+17:21:44.846 -> Scan ==>0
+17:21:44.846 -> Count of Non scanned BW :61
+17:21:44.846 -> Return Index :47
+17:21:44.846 -> Random BW scanning :111
+17:21:44.846 -> Spectrum Not recovered ===>111
+17:21:44.846 -> Scan ==>0
+17:21:44.846 -> Count of Non scanned BW :61
+17:21:44.846 -> Return Index :14
+17:21:44.846 -> Random BW scanning :76
+17:21:44.846 -> Spectrum Not recovered ===>76
+17:21:44.846 -> Scan ==>0
+17:21:44.846 -> Count of Non scanned BW :61
+17:21:44.846 -> Return Index :58
+17:21:44.846 -> Random BW scanning :123
+17:21:44.846 -> Spectrum Not recovered ===>123
+17:21:44.846 -> Scan ==>0
+17:21:44.846 -> Count of Non scanned BW :61
+17:21:44.846 -> Return Index :19
+17:21:44.846 -> Random BW scanning :82
+17:21:44.846 -> Spectrum Not recovered ===>82
+17:21:44.846 -> Scan ==>0
+17:21:44.887 -> Count of Non scanned BW :61
+17:21:44.887 -> Return Index :42
+17:21:44.887 -> Random BW scanning :106
+17:21:44.887 -> Spectrum Not recovered ===>106
+17:21:44.887 -> Scan ==>0
+17:21:44.887 -> Count of Non scanned BW :61
+17:21:44.887 -> Return Index :5
+17:21:44.887 -> Random BW scanning :67
+17:21:44.887 -> Spectrum Not recovered ===>67
+17:21:44.887 -> Scan ==>0
+17:21:44.887 -> Count of Non scanned BW :61
+17:21:44.887 -> Return Index :54
+17:21:44.887 -> Random BW scanning :119
+17:21:44.887 -> Spectrum Not recovered ===>119
+17:21:44.887 -> Scan ==>0
+17:21:44.887 -> Count of Non scanned BW :61
+17:21:44.887 -> Return Index :28
+17:21:44.887 -> Random BW scanning :91
+17:21:44.887 -> Spectrum Not recovered ===>91
+17:21:44.887 -> Scan ==>0
+17:21:44.928 -> Count of Non scanned BW :61
+17:21:44.928 -> Return Index :29
+17:21:44.928 -> Random BW scanning :92
+17:21:44.928 -> Spectrum Not recovered ===>92
+17:21:44.928 -> Scan ==>0
+17:21:44.928 -> Count of Non scanned BW :61
+17:21:44.928 -> Return Index :39
+17:21:44.928 -> Random BW scanning :103
+17:21:44.928 -> Spectrum Not recovered ===>103
+17:21:44.928 -> Scan ==>0
+17:21:44.928 -> Count of Non scanned BW :61
+17:21:44.928 -> Return Index :57
+17:21:44.928 -> Random BW scanning :122
+17:21:44.928 -> Spectrum Not recovered ===>122
+17:21:44.928 -> Scan ==>0
+17:21:44.928 -> Count of Non scanned BW :61
+17:21:44.928 -> Return Index :9
+17:21:44.928 -> Random BW scanning :71
+17:21:44.928 -> Spectrum Not recovered ===>71
+17:21:44.928 -> Scan ==>0
+17:21:44.928 -> Count of Non scanned BW :61
+17:21:44.969 -> Return Index :35
+17:21:44.969 -> Random BW scanning :99
+17:21:44.969 -> Spectrum Not recovered ===>99
+17:21:44.969 -> Scan ==>0
+17:21:44.969 -> Count of Non scanned BW :61
+17:21:44.969 -> Return Index :24
+17:21:44.969 -> Random BW scanning :87
+17:21:44.969 -> Spectrum Not recovered ===>87
+17:21:44.969 -> Scan ==>0
+17:21:44.969 -> Count of Non scanned BW :61
+17:21:44.969 -> Return Index :32
+17:21:44.969 -> Random BW scanning :95
+17:21:44.969 -> Spectrum Not recovered ===>95
+17:21:44.969 -> Scan ==>0
+17:21:44.969 -> Count of Non scanned BW :61
+17:21:44.969 -> Return Index :6
+17:21:44.969 -> Random BW scanning :68
+17:21:44.969 -> Spectrum Not recovered ===>68
+17:21:44.969 -> Scan ==>0
+17:21:44.969 -> Count of Non scanned BW :61
+17:21:44.969 -> Return Index :42
+17:21:45.010 -> Random BW scanning :106
+17:21:45.010 -> Spectrum Not recovered ===>106
+17:21:45.010 -> Scan ==>0
+17:21:45.010 -> Count of Non scanned BW :61
+17:21:45.010 -> Return Index :27
+17:21:45.010 -> Random BW scanning :90
+17:21:45.010 -> Scan ==>0
+17:21:45.010 -> Count of Non scanned BW :61
+17:21:45.010 -> Return Index :54
+17:21:45.010 -> Random BW scanning :119
+17:21:45.010 -> Spectrum Not recovered ===>119
+17:21:45.010 -> Scan ==>0
+17:21:45.010 -> Count of Non scanned BW :61
+17:21:45.010 -> Return Index :46
+17:21:45.010 -> Random BW scanning :110
+17:21:45.010 -> Spectrum Not recovered ===>110
+17:21:45.010 -> Scan ==>0
+17:21:45.010 -> Count of Non scanned BW :61
+17:21:45.010 -> Return Index :8
+17:21:45.010 -> Random BW scanning :70
+17:21:45.010 -> Spectrum Not recovered ===>70
+17:21:45.051 -> Scan ==>0
+17:21:45.051 -> Count of Non scanned BW :61
+17:21:45.051 -> Return Index :1
+17:21:45.051 -> Random BW scanning :62
+17:21:45.051 -> Spectrum Not recovered ===>62
+17:21:45.051 -> Scan ==>0
+17:21:45.051 -> Count of Non scanned BW :61
+17:21:45.051 -> Return Index :14
+17:21:45.051 -> Random BW scanning :76
+17:21:45.051 -> Spectrum Not recovered ===>76
+17:21:45.051 -> Scan ==>0
+17:21:45.051 -> Count of Non scanned BW :61
+17:21:45.051 -> Return Index :52
+17:21:45.051 -> Random BW scanning :117
+17:21:45.051 -> Spectrum Not recovered ===>117
+17:21:45.051 -> Scan ==>0
+17:21:45.051 -> Count of Non scanned BW :61
+17:21:45.051 -> Return Index :21
+17:21:45.051 -> Random BW scanning :84
+17:21:45.051 -> Spectrum Not recovered ===>84
+17:21:45.051 -> Scan ==>0
+17:21:45.092 -> Count of Non scanned BW :61
+17:21:45.092 -> Return Index :5
+17:21:45.092 -> Random BW scanning :67
+17:21:45.092 -> Spectrum Not recovered ===>67
+17:21:45.092 -> Scan ==>0
+17:21:45.092 -> Count of Non scanned BW :61
+17:21:45.092 -> Return Index :39
+17:21:45.092 -> Random BW scanning :103
+17:21:45.092 -> Spectrum Not recovered ===>103
+17:21:45.092 -> Scan ==>0
+17:21:45.092 -> Count of Non scanned BW :61
+17:21:45.092 -> Return Index :38
+17:21:45.092 -> Random BW scanning :102
+17:21:45.092 -> Spectrum Not recovered ===>102
+17:21:45.092 -> Scan ==>0
+17:21:45.092 -> Count of Non scanned BW :61
+17:21:45.092 -> Return Index :19
+17:21:45.092 -> Random BW scanning :82
+17:21:45.092 -> Spectrum Not recovered ===>82
+17:21:45.092 -> Scan ==>0
+17:21:45.092 -> Count of Non scanned BW :61
+17:21:45.134 -> Return Index :15
+17:21:45.134 -> Random BW scanning :78
+17:21:45.134 -> Spectrum Not recovered ===>78
+17:21:45.134 -> Scan ==>0
+17:21:45.134 -> Count of Non scanned BW :61
+17:21:45.134 -> Return Index :35
+17:21:45.134 -> Random BW scanning :99
+17:21:45.134 -> Spectrum Not recovered ===>99
+17:21:45.134 -> Scan ==>0
+17:21:45.134 -> Count of Non scanned BW :61
+17:21:45.134 -> Return Index :44
+17:21:45.134 -> Random BW scanning :108
+17:21:45.134 -> Spectrum Not recovered ===>108
+17:21:45.134 -> Scan ==>0
+17:21:45.134 -> Count of Non scanned BW :61
+17:21:45.134 -> Return Index :25
+17:21:45.134 -> Random BW scanning :88
+17:21:45.134 -> Spectrum Not recovered ===>88
+17:21:45.134 -> Scan ==>0
+17:21:45.134 -> Count of Non scanned BW :61
+17:21:45.134 -> Return Index :38
+17:21:45.175 -> Random BW scanning :102
+17:21:45.175 -> Spectrum Not recovered ===>102
+17:21:45.175 -> Scan ==>0
+17:21:45.175 -> Count of Non scanned BW :61
+17:21:45.175 -> Return Index :12
+17:21:45.175 -> Random BW scanning :74
+17:21:45.175 -> Spectrum Not recovered ===>74
+17:21:45.175 -> Scan ==>0
+17:21:45.175 -> Count of Non scanned BW :61
+17:21:45.175 -> Return Index :21
+17:21:45.175 -> Random BW scanning :84
+17:21:45.175 -> Spectrum Not recovered ===>84
+17:21:45.175 -> Scan ==>0
+17:21:45.175 -> Count of Non scanned BW :61
+17:21:45.175 -> Return Index :39
+17:21:45.175 -> Random BW scanning :103
+17:21:45.175 -> Spectrum Not recovered ===>103
+17:21:45.175 -> Scan ==>0
+17:21:45.175 -> Count of Non scanned BW :61
+17:21:45.175 -> Return Index :52
+17:21:45.175 -> Random BW scanning :117
+17:21:45.216 -> Spectrum Not recovered ===>117
+17:21:45.216 -> Scan ==>0
+17:21:45.216 -> Count of Non scanned BW :61
+17:21:45.216 -> Return Index :58
+17:21:45.216 -> Random BW scanning :123
+17:21:45.216 -> Spectrum Not recovered ===>123
+17:21:45.216 -> Scan ==>0
+17:21:45.216 -> Count of Non scanned BW :61
+17:21:45.216 -> Return Index :54
+17:21:45.216 -> Random BW scanning :119
+17:21:45.216 -> Spectrum Not recovered ===>119
+17:21:45.216 -> Scan ==>0
+17:21:45.216 -> Count of Non scanned BW :61
+17:21:45.216 -> Return Index :34
+17:21:45.216 -> Random BW scanning :98
+17:21:45.216 -> Spectrum Not recovered ===>98
+17:21:45.216 -> Scan ==>0
+17:21:45.216 -> Count of Non scanned BW :61
+17:21:45.216 -> Return Index :41
+17:21:45.216 -> Random BW scanning :105
+17:21:45.257 -> Spectrum Not recovered ===>105
+17:21:45.257 -> Scan ==>0
+17:21:45.257 -> Count of Non scanned BW :61
+17:21:45.257 -> Return Index :23
+17:21:45.257 -> Random BW scanning :86
+17:21:45.257 -> Spectrum Not recovered ===>86
+17:21:45.257 -> Scan ==>0
+17:21:45.257 -> Count of Non scanned BW :61
+17:21:45.257 -> Return Index :10
+17:21:45.257 -> Random BW scanning :72
+17:21:45.257 -> Spectrum Not recovered ===>72
+17:21:45.257 -> Scan ==>0
+17:21:45.257 -> Count of Non scanned BW :61
+17:21:45.257 -> Return Index :25
+17:21:45.257 -> Random BW scanning :88
+17:21:45.257 -> Spectrum Not recovered ===>88
+17:21:45.257 -> Scan ==>0
+17:21:45.257 -> Count of Non scanned BW :61
+17:21:45.257 -> Return Index :46
+17:21:45.257 -> Random BW scanning :110
+17:21:45.257 -> Spectrum Not recovered ===>110
+17:21:45.304 -> Scan ==>0
+17:21:45.304 -> Count of Non scanned BW :61
+17:21:45.304 -> Return Index :21
+17:21:45.304 -> Random BW scanning :84
+17:21:45.304 -> Spectrum Not recovered ===>84
+17:21:45.304 -> Scan ==>0
+17:21:45.304 -> Count of Non scanned BW :61
+17:21:45.304 -> Return Index :6
+17:21:45.304 -> Random BW scanning :68
+17:21:45.304 -> Spectrum Not recovered ===>68
+17:21:45.304 -> Scan ==>0
+17:21:45.304 -> Count of Non scanned BW :61
+17:21:45.304 -> Return Index :43
+17:21:45.304 -> Random BW scanning :107
+17:21:45.304 -> Spectrum Not recovered ===>107
+17:21:45.304 -> Scan ==>0
+17:21:45.304 -> Count of Non scanned BW :61
+17:21:45.304 -> Return Index :32
+17:21:45.304 -> Random BW scanning :95
+17:21:45.304 -> Spectrum Not recovered ===>95
+17:21:45.304 -> Scan ==>0
+17:21:45.304 -> Count of Non scanned BW :61
+17:21:45.304 -> Return Index :30
+17:21:45.304 -> Random BW scanning :93
+17:21:45.351 -> Spectrum Not recovered ===>93
+17:21:45.351 -> Scan ==>0
+17:21:45.351 -> Count of Non scanned BW :61
+17:21:45.351 -> Return Index :14
+17:21:45.351 -> Random BW scanning :76
+17:21:45.351 -> Spectrum Not recovered ===>76
+17:21:45.351 -> Scan ==>0
+17:21:45.351 -> Count of Non scanned BW :61
+17:21:45.351 -> Return Index :45
+17:21:45.351 -> Random BW scanning :109
+17:21:45.351 -> Spectrum Not recovered ===>109
+17:21:45.351 -> Scan ==>0
+17:21:45.351 -> Count of Non scanned BW :61
+17:21:45.351 -> Return Index :15
+17:21:45.351 -> Random BW scanning :78
+17:21:45.351 -> Spectrum Not recovered ===>78
+17:21:45.351 -> Scan ==>0
+17:21:45.351 -> Count of Non scanned BW :61
+17:21:45.351 -> Return Index :46
+17:21:45.351 -> Random BW scanning :110
+17:21:45.351 -> Spectrum Not recovered ===>110
+17:21:45.351 -> Scan ==>0
+17:21:45.351 -> Count of Non scanned BW :61
+17:21:45.351 -> Return Index :21
+17:21:45.398 -> Random BW scanning :84
+17:21:45.398 -> Spectrum Not recovered ===>84
+17:21:45.398 -> Scan ==>0
+17:21:45.398 -> Count of Non scanned BW :61
+17:21:45.398 -> Return Index :23
+17:21:45.398 -> Random BW scanning :86
+17:21:45.398 -> Spectrum Not recovered ===>86
+17:21:45.398 -> Scan ==>0
+17:21:45.398 -> Count of Non scanned BW :61
+17:21:45.398 -> Return Index :48
+17:21:45.398 -> Random BW scanning :112
+17:21:45.398 -> Spectrum Not recovered ===>112
+17:21:45.398 -> Scan ==>0
+17:21:45.398 -> Count of Non scanned BW :61
+17:21:45.398 -> Return Index :23
+17:21:45.398 -> Random BW scanning :86
+17:21:45.398 -> Spectrum Not recovered ===>86
+17:21:45.398 -> Scan ==>0
+17:21:45.398 -> Count of Non scanned BW :61
+17:21:45.398 -> Return Index :32
+17:21:45.398 -> Random BW scanning :95
+17:21:45.398 -> Spectrum Not recovered ===>95
+17:21:45.398 -> Scan ==>0
+17:21:45.398 -> Count of Non scanned BW :61
+17:21:45.444 -> Return Index :43
+17:21:45.444 -> Random BW scanning :107
+17:21:45.444 -> Spectrum Not recovered ===>107
+17:21:45.444 -> Scan ==>0
+17:21:45.444 -> Count of Non scanned BW :61
+17:21:45.444 -> Return Index :37
+17:21:45.444 -> Random BW scanning :101
+17:21:45.444 -> Spectrum Not recovered ===>101
+17:21:45.444 -> Scan ==>0
+17:21:45.444 -> Count of Non scanned BW :61
+17:21:45.444 -> Return Index :36
+17:21:45.444 -> Random BW scanning :100
+17:21:45.444 -> Spectrum Not recovered ===>100
+17:21:45.444 -> Scan ==>0
+17:21:45.444 -> Count of Non scanned BW :61
+17:21:45.444 -> Return Index :30
+17:21:45.444 -> Random BW scanning :93
+17:21:45.444 -> Spectrum Not recovered ===>93
+17:21:45.444 -> Scan ==>0
+17:21:45.444 -> Count of Non scanned BW :61
+17:21:45.444 -> Return Index :41
+17:21:45.444 -> Random BW scanning :105
+17:21:45.444 -> Spectrum Not recovered ===>105
+17:21:45.491 -> Scan ==>0
+17:21:45.491 -> Count of Non scanned BW :61
+17:21:45.491 -> Return Index :36
+17:21:45.491 -> Random BW scanning :100
+17:21:45.491 -> Spectrum Not recovered ===>100
+17:21:45.491 -> Scan ==>0
+17:21:45.491 -> Count of Non scanned BW :61
+17:21:45.491 -> Return Index :55
+17:21:45.491 -> Random BW scanning :120
+17:21:45.491 -> Spectrum Not recovered ===>120
+17:21:45.491 -> Scan ==>0
+17:21:45.491 -> Count of Non scanned BW :61
+17:21:45.491 -> Return Index :54
+17:21:45.491 -> Random BW scanning :119
+17:21:45.491 -> Spectrum Not recovered ===>119
+17:21:45.491 -> Scan ==>0
+17:21:45.491 -> Count of Non scanned BW :61
+17:21:45.491 -> Return Index :59
+17:21:45.491 -> Random BW scanning :124
+17:21:45.491 -> Spectrum Not recovered ===>124
+17:21:45.491 -> Scan ==>0
+17:21:45.491 -> Count of Non scanned BW :61
+17:21:45.491 -> Return Index :31
+17:21:45.491 -> Random BW scanning :94
+17:21:45.533 -> Spectrum Not recovered ===>94
+17:21:45.533 -> Scan ==>0
+17:21:45.533 -> Count of Non scanned BW :61
+17:21:45.533 -> Return Index :38
+17:21:45.533 -> Random BW scanning :102
+17:21:45.533 -> Spectrum Not recovered ===>102
+17:21:45.533 -> Scan ==>0
+17:21:45.533 -> Count of Non scanned BW :61
+17:21:45.533 -> Return Index :58
+17:21:45.533 -> Random BW scanning :123
+17:21:45.533 -> Spectrum Not recovered ===>123
+17:21:45.533 -> Scan ==>0
+17:21:45.533 -> Count of Non scanned BW :61
+17:21:45.533 -> Return Index :4
+17:21:45.533 -> Random BW scanning :65
+17:21:45.533 -> Spectrum Not recovered ===>65
+17:21:45.533 -> Scan ==>0
+17:21:45.533 -> Count of Non scanned BW :61
+17:21:45.533 -> Return Index :58
+17:21:45.533 -> Random BW scanning :123
+17:21:45.533 -> Spectrum Not recovered ===>123
+17:21:45.580 -> Scan ==>0
+17:21:45.580 -> Count of Non scanned BW :61
+17:21:45.580 -> Return Index :34
+17:21:45.580 -> Random BW scanning :98
+17:21:45.580 -> Spectrum Not recovered ===>98
+17:21:45.580 -> Scan ==>0
+17:21:45.580 -> Count of Non scanned BW :61
+17:21:45.580 -> Return Index :13
+17:21:45.580 -> Random BW scanning :75
+17:21:45.580 -> Spectrum Not recovered ===>75
+17:21:45.580 -> Scan ==>0
+17:21:45.580 -> Count of Non scanned BW :61
+17:21:45.580 -> Return Index :47
+17:21:45.580 -> Random BW scanning :111
+17:21:45.580 -> Scan ==>0
+17:21:45.580 -> Count of Non scanned BW :61
+17:21:45.580 -> Return Index :7
+17:21:45.580 -> Random BW scanning :69
+17:21:45.580 -> Spectrum Not recovered ===>69
+17:21:45.580 -> Scan ==>0
+17:21:45.580 -> Count of Non scanned BW :61
+17:21:45.580 -> Return Index :41
+17:21:45.580 -> Random BW scanning :105
+17:21:45.580 -> Spectrum Not recovered ===>105
+17:21:45.627 -> Scan ==>0
+17:21:45.627 -> Count of Non scanned BW :61
+17:21:45.627 -> Return Index :57
+17:21:45.627 -> Random BW scanning :122
+17:21:45.627 -> Spectrum Not recovered ===>122
+17:21:45.627 -> Scan ==>0
+17:21:45.627 -> Count of Non scanned BW :61
+17:21:45.627 -> Return Index :2
+17:21:45.627 -> Random BW scanning :63
+17:21:45.627 -> Spectrum Not recovered ===>63
+17:21:45.627 -> Scan ==>0
+17:21:45.627 -> Count of Non scanned BW :61
+17:21:45.627 -> Return Index :17
+17:21:45.627 -> Random BW scanning :80
+17:21:45.627 -> Spectrum Not recovered ===>80
+17:21:45.627 -> Scan ==>0
+17:21:45.627 -> Count of Non scanned BW :61
+17:21:45.627 -> Return Index :3
+17:21:45.627 -> Random BW scanning :64
+17:21:45.627 -> Spectrum Not recovered ===>64
+17:21:45.627 -> Scan ==>0
+17:21:45.627 -> Count of Non scanned BW :61
+17:21:45.627 -> Return Index :33
+17:21:45.627 -> Random BW scanning :97
+17:21:45.673 -> Spectrum Not recovered ===>97
+17:21:45.673 -> Scan ==>0
+17:21:45.673 -> Count of Non scanned BW :61
+17:21:45.673 -> Return Index :39
+17:21:45.673 -> Random BW scanning :103
+17:21:45.673 -> Spectrum Not recovered ===>103
+17:21:45.673 -> Scan ==>0
+17:21:45.673 -> Count of Non scanned BW :61
+17:21:45.673 -> Return Index :30
+17:21:45.673 -> Random BW scanning :93
+17:21:45.673 -> Spectrum Not recovered ===>93
+17:21:45.673 -> Scan ==>0
+17:21:45.673 -> Count of Non scanned BW :61
+17:21:45.673 -> Return Index :55
+17:21:45.673 -> Random BW scanning :120
+17:21:45.673 -> Spectrum Not recovered ===>120
+17:21:45.673 -> Scan ==>0
+17:21:45.673 -> Count of Non scanned BW :61
+17:21:45.673 -> Return Index :58
+17:21:45.673 -> Random BW scanning :123
+17:21:45.673 -> Spectrum Not recovered ===>123
+17:21:45.673 -> Scan ==>0
+17:21:45.673 -> Count of Non scanned BW :61
+17:21:45.673 -> Return Index :20
+17:21:45.720 -> Random BW scanning :83
+17:21:45.720 -> Spectrum Not recovered ===>83
+17:21:45.720 -> Scan ==>0
+17:21:45.720 -> Count of Non scanned BW :61
+17:21:45.720 -> Return Index :32
+17:21:45.720 -> Random BW scanning :95
+17:21:45.720 -> Spectrum Not recovered ===>95
+17:21:45.720 -> Scan ==>0
+17:21:45.720 -> Count of Non scanned BW :61
+17:21:45.720 -> Return Index :5
+17:21:45.720 -> Random BW scanning :67
+17:21:45.720 -> Spectrum Not recovered ===>67
+17:21:45.720 -> Scan ==>0
+17:21:45.720 -> Count of Non scanned BW :61
+17:21:45.720 -> Return Index :51
+17:21:45.720 -> Random BW scanning :115
+17:21:45.720 -> Spectrum Not recovered ===>115
+17:21:45.720 -> Scan ==>0
+17:21:45.720 -> Count of Non scanned BW :61
+17:21:45.720 -> Return Index :56
+17:21:45.720 -> Random BW scanning :121
+17:21:45.720 -> Spectrum Not recovered ===>121
+17:21:45.720 -> Scan ==>0
+17:21:45.767 -> Count of Non scanned BW :61
+17:21:45.767 -> Return Index :40
+17:21:45.767 -> Random BW scanning :104
+17:21:45.767 -> Spectrum Not recovered ===>104
+17:21:45.767 -> Scan ==>0
+17:21:45.767 -> Count of Non scanned BW :61
+17:21:45.767 -> Return Index :2
+17:21:45.767 -> Random BW scanning :63
+17:21:45.767 -> Spectrum Not recovered ===>63
+17:21:45.767 -> Scan ==>0
+17:21:45.767 -> Count of Non scanned BW :61
+17:21:45.767 -> Return Index :57
+17:21:45.767 -> Random BW scanning :122
+17:21:45.767 -> Spectrum Not recovered ===>122
+17:21:45.767 -> Scan ==>0
+17:21:45.767 -> Count of Non scanned BW :61
+17:21:45.767 -> Return Index :0
+17:21:45.767 -> Random BW scanning :61
+17:21:45.767 -> Spectrum Not recovered ===>61
+17:21:45.767 -> Scan ==>0
+17:21:45.767 -> Count of Non scanned BW :61
+17:21:45.767 -> Return Index :16
+17:21:45.767 -> Random BW scanning :79
+17:21:45.767 -> Spectrum Not recovered ===>79
+17:21:45.824 -> Scan ==>0
+17:21:45.824 -> Count of Non scanned BW :61
+17:21:45.824 -> Return Index :49
+17:21:45.824 -> Random BW scanning :113
+17:21:45.824 -> Spectrum Not recovered ===>113
+17:21:45.824 -> Scan ==>0
+17:21:45.824 -> Count of Non scanned BW :61
+17:21:45.824 -> Return Index :1
+17:21:45.824 -> Random BW scanning :62
+17:21:45.824 -> Spectrum Not recovered ===>62
+17:21:45.824 -> Scan ==>0
+17:21:45.824 -> Count of Non scanned BW :61
+17:21:45.824 -> Return Index :58
+17:21:45.824 -> Random BW scanning :123
+17:21:45.824 -> Spectrum Not recovered ===>123
+17:21:45.824 -> Scan ==>0
+17:21:45.824 -> Count of Non scanned BW :61
+17:21:45.824 -> Return Index :38
+17:21:45.824 -> Random BW scanning :102
+17:21:45.824 -> Spectrum Not recovered ===>102
+17:21:45.824 -> Scan ==>0
+17:21:45.824 -> Count of Non scanned BW :61
+17:21:45.824 -> Return Index :34
+17:21:45.824 -> Random BW scanning :98
+17:21:45.824 -> Spectrum Not recovered ===>98
+17:21:45.824 -> Scan ==>0
+17:21:45.824 -> Count of Non scanned BW :61
+17:21:45.824 -> Return Index :39
+17:21:45.824 -> Random BW scanning :103
+17:21:45.871 -> Spectrum Not recovered ===>103
+17:21:45.871 -> Scan ==>0
+17:21:45.871 -> Count of Non scanned BW :61
+17:21:45.871 -> Return Index :36
+17:21:45.871 -> Random BW scanning :100
+17:21:45.871 -> Spectrum Not recovered ===>100
+17:21:45.871 -> Scan ==>0
+17:21:45.871 -> Count of Non scanned BW :61
+17:21:45.871 -> Return Index :9
+17:21:45.871 -> Random BW scanning :71
+17:21:45.871 -> Spectrum Not recovered ===>71
+17:21:45.871 -> Scan ==>0
+17:21:45.871 -> Count of Non scanned BW :61
+17:21:45.871 -> Return Index :42
+17:21:45.871 -> Random BW scanning :106
+17:21:45.871 -> Spectrum Not recovered ===>106
+17:21:45.871 -> Scan ==>0
+17:21:45.871 -> Count of Non scanned BW :61
+17:21:45.871 -> Return Index :41
+17:21:45.871 -> Random BW scanning :105
+17:21:45.871 -> Spectrum Not recovered ===>105
+17:21:45.871 -> Scan ==>0
+17:21:45.871 -> Count of Non scanned BW :61
+17:21:45.918 -> Return Index :50
+17:21:45.918 -> Random BW scanning :114
+17:21:45.918 -> Spectrum Not recovered ===>114
+17:21:45.918 -> Scan ==>0
+17:21:45.918 -> Count of Non scanned BW :61
+17:21:45.918 -> Return Index :51
+17:21:45.918 -> Random BW scanning :115
+17:21:45.918 -> Spectrum Not recovered ===>115
+17:21:45.918 -> Scan ==>0
+17:21:45.918 -> Count of Non scanned BW :61
+17:21:45.918 -> Return Index :5
+17:21:45.918 -> Random BW scanning :67
+17:21:45.918 -> Spectrum Not recovered ===>67
+17:21:45.918 -> Scan ==>0
+17:21:45.918 -> Count of Non scanned BW :61
+17:21:45.918 -> Return Index :59
+17:21:45.918 -> Random BW scanning :124
+17:21:45.918 -> Spectrum Not recovered ===>124
+17:21:45.918 -> Scan ==>0
+17:21:45.918 -> Count of Non scanned BW :61
+17:21:45.918 -> Return Index :28
+17:21:45.918 -> Random BW scanning :91
+17:21:45.918 -> Spectrum Not recovered ===>91
+17:21:45.918 -> Scan ==>0
+17:21:45.965 -> Count of Non scanned BW :61
+17:21:45.965 -> Return Index :51
+17:21:45.965 -> Random BW scanning :115
+17:21:45.965 -> Spectrum Not recovered ===>115
+17:21:45.965 -> Scan ==>0
+17:21:45.965 -> Count of Non scanned BW :61
+17:21:45.965 -> Return Index :52
+17:21:45.965 -> Random BW scanning :117
+17:21:45.965 -> Spectrum Not recovered ===>117
+17:21:45.965 -> Scan ==>0
+17:21:45.965 -> Count of Non scanned BW :61
+17:21:45.965 -> Return Index :11
+17:21:45.965 -> Random BW scanning :73
+17:21:45.965 -> Spectrum Not recovered ===>73
+17:21:45.965 -> Scan ==>0
+17:21:45.965 -> Count of Non scanned BW :61
+17:21:45.965 -> Return Index :37
+17:21:45.965 -> Random BW scanning :101
+17:21:45.965 -> Spectrum Not recovered ===>101
+17:21:45.965 -> Scan ==>0
+17:21:45.965 -> Count of Non scanned BW :61
+17:21:45.965 -> Return Index :32
+17:21:45.965 -> Random BW scanning :95
+17:21:45.965 -> Spectrum Not recovered ===>95
+17:21:46.012 -> Scan ==>0
+17:21:46.012 -> Count of Non scanned BW :61
+17:21:46.012 -> Return Index :29
+17:21:46.012 -> Random BW scanning :92
+17:21:46.012 -> Spectrum Not recovered ===>92
+17:21:46.012 -> Scan ==>0
+17:21:46.012 -> Recoverd Spectrum ==>[66] [77] [96] [116] [90] [111] [0] [0] [0] [0] 
+17:21:46.059 -> NON Recoverd Spectrum ==>[61] [62] [63] [64] [65] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [-1] [91] [92] [93] [94] [95] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [-1] [112] [113] [114] [115] [117] [118] [119] [120] [121] [122] [123] [124] [125] [0] [0] [0] [0] 
+17:21:46.382 -> Recoverd Node ==>[1] [2] [4] [6] [5] [2] [0] [0] [0] [0] 
+17:21:46.423 -> Scan finished with :9830504  uS
